@@ -71,16 +71,16 @@ def makeSmoothModel(fileName, testName):
  return modelCount, modelProbability
 
 
-def updateModel(modelCount,modelProbability,w1,w2):
-
-    modelCount[w1][w2] = 1
-    vocabulary = set({(w1,w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
-    for w1 in modelCount:
-       total_count = (sum(modelCount[w1].values())) + len(vocabulary) - len(modelCount[w1].keys()) #
-       for w2 in modelCount[w1]:
-           modelProbability[w1][w2] = modelCount[w1][w2] / total_count  # calculating the relative frequency for each bigram
-           assert (modelProbability[w1][w2] != 0)
-    return modelCount, modelProbability
+# def updateModel(modelCount,modelProbability,w1,w2):
+#
+#     modelCount[w1][w2] = 1
+#     vocabulary = set({(w1,w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
+#     for w1 in modelCount:
+#        total_count = (sum(modelCount[w1].values())) + len(vocabulary) - len(modelCount[w1].keys()) #
+#        for w2 in modelCount[w1]:
+#            modelProbability[w1][w2] = modelCount[w1][w2] / total_count  # calculating the relative frequency for each bigram
+#            assert (modelProbability[w1][w2] != 0)
+#     return modelCount, modelProbability
 
 import math
 test_file = open('./LangID.test.txt')
