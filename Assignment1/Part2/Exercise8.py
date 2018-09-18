@@ -1,3 +1,20 @@
+# Language Models
+# Language identification is the problem of taking a text in an unknown language and
+# determining what language it is written in. N-gram models provide a very effective
+# solution for this problem. For training, use the English (EN.txt), French (FR.txt), and
+# German (GR.txt) texts made available in blackboard/piazza. For test, use the file
+# LangID.test.txt. For each of the following problems, the output of your program
+# has to contain a list of [line_id] [language] pairs:
+# ID LANG
+# 1   EN
+# 2   FR
+# 3   GR
+
+# Implement a word bigram model, which learns word bigram
+# probabilities from the training data. Again, a separate model will be learned for
+# each language. Use Add-One smoothing to avoid zero-counts in the data. Apply
+# the models to determine the language ID for each sentence in the test file.
+
 from nltk import bigrams
 from collections import defaultdict, Counter
 import re
