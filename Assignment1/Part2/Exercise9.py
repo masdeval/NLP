@@ -10,16 +10,17 @@
 # 2   FR
 # 3   GR
 
-# Implement a word bigram model, which learns word bigram
-# probabilities from the training data. Again, a separate model will be learned for
-# each language. Use Add-One smoothing to avoid zero-counts in the data. Apply
-# the models to determine the language ID for each sentence in the test file.
+#Implement a word bigram model, which learns word bigram
+#probabilities from the training data. Again, a separate model will be learned for
+#each language. Use Good Turing smoothing to avoid zero-counts in the data.
+#Apply the models to determine the language ID for each sentence in the test file
+
 
 from nltk import bigrams
 from collections import defaultdict, Counter
 import re
 
-def makeSmoothModel(fileName, testName):
+def makeGoodTuringModel(fileName, testName):
 
  # reading the train set
  sentences = open(fileName).read()
@@ -71,17 +72,6 @@ def makeSmoothModel(fileName, testName):
  return modelCount, modelProbability
 
 
-def updateModel(modelCount,modelProbability,w1,w2):
-
-    modelCount[w1][w2] = 1
-    vocabulary = set({(w1,w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
-    for w1 in modelCount:
-       total_count = (sum(modelCount[w1].values())) + len(vocabulary) - len(modelCount[w1].keys()) #
-       for w2 in modelCount[w1]:
-           modelProbability[w1][w2] = modelCount[w1][w2] / total_count  # calculating the relative frequency for each bigram
-           assert (modelProbability[w1][w2] != 0)
-    return modelCount, modelProbability
-
 import math
 test_file = open('./LangID.test.txt')
 test_results = defaultdict(lambda : defaultdict( lambda : float))
@@ -98,15 +88,6 @@ for i,line in enumerate(test_file):
 
     #EN
     probability = 0.0
-    # Create the model from th train set
-    # Verify whether the bigrams in the test are already in the train
-    # If not, add it and recalculate the probabilities
-    #for w1,w2 in bigrams(line.split()):
-        #if(w1 not in modelCountEN.keys()):
-        #    modelCountEN, modelProbabilityEN = updateModel(modelCountEN, modelProbabilityEN, w1, w2)
-        #elif (w2 not in modelCountEN[w1].keys()):
-        #    modelCountEN, modelProbabilityEN = updateModel(modelCountEN, modelProbabilityEN, w1, w2)
-
     for w1,w2 in bigrams(line.split()):
         probability += math.log(modelProbabilityEN[w1][w2])
 
@@ -114,12 +95,6 @@ for i,line in enumerate(test_file):
 
     # FR
     probability = 0.0
-    #for w1, w2 in bigrams(line.split()):
-    #    if(w1 not in modelCountFR.keys()):
-    #        modelCountFR, modelProbabilityFR = updateModel(modelCountFR, modelProbabilityFR, w1, w2)
-    #    elif (w2 not in modelCountFR[w1].keys()):
-    #        modelCountFR, modelProbabilityFR = updateModel(modelCountFR, modelProbabilityFR, w1, w2)
-
     for w1, w2 in bigrams(line.split()):
         probability += math.log(modelProbabilityFR[w1][w2])
 
@@ -127,12 +102,6 @@ for i,line in enumerate(test_file):
 
     # GR
     probability = 0.0
-    #for w1, w2 in bigrams(line.split()):
-    #    if(w1 not in modelCountGR.keys()):
-    #        modelCountGR, modelProbabilityGR = updateModel(modelCountGR, modelProbabilityGR, w1, w2)
-    #    elif (w2 not in modelCountGR[w1].keys()):
-    #        modelCountGR, modelProbabilityGR = updateModel(modelCountGR, modelProbabilityGR, w1, w2)
-
     for w1, w2 in bigrams(line.split()):
         probability += math.log(modelProbabilityGR[w1][w2])
 

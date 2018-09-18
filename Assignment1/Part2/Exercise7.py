@@ -62,7 +62,7 @@ models['GR'] = makeLetterModel('./GR.txt')
 
 import math
 test_file = open('./LangID.test.txt')
-
+result = list()
 test_results = defaultdict(lambda : defaultdict( lambda : float))
 
 for i,line in enumerate(test_file):
@@ -100,7 +100,21 @@ for i,line in enumerate(test_file):
 
     test_results[i]['GR'] = probability
 
+    result.append(max(test_results[i], key=test_results[i].get))
+    print(str(i+1) + " " + max(test_results[i], key=test_results[i].get))
 
-for item in test_results:
-    print(str(item+1) + " " + max(test_results[item], key=test_results[item].get))
 
+
+hit = 0
+i = 0
+testFile = open('./LangID.gold.txt')
+for line in testFile:
+    ss = line.split()
+    if (ss[1] == 'EN' or ss[1] == 'GR' or ss[1] == 'FR'):
+        if(result[i] == ss[1]):
+            hit = hit + 1
+        i = i + 1 #if the line is about the result, add one
+
+
+print("Accuracy is: " + str(hit/i))
+testFile.close()
