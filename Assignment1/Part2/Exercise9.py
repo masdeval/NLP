@@ -30,6 +30,7 @@ def makeGoodTuringModel(fileName, testName):
  sentences = re.sub(r"\W", ' ', sentences)
  #replace sequences of blank characteres to a single one
  sentences = re.sub(r"\s+", ' ', sentences)
+ vocabularyTrain = set(sentences.split())
 
  # reading the test set
  testSentences = open(testName).read()
@@ -37,51 +38,57 @@ def makeGoodTuringModel(fileName, testName):
  testSentences = re.sub(r"\W", ' ', testSentences)
  testSentences = re.sub(r"\s+", ' ', testSentences)
  testSentences = re.sub(r'^\d+\s', '', testSentences)  # remove the initial number from each row
+ vocabularyTest = set(testSentences.split())
 
- # model[w1][w2] stores the number of times each bigram w1,w2 was seen
- # Add-One Smoothing by initializing with 1
- modelCount = defaultdict(lambda : defaultdict(lambda:1))
- modelProbability = defaultdict(lambda: defaultdict(lambda: 0.0))
+ vocabulary = vocabularyTrain.union(vocabularyTest)
 
- # counting bigrams
- #test set
- bigram = bigrams(testSentences.split())
- # counting the number of specific bigram pairs
- for w1, w2 in bigram:
-     modelCount[w1][w2] += 1
-     assert modelCount[w1][w2] >= 2
+ # bigrams in train
+ vocabularyCount = Counter(bigrams(sentences.split()))
 
- #train test
- bigram = bigrams(sentences.split())
- # counting the number of specific bigram pairs
- for w1, w2 in bigram:
-   modelCount[w1][w2] += 1
-   assert modelCount[w1][w2] >= 2
+ # generating the V² entries and setting singleton to 0
+ # for w1 in vocabulary:
+ #     for w2 in vocabulary:
+ #         if (not vocabularyCount.__contains__((w1,w2))):
+ #             vocabularyCount[(w1,w2)] = 0
+ # this way getting Memory Error
+ N_zero = 0
+ for w1 in vocabulary:
+      for w2 in vocabulary:
+          if (not vocabularyCount.__contains__((w1,w2))):
+              N_zero = N_zero + 1
 
- # list of all bigrams
- vocabulary = set({(w1, w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
+ # inversing the counting we get N
+ N = Counter(vocabularyCount.values())
 
- # getting zero frequency bigrams
+ struct = dict()
+ struct['vocabulary_size'] = len(vocabulary)
+ struct['N'] = N
+ struct['count'] = vocabularyCount
+ struct['N_zero'] = N_zero
 
+ return struct
 
- # getting probabilities
- for w1 in modelCount:
-    # Smoothing
-    # Number of times a bigram begining with w1 has ocured + the size of the model vocabulary
-    total_count = (sum(modelCount[w1].values())) + len(vocabulary) - len(modelCount[w1].keys())# counting with the +1 for each bigram = (N+V)
-    for w2 in modelCount[w1]:
-        modelProbability[w1][w2] = modelCount[w1][w2]/total_count # calculating the relative frequency for each bigram
-        assert(modelProbability[w1][w2] !=0 )
+def getZeroCountProbability(model):
+    return (model['N'].get(1)/model['vocabulary_size'])/model['N_zero']
 
- return modelCount, modelProbability
+def getProbability(model,bigram,k=5):
+
+    if (model['count'].get(bigram) > k):
+        return model['count'].get(bigram) / model['vocabulary_size']
+
+    numerator =  (model['count'].get(bigram)+1) * (model['N'].get(model['count'].get(bigram)+1)/model['N'].get(model['count'].get(bigram))) - (model['count'].get(bigram) * ((k+1)*model['N'].get(k+1))/model['N'].get(1))
+    denominator = 1 - ((k+1)*model['N'].get(k+1)/model['N'].get(1))
+    estimatedDiscount = numerator / denominator
+
+    return estimatedDiscount / model['vocabulary_size']
 
 
 import math
 test_file = open('./LangID.test.txt')
 test_results = defaultdict(lambda : defaultdict( lambda : float))
-modelCountEN, modelProbabilityEN = makeSmoothModel('./EN.txt','LangID.test.txt')
-modelCountFR, modelProbabilityFR = makeSmoothModel('./FR.txt','LangID.test.txt')
-modelCountGR, modelProbabilityGR = makeSmoothModel('./GR.txt','LangID.test.txt')
+modelEN = makeGoodTuringModel('./EN.txt','LangID.test.txt')
+modelFR = makeGoodTuringModel('./FR.txt','LangID.test.txt')
+modelGR = makeGoodTuringModel('./GR.txt','LangID.test.txt')
 result = list()
 
 for i,line in enumerate(test_file):
@@ -93,21 +100,30 @@ for i,line in enumerate(test_file):
     #EN
     probability = 0.0
     for w1,w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityEN[w1][w2])
+        if(not modelEN['count'].__contains__((w1,w2))):
+            probability += math.log(getZeroCountProbability(modelEN))
+        else:
+            probability += math.log(getProbability(modelEN,(w1,w2)))
 
     test_results[i]['EN'] = probability
 
     # FR
     probability = 0.0
     for w1, w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityFR[w1][w2])
+        if (not modelFR['count'].__contains__((w1, w2))):
+            probability += math.log(getZeroCountProbability(modelFR))
+        else:
+            probability += math.log(getProbability(modelFR, (w1, w2)))
 
     test_results[i]['FR'] = probability
 
     # GR
     probability = 0.0
     for w1, w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityGR[w1][w2])
+        if (not modelGR['count'].__contains__((w1, w2))):
+            probability += math.log(getZeroCountProbability(modelGR))
+        else:
+            probability += math.log(getProbability(modelGR,(w1,w2)))
 
     test_results[i]['GR'] = probability
 
