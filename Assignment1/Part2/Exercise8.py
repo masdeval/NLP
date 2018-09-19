@@ -43,7 +43,7 @@ def makeSmoothModel(fileName, testName):
 
  # model[w1][w2] stores the number of times each bigram w1,w2 was seen
  # Add-One Smoothing by initializing with 1
- modelCount = defaultdict(lambda : defaultdict(lambda:1))
+ modelCount = defaultdict(lambda : defaultdict(lambda:0))
  modelProbability = defaultdict(lambda: defaultdict(lambda: 0.0))
 
  # counting bigrams
@@ -52,7 +52,6 @@ def makeSmoothModel(fileName, testName):
  # counting the number of specific bigram pairs
  for w1, w2 in bigrams(sentences.split()):
    modelCount[w1][w2] += 1
-   assert modelCount[w1][w2] >= 2
 
  # getting probabilities
  for w1 in modelCount:
@@ -60,7 +59,7 @@ def makeSmoothModel(fileName, testName):
     # Number of unigram count + the size of the model vocabulary
     total_count = sum(modelCount[w1].values()) + len(vocabulary)
     for w2 in modelCount[w1]:
-        modelProbability[w1][w2] = modelCount[w1][w2]/total_count # calculating the relative frequency for each bigram
+        modelProbability[w1][w2] = modelCount[w1][w2]+1/total_count # calculating the relative frequency for each bigram
         assert(modelProbability[w1][w2] != 0)
 
  return modelCount, modelProbability, len(vocabulary)
@@ -89,7 +88,7 @@ for i,line in enumerate(test_file):
             else:
                 probability += math.log(1 / (sum(modelCountEN[w1].values()) + vocabularySizeEN)) # miss
         else:
-          probability += math.log(1 / (1 + vocabularySizeEN)) # miss
+          probability += math.log(1 / (vocabularySizeEN)) # miss
 
     test_results[i]['EN'] = probability
 
@@ -102,7 +101,7 @@ for i,line in enumerate(test_file):
             else:
                 probability += math.log(1 / (sum(modelCountFR[w1].values()) + vocabularySizeFR))
         else:
-          probability += math.log(1 / (1 + vocabularySizeFR))
+          probability += math.log(1 / (vocabularySizeFR))
 
     test_results[i]['FR'] = probability
 
@@ -115,7 +114,7 @@ for i,line in enumerate(test_file):
             else:
                 probability += math.log(1 / (sum(modelCountGR[w1].values()) + vocabularySizeGR))
         else:
-          probability += math.log(1 / (1 + vocabularySizeGR))
+          probability += math.log(1 / (vocabularySizeGR))
 
     test_results[i]['GR'] = probability
 
