@@ -29,6 +29,7 @@ def makeSmoothModel(fileName, testName):
  sentences = re.sub(r"\W", ' ', sentences)
  #replace sequences of blank characteres to a single one
  sentences = re.sub(r"\s+", ' ', sentences)
+ vocabularyTrain = set(sentences.split())
 
  # reading the test set
  testSentences = open(testName).read()
@@ -36,6 +37,9 @@ def makeSmoothModel(fileName, testName):
  testSentences = re.sub(r"\W", ' ', testSentences)
  testSentences = re.sub(r"\s+", ' ', testSentences)
  testSentences = re.sub(r'^\d+\s', '', testSentences)  # remove the initial number from each row
+ vocabularyTest = set(testSentences.split())
+
+ vocabulary = vocabularyTrain.union(vocabularyTest)
 
  # model[w1][w2] stores the number of times each bigram w1,w2 was seen
  # Add-One Smoothing by initializing with 1
@@ -43,23 +47,13 @@ def makeSmoothModel(fileName, testName):
  modelProbability = defaultdict(lambda: defaultdict(lambda: 0.0))
 
  # counting bigrams
- #train test
- bigramTrain = set(bigrams(sentences.split()))
+ #train
+ #bigramTrain = set(bigrams(sentences.split()))
  # counting the number of specific bigram pairs
  for w1, w2 in bigrams(sentences.split()):
    modelCount[w1][w2] += 1
    assert modelCount[w1][w2] >= 2
 
- # test set
- bigram = bigrams(testSentences.split())
- bigramTest = set(bigram)
- # Merge train and test. The singleton will be set to one
- for v in bigramTest:
-     if v not in bigramTrain:
-         modelCount[v[0]][v[1]] = 1
-
- vocabulary = set({(w1, w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
- #vocabulary = Counter(bigrams(sentences.split())) #number of different bigrams
  # getting probabilities
  for w1 in modelCount:
     # Smoothing
@@ -69,26 +63,15 @@ def makeSmoothModel(fileName, testName):
         modelProbability[w1][w2] = modelCount[w1][w2]/total_count # calculating the relative frequency for each bigram
         assert(modelProbability[w1][w2] != 0)
 
- return modelCount, modelProbability
+ return modelCount, modelProbability, len(vocabulary)
 
-
-# def updateModel(modelCount,modelProbability,w1,w2):
-#
-#     modelCount[w1][w2] = 1
-#     vocabulary = set({(w1,w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
-#     for w1 in modelCount:
-#        total_count = (sum(modelCount[w1].values())) + len(vocabulary) - len(modelCount[w1].keys()) #
-#        for w2 in modelCount[w1]:
-#            modelProbability[w1][w2] = modelCount[w1][w2] / total_count  # calculating the relative frequency for each bigram
-#            assert (modelProbability[w1][w2] != 0)
-#     return modelCount, modelProbability
 
 import math
 test_file = open('./LangID.test.txt')
 test_results = defaultdict(lambda : defaultdict( lambda : float))
-modelCountEN, modelProbabilityEN = makeSmoothModel('./EN.txt','LangID.test.txt')
-modelCountFR, modelProbabilityFR = makeSmoothModel('./FR.txt','LangID.test.txt')
-modelCountGR, modelProbabilityGR = makeSmoothModel('./GR.txt','LangID.test.txt')
+modelCountEN, modelProbabilityEN, vocabularySizeEN = makeSmoothModel('./EN.txt','LangID.test.txt')
+modelCountFR, modelProbabilityFR, vocabularySizeFR = makeSmoothModel('./FR.txt','LangID.test.txt')
+modelCountGR, modelProbabilityGR, vocabularySizeGR = makeSmoothModel('./GR.txt','LangID.test.txt')
 result = list()
 
 for i,line in enumerate(test_file):
@@ -100,21 +83,39 @@ for i,line in enumerate(test_file):
     #EN
     probability = 0.0
     for w1,w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityEN[w1][w2])
+        if (modelProbabilityEN.__contains__(w1)):
+            if (modelProbabilityEN[w1].__contains__(w2)):
+                probability += math.log(modelProbabilityEN[w1][w2]) # found a bigram that was in train
+            else:
+                probability += math.log(1 / (sum(modelCountEN[w1].values()) + vocabularySizeEN)) # miss
+        else:
+          probability += math.log(1 / (1 + vocabularySizeEN)) # miss
 
     test_results[i]['EN'] = probability
 
     # FR
     probability = 0.0
     for w1, w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityFR[w1][w2])
+        if (modelProbabilityFR.__contains__(w1)):
+            if (modelProbabilityFR[w1].__contains__(w2)):
+                probability += math.log(modelProbabilityFR[w1][w2])
+            else:
+                probability += math.log(1 / (sum(modelCountFR[w1].values()) + vocabularySizeFR))
+        else:
+          probability += math.log(1 / (1 + vocabularySizeFR))
 
     test_results[i]['FR'] = probability
 
     # GR
     probability = 0.0
     for w1, w2 in bigrams(line.split()):
-        probability += math.log(modelProbabilityGR[w1][w2])
+        if (modelProbabilityGR.__contains__(w1)):
+            if (modelProbabilityGR[w1].__contains__(w2)):
+                probability += math.log(modelProbabilityGR[w1][w2])
+            else:
+                probability += math.log(1 / (sum(modelCountGR[w1].values()) + vocabularySizeGR))
+        else:
+          probability += math.log(1 / (1 + vocabularySizeGR))
 
     test_results[i]['GR'] = probability
 
