@@ -58,8 +58,12 @@ def makeGoodTuringModel(fileName, testName):
    modelCount[w1][w2] += 1
    assert modelCount[w1][w2] >= 2
 
+ # list of all bigrams
  vocabulary = set({(w1, w2) for w1 in modelCount.keys() for w2 in modelCount[w1].keys()})
- #vocabulary = Counter(bigrams(sentences.split())) #number of different bigrams
+
+ # getting zero frequency bigrams
+
+
  # getting probabilities
  for w1 in modelCount:
     # Smoothing
