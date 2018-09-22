@@ -44,6 +44,9 @@ def makeGoodTuringModel(fileName, testName):
 
  # bigrams in train
  vocabularyCount = Counter(bigrams(sentences.split()))
+ modelCount = defaultdict(lambda : defaultdict(lambda:0))
+ for w1, w2 in bigrams(sentences.split()):
+   modelCount[w1][w2] += 1
 
  # generating the V² entries and setting singleton to 0
  # for w1 in vocabulary:
@@ -65,6 +68,7 @@ def makeGoodTuringModel(fileName, testName):
  struct['N'] = N
  struct['count'] = vocabularyCount
  struct['N_zero'] = N_zero
+ struct['model_count'] = modelCount
 
  return struct
 
@@ -74,7 +78,7 @@ def getZeroCountProbability(model):
 def getProbability(model,bigram,k=5):
 
     if (model['count'].get(bigram) > k):
-        return model['count'].get(bigram) / model['vocabulary_size']
+        return model['count'].get(bigram) / sum(model['model_count'][bigram[0]].values())
 
     numerator =  (model['count'].get(bigram)+1) * (model['N'].get(model['count'].get(bigram)+1)/model['N'].get(model['count'].get(bigram))) - (model['count'].get(bigram) * ((k+1)*model['N'].get(k+1))/model['N'].get(1))
     denominator = 1 - ((k+1)*model['N'].get(k+1)/model['N'].get(1))
