@@ -1,10 +1,13 @@
 from collections import Counter, defaultdict
 
 
-brown_tagged_train = open("./brown.train.tagged").read().lower()
+brown_tagged_train = open("./brown.train.tagged.txt").read().lower()
 
 tokens = Counter(brown_tagged_train.split())
 vocabularyCounter = Counter([v.split('/')[0] for v in tokens.keys()])
+tagCounter = Counter([v.split('/')[1] for v in tokens.keys()])
+
+print(len(tagCounter))
 
 wordClasses = defaultdict(lambda: defaultdict(lambda: 0))
 for w in brown_tagged_train.split():
@@ -29,7 +32,7 @@ def getMajorityClass(word):
 #             tag = w.split('/')[1]
 #     return tag
 
-test = open('brown.test.tagged').read().lower()
+test = open('brown.test.tagged.txt').read().lower()
 
 match = 0
 for i,token in enumerate(test.split()):
