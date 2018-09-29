@@ -7,7 +7,7 @@
 #
 
 from collections import Counter, defaultdict
-import numpy
+import numpy, math
 
 def supervisedTraining(file):
 
@@ -15,85 +15,87 @@ def supervisedTraining(file):
 
     A = defaultdict(lambda: defaultdict(lambda: 0))
     B = defaultdict(lambda: defaultdict(lambda: 0))
+    startProbability = defaultdict(lambda: 0)
 
     words = brown_tagged_train.split()
+    vocabulary = set()
     words.append('<F>/<F>')
 
     # Calculate A, B
-    for i,w in enumerate(words):
-        if (w == '<F>/<F>'):
+    for i in range(len(words)):
+        word = words[i].split('/')[0]
+        tag = words[i].split('/')[1]
+        if (words[i] == '<F>/<F>'):
             break
-        A[w.split('/')[1]][w[i+1].split('/')[1]]  += 1
-        B[w.split('/')[1]][w.split('/')[0]] += 1
+        A[tag][words[i+1].split('/')[1]]  += 1
+        B[tag][word] += 1
+        vocabulary.add(words[i].split('/')[0])
 
-    return A,B
+        if(word == '.'):
+            startProbability[words[i+1].split('/')[1]] += 1
+
+    return A,B,vocabulary,startProbability
 
 def transitionProbability(q_from,q_to,A):
-    return A[q_from][q_to]/sum(A[q_from])
+    if (A[q_from][q_to] == 0):
+        return 0
+    else:
+        return math.log(A[q_from][q_to]/sum(A[q_from].values()))
 
 def emissionProbability(o, q, B, vocabulary, numberStates):
     if(B[q].__contains__(o)):
-        return B[q][o]+1/sum(B[q])+len(vocabulary)
-    elif (vocabulary.contains(o)):
-        return 1/sum(B[q])+len(vocabulary)
+        return math.log(B[q][o]+1/(sum(B[q].values())+len(vocabulary)))
+    elif (vocabulary.__contains__(o)):
+        return math.log(1/(sum(B[q].values())+len(vocabulary)))
     else:
-        return 1/numberStates
+        return math.log(1/numberStates)
 
 
-def startProbability(q,A):
-    return A['.'][q]/sum(A['.'])
+def startProbability(q,start):
+    if (not start.__contains__(q)):
+        return 0
+    else:
+        return math.log(start[q]/sum(start.values()))
 
 # Input: list of observations obs, transition probabilities A, emission probabilities B
 # Output: most probable sequence of states
-def viterbi(obs, A, B, vocabulary):
-    obs = obs.split()
+def viterbi(obs, A, B, vocabulary, start):
+
     viterbiMatrix = numpy.zeros((len(A),len(obs)))
-    states = list(A.keys());
+    states = list(A.keys())
 
     #Initialization
     for i in range(len(A)-1):
-        viterbiMatrix[i][0] = startProbability(states[i],A) * emissionProbability(obs[0], states[i], B, vocabulary, len(states))
+        viterbiMatrix[i][0] = startProbability(states[i],start) + emissionProbability(obs[0], states[i], B, vocabulary, len(states))
 
     for i in range(1, len(obs)-1):
         for j in range (len(A)-1):
-            for k in range (len(A)-1):
+            viterbiMatrix[j][i] = max([v+transitionProbability(states[s],states[j],A) for s,v in enumerate(viterbiMatrix[:,i-1])]) + emissionProbability(obs[i],states[j],B, vocabulary,len(states))
+
+    bestSequence = [states[numpy.argmax(viterbiMatrix[:,i])] for i in range(len(obs)) ]
+
+    return bestSequence
 
 
-def Viterbit(obs, states, s_pro, t_pro, e_pro):
-	path = { s:[] for s in states} # init path: path[s] represents the path ends with s
-	curr_pro = {}
-	for s in states:
-		curr_pro[s] = s_pro[s]*e_pro[s][obs[0]]
-	for i in xrange(1, len(obs)):
-		last_pro = curr_pro
-		curr_pro = {}
-		for curr_state in states:
-			max_pro, last_sta = max(((last_pro[last_state]*t_pro[last_state][curr_state]*e_pro[curr_state][obs[i]], last_state)
-				                       for last_state in states))
-			curr_pro[curr_state] = max_pro
-			path[curr_state].append(last_sta)
+A,B,vocabulary,start = supervisedTraining('./brown.train.tagged.txt')
 
-	# find the final largest probability
-	max_pro = -1
-	max_path = None
-	for s in states:
-		path[s].append(s)
-		if curr_pro[s] > max_pro:
-			max_path = path[s]
-			max_pro = curr_pro[s]
-		# print '%s: %s'%(curr_pro[s], path[s]) # different path and their probability
-	return max_path
-
-
-test = open('brown.test.tagged').read().lower()
+test = open('./brown.test.tagged.txt').read().lower()
 
 match = 0
+words = list()
+tags = list()
 for i,token in enumerate(test.split()):
+    words.append(token.split('/')[0])
+    tags.append(token.split('/')[1])
+    #if (i == 1000):
+     #   break
 
-    word = token.split('/')[0]
-    tag = token.split('/')[1]
 
-    if(getMajorityClass(word) == tag):
-        match = match + 1
+result = viterbi(words,A,B,vocabulary,start)
+
+for i,tag in enumerate(tags):
+    if (tag == result[i]):
+        match += 1
+
 
 print("The accuaracy is :" + str(match/i))

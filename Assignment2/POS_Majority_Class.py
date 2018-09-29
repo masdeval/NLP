@@ -5,9 +5,9 @@ brown_tagged_train = open("./brown.train.tagged.txt").read().lower()
 
 tokens = Counter(brown_tagged_train.split())
 vocabularyCounter = Counter([v.split('/')[0] for v in tokens.keys()])
-tagCounter = Counter([v.split('/')[1] for v in tokens.keys()])
+#tagCounter = Counter([v.split('/')[1] for v in tokens.keys()])
 
-print(len(tagCounter))
+
 
 wordClasses = defaultdict(lambda: defaultdict(lambda: 0))
 for w in brown_tagged_train.split():
@@ -42,5 +42,8 @@ for i,token in enumerate(test.split()):
 
     if(getMajorityClass(word) == tag):
         match = match + 1
+
+    if (i == 100):
+        break
 
 print("The accuaracy is :" + str(match/i))
