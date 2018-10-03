@@ -48,7 +48,7 @@ def emissionProbability(o, q, B, vocabulary, numberStates):
     elif (vocabulary.__contains__(o)):
         return math.log(1/(sum(B[q].values())+len(vocabulary)))
     else:
-        return math.log(1/numberStates)
+        return math.log(1/len(vocabulary))
 
 
 def startProbability(q,start):
@@ -87,8 +87,8 @@ tags = list()
 for i,token in enumerate(test.split()):
     words.append(token.split('/')[0])
     tags.append(token.split('/')[1])
-    #if (i == 1000):
-     #   break
+    if (i == 2000):
+        break
 
 
 result = viterbi(words,A,B,vocabulary,start)
@@ -99,3 +99,4 @@ for i,tag in enumerate(tags):
 
 
 print("The accuaracy is :" + str(match/i))
+#0.9040653571956017

@@ -1,0 +1,4 @@
+
+ The accuracy is being printed as part of the output of each model implemented. 
+
+
