@@ -43,7 +43,7 @@ for i,token in enumerate(test.split()):
     if(getMajorityClass(word) == tag):
         match = match + 1
 
-    if (i == 100):
+    if (i == 1000):
         break
 
 print("The accuaracy is :" + str(match/i))

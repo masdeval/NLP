@@ -63,21 +63,45 @@ def startProbability(q,start):
     else:
         return math.log(start[q]/sum(start.values()))
 
-# Implemenattion of the Viterbi algorithm
+# Implementation of the Viterbi algorithm with Beam Search
 # Input: list of observations obs, transition probabilities A, emission probabilities B
 # Output: most probable sequence of states
+
+def handleMax(i,value,topElements,size):
+
+    if len(topElements) < size:
+        topElements[i] = value
+        return topElements
+
+    for v in topElements.keys():
+        if (topElements[v] < value):
+            topElements.pop(v)
+            topElements[i] = value
+            assert(len(topElements) == size)
+            break
+    return topElements
+
 def decoding(obs, A, B, vocabulary, start):
 
     viterbiMatrix = numpy.zeros((len(A),len(obs)))
     states = list(A.keys())
+    top = dict()
 
     #Initialization
     for i in range(len(A)-1):
         viterbiMatrix[i][0] = startProbability(states[i],start) + emissionProbability(obs[0], states[i], B, vocabulary)
+        top = handleMax(i,viterbiMatrix[i][0],top,5)
 
     for i in range(1, len(obs)):
+        statesToVisit = top.keys()
+        top = dict()
         for j in range (len(A)):
-            viterbiMatrix[j][i] = max([v+transitionProbability(states[s],states[j],A) for s,v in enumerate(viterbiMatrix[:,i-1])]) + emissionProbability(obs[i],states[j],B, vocabulary)
+            max_ = list()
+            for s in statesToVisit:
+                max_.append(viterbiMatrix[s, i - 1] + transitionProbability(states[s], states[j], A))
+
+            viterbiMatrix[j][i] =  max(max_)+ emissionProbability(obs[i],states[j],B, vocabulary)
+            top = handleMax(j,viterbiMatrix[j][i],top,5)
 
     bestSequence = [states[numpy.argmax(viterbiMatrix[:,i])] for i in range(len(obs)) ]
 
@@ -95,7 +119,7 @@ for i,token in enumerate(test.split()):
     words.append(token.split('/')[0])
     tags.append(token.split('/')[1])
     if (i == 2000):
-        break
+       break
 
 import time
 begin = time.perf_counter()
@@ -109,6 +133,5 @@ for i,tag in enumerate(tags):
         match += 1
 
 
-print("The accuaracy is :" + str(match/i))
+print("\n The accuaracy is :" + str(match/i))
 #0.9040653571956017
-
