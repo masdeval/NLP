@@ -94,6 +94,33 @@ for i,line in enumerate(test_file):
 
     test_results[i]['EN'] = probability
 
+    #FR
+    probability = 0.0
+    for w1,w2,w3 in trigrams(line.split()):
+        if (modelProbabilityFR.__contains__(w1)):
+          if (modelProbabilityFR[w1].__contains__(w2)):
+            if (modelProbabilityFR[w1][w2].__contains__(w3)):
+                probability += math.log(modelProbabilityFR[w1][w2][w3]) # found a bigram that was in train
+            else:
+                probability += math.log(1 / (sum(modelCountFR[w1][w2].values()) + vocabularySizeFR)) # miss
+        else:
+          probability += math.log(1 / (vocabularySizeFR)) # miss
+
+    test_results[i]['FR'] = probability
+
+    #GR
+    probability = 0.0
+    for w1,w2,w3 in trigrams(line.split()):
+        if (modelProbabilityGR.__contains__(w1)):
+          if (modelProbabilityGR[w1].__contains__(w2)):
+            if (modelProbabilityGR[w1][w2].__contains__(w3)):
+                probability += math.log(modelProbabilityGR[w1][w2][w3]) # found a bigram that was in train
+            else:
+                probability += math.log(1 / (sum(modelCountGR[w1][w2].values()) + vocabularySizeGR)) # miss
+        else:
+          probability += math.log(1 / (vocabularySizeGR)) # miss
+
+    test_results[i]['GR'] = probability
 
     result.append(max(test_results[i], key=test_results[i].get))
     print(str(i+1) + " " + max(test_results[i], key=test_results[i].get))
