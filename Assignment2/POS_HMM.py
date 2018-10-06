@@ -27,16 +27,16 @@ def supervisedTraining(file):
         if(not words[i].__contains__('/')):
             continue
 
-        word = words[i].split('/')[0]
-        tag = words[i].split('/')[1]
+        word = words[i].rsplit('/',1)[0]
+        tag = words[i].rsplit('/',1)[1]
         vocabulary.add(word)
         if (words[i] == '<F>/<F>'):
             break
-        A[tag][words[i+1].split('/')[1]]  += 1
+        A[tag][words[i+1].rsplit('/',1)[1]]  += 1
         B[tag][word] += 1
 
         if(tag == '.' ):
-            startProbability[words[i+1].split('/')[1]] += 1
+            startProbability[words[i+1].rsplit('/',1)[1]] += 1
 
     return A,B,vocabulary,startProbability
 
@@ -72,7 +72,7 @@ def decoding(obs, A, B, vocabulary, start):
     states = list(A.keys())
 
     #Initialization
-    for i in range(len(A)-1):
+    for i in range(len(A)):
         viterbiMatrix[i][0] = startProbability(states[i],start) + emissionProbability(obs[0], states[i], B, vocabulary)
 
     for i in range(1, len(obs)):
@@ -92,8 +92,8 @@ match = 0
 words = list()
 tags = list()
 for i,token in enumerate(test.split()):
-    words.append(token.split('/')[0])
-    tags.append(token.split('/')[1])
+    words.append(token.rsplit('/',1)[0])
+    tags.append(token.rsplit('/',1)[1])
     if (i == 2000):
         break
 
