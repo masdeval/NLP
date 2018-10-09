@@ -5,6 +5,7 @@ import seaborn as sb
 import pandas as pd
 import re
 
+
 def phaseOneTest():
     # Train
     brown_tagged_train = open("./brown.train.tagged.txt").read().lower()
@@ -22,6 +23,7 @@ def phaseOneTest():
     test = open('brown.test.tagged.txt').read().lower()
 
     hits_miss = defaultdict(lambda: defaultdict(lambda: 0))
+    match = 0
 
     # keep track of the misses and hits to build a confusion matrix
     for i, token in enumerate(test.split()):
@@ -29,6 +31,9 @@ def phaseOneTest():
         tag = token.rsplit('/', 1)[1]
         # keep track of the misses and hits to build a confusion matrix
         hits_miss[tag][getMajorityClass(word)] += 1
+        # Compute the accuracy of the base model to compare later on
+        if (getMajorityClass(word) == tag):
+            match = match + 1
 
     # sort by relevance
     for w in hits_miss:
@@ -40,13 +45,13 @@ def phaseOneTest():
             count = Counter(hits_miss[tag1]).most_common(5)
             print("Tag: " + tag1 + " taggings: " + str(count))
 
-
+    return match/i
 
 
 #### Starting the tests to identify possible enhacement strategies
 
 # Shows the hits and misses of the majority tagging strategy
-phaseOneTest()
+accuracy_base_model = phaseOneTest()
 
 # Based on the results, I chose the following five tags to verify:
 
@@ -91,7 +96,7 @@ for i,token in enumerate(words):
                 match = match + 1
                 continue
 
-    #Rule 2: nns tagged as nn
+    #Rule 2: nns tagged as nn - plural tagged as singular
     if (getMajorityClass(word) == 'nn'):
         if (re.match(r'\w+ses$',word) or re.match(r'\w+zes$',word) or re.match(r'\w+shes$',word) or re.match(r'\w+ches$',word) or re.match(r'\w+ies$',word) or re.match(r'\w+s$',word)):
             if ('nns' == tag):
@@ -122,5 +127,6 @@ for i,token in enumerate(words):
     if(getMajorityClass(word) == tag):
         match = match + 1
 
-
-print("The accuaracy is :" + str(match/i))
+print("\nThe accuracy of the base model is: " + str(accuracy_base_model) + '%')
+print("The accuracy after rules is: " + str(match/i)+"%")
+print("The improvement was: " + str((match/i)-accuracy_base_model)+"%")
