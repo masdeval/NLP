@@ -6,8 +6,8 @@
 # decoding() - Estimate the most likely sequence of tags given an input of sequence of words O and a HMM automaton.
 #
 
-from collections import Counter, defaultdict
-import numpy, math
+from collections import defaultdict
+import numpy, math, time
 
 def supervisedTraining(file):
 
@@ -48,18 +48,18 @@ def transitionProbability(q_from,q_to,A):
 
 def emissionProbability(o, q, B, vocabulary):
     if(B[q][o] != 0):
-        #return math.log(B[q][o]+1/(sum(B[q].values())+len(vocabulary))) #AddOne Smoothing not necessary
-        return math.log(B[q][o]/sum(B[q].values()))
+        return math.log(B[q][o]+1/(sum(B[q].values())+len(vocabulary))) #AddOne Smoothing
+        #return math.log(B[q][o]/sum(B[q].values()))
     elif (vocabulary.__contains__(o)):
-        #return math.log(1/(sum(B[q].values())+len(vocabulary)))  #AddOne Smoothing not necessary
-        return -numpy.inf; # The word is in the vocabulary and will be selected in some other tag. -inf because using log and summing
+        return math.log(1/(sum(B[q].values())+len(vocabulary)))  #AddOne Smoothing
+        #return -numpy.inf # The word is in the vocabulary and will be selected in some other tag. -inf because using log and summing
     else:
         return math.log(1/len(vocabulary)) # the word is not in the vocabulary and we can't leave it with zero probability
 
 
 def startProbability(q,start):
     if (not start.__contains__(q)):
-        return 0
+        return -numpy.inf
     else:
         return math.log(start[q]/sum(start.values()))
 
@@ -110,28 +110,29 @@ def decoding(obs, A, B, vocabulary, start):
 
 A,B,vocabulary,start = supervisedTraining('./brown.train.tagged.txt')
 
-test = open('./brown.test.tagged.txt').read().lower()
-
-match = 0
-words = list()
-tags = list()
-for i,token in enumerate(test.split()):
-    words.append(token.rsplit('/',1)[0])
-    tags.append(token.rsplit('/',1)[1])
-    #if (i == 2000):
-     #  break
-
-import time
+# Evaluation
 begin = time.perf_counter()
-result = decoding(words,A,B,vocabulary,start)
+test = open('./brown.test.tagged.txt')
+match = 0
+numberOfWords = 0
+for sentence in (test):
+    words = list()
+    tags = list()
+
+    for i, token in enumerate(sentence.lower().split()):
+        words.append(token.rsplit('/', 1)[0])
+        tags.append(token.rsplit('/', 1)[1])
+        numberOfWords += 1
+
+    result = decoding(words, A, B, vocabulary, start)
+
+    for i, tag in enumerate(tags):
+        if (tag == result[i]):
+            match += 1
+
+    #if (numberOfWords > 3000):
+     #   break
+
 end = time.perf_counter()
-
-print("\n Time elapsed: " + str(end-begin))
-
-for i,tag in enumerate(tags):
-    if (tag == result[i]):
-        match += 1
-
-
-print("\n The accuaracy is :" + str(match/i))
-#0.9040653571956017
+print("The accuaracy is :" + str(match / numberOfWords))
+print("\n Time elapsed: " + str(end - begin))
