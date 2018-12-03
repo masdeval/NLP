@@ -156,10 +156,12 @@ data,sentiment = loadTrainData("./training/train_semeval", data, sentiment)
 #model = readWordvec("./twitter_vectors.kv", kv = True)
 model = readWordvec("./twitter_vectors.model", kv = False)
 
+######  TF-IDF #####
 #Using the tfidf of each word on each example to weight the sum of word vectors
 from sklearn.feature_extraction.text import TfidfVectorizer
 tfidfVectorizer = TfidfVectorizer(encoding='latin-1', vocabulary=model.wv.vocab.keys(),lowercase=True)
 tfidf = tfidfVectorizer.fit_transform(data)
+#####################
 
 features = []
 # Creating a representation for the whole tweet using wordvec

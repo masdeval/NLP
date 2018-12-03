@@ -1,7 +1,10 @@
 import re
 import tweepy
 from tweepy import OAuthHandler
-from textblob import TextBlob
+from joblib import dump, load
+from gensim.models import KeyedVectors
+import numpy as np
+import preprocess_twitter as stanfordPreprocessing
 
 class TwitterClient(object):
 	'''
@@ -35,18 +38,34 @@ class TwitterClient(object):
 		'''
 		return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
 
-	def get_tweet_sentiment(self, tweet):
+	def buildTwitterVector(self, tokens, word2vec, vectorSize):
+		vec = np.zeros(vectorSize)
+		count = 0.
+		for word in tokens:
+			try:
+				vec += word2vec[word]
+				count += 1.
+			except KeyError:  # handling the case where the token is not present
+				continue
+		if count != 0:
+			vec /= count
+
+		assert (len(vec) == vectorSize)
+		return vec
+
+	def get_tweet_sentiment(self, tweet, word2vec):
 		'''
 		Utility function to classify sentiment of passed tweet
 		using textblob's sentiment method
 		'''
-		# create TextBlob object of passed tweet text
-		analysis = TextBlob(self.clean_tweet(tweet))
+
+		clf = load('svm_model.save')
+		feature = self.buildTwitterVector(tweet,word2vec,vectorSize=200)
+		analysis = clf.predict(feature.reshape(1, -1))
+
 		# set sentiment
-		if analysis.sentiment.polarity > 0:
+		if analysis > 0:
 			return 'positive'
-		elif analysis.sentiment.polarity == 0:
-			return 'neutral'
 		else:
 			return 'negative'
 
@@ -60,6 +79,8 @@ class TwitterClient(object):
 		try:
 			# call twitter api to fetch tweets
 			fetched_tweets = self.api.search(q = query, count = count)
+			# Load Glove word2vec
+			word2vec = KeyedVectors.load_word2vec_format("./glove.twitter.27B/word2vec200d.txt")
 
 			# parsing tweets one by one
 			for tweet in fetched_tweets:
@@ -68,8 +89,9 @@ class TwitterClient(object):
 
 				# saving text of tweet
 				parsed_tweet['text'] = tweet.text
+				tweet_ = stanfordPreprocessing.tokenize(tweet.text)
 				# saving sentiment of tweet
-				parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet.text)
+				parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet_.split(), word2vec)
 
 				# appending parsed tweet to tweets list
 				if tweet.retweet_count > 0:
@@ -90,8 +112,7 @@ def main():
 	# creating object of TwitterClient Class
 	api = TwitterClient()
 	# calling function to get tweets
-	tweets = api.get_tweets(query = 'Bolsonaro', count = 200)
-
+	tweets = api.get_tweets(query = 'Bolsonaro', count = 100)
 	# picking positive tweets from tweets
 	ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
 	# percentage of positive tweets
