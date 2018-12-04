@@ -3,6 +3,10 @@ import tweepy
 from tweepy import OAuthHandler
 from joblib import dump, load
 from gensim.models import KeyedVectors
+import gensim
+from gensim.models.word2vec import Word2Vec
+from gensim.models import KeyedVectors
+
 import numpy as np
 import preprocess_twitter as stanfordPreprocessing
 
@@ -80,7 +84,8 @@ class TwitterClient(object):
 			# call twitter api to fetch tweets
 			fetched_tweets = self.api.search(q = query, count = count)
 			# Load Glove word2vec
-			word2vec = KeyedVectors.load_word2vec_format("./glove.twitter.27B/word2vec200d.txt")
+			#word2vec = KeyedVectors.load_word2vec_format("./glove.twitter.27B/word2vec200d.txt")
+			word2vec = KeyedVectors.load("./twitter_vectors.model", mmap='r')
 
 			# parsing tweets one by one
 			for tweet in fetched_tweets:
@@ -89,9 +94,10 @@ class TwitterClient(object):
 
 				# saving text of tweet
 				parsed_tweet['text'] = tweet.text
-				tweet_ = stanfordPreprocessing.tokenize(tweet.text)
+				#tweet_ = stanfordPreprocessing.tokenize(tweet.text).split()
+				tweet_ = gensim.utils.simple_preprocess(tweet.text)
 				# saving sentiment of tweet
-				parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet_.split(), word2vec)
+				parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet_, word2vec)
 
 				# appending parsed tweet to tweets list
 				if tweet.retweet_count > 0:
@@ -112,7 +118,7 @@ def main():
 	# creating object of TwitterClient Class
 	api = TwitterClient()
 	# calling function to get tweets
-	tweets = api.get_tweets(query = 'Bolsonaro', count = 100)
+	tweets = api.get_tweets(query = 'christmas', count = 100)
 	# picking positive tweets from tweets
 	ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
 	# percentage of positive tweets
