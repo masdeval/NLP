@@ -148,9 +148,9 @@ features = []
 model = KeyedVectors.load_word2vec_format("./glove.twitter.27B/word2vec200d.txt", binary=False)
 
 ######  TF-IDF #####
-#from sklearn.feature_extraction.text import TfidfVectorizer
-#tfidfVectorizer = TfidfVectorizer(encoding='latin-1', vocabulary=model.wv.vocab.keys(),lowercase=True)
-#tfidf = tfidfVectorizer.fit_transform(data)
+from sklearn.feature_extraction.text import TfidfVectorizer
+tfidfVectorizer = TfidfVectorizer(encoding='latin-1', vocabulary=model.wv.vocab.keys(),lowercase=True)
+tfidf = tfidfVectorizer.fit_transform(data)
 #####################
 
 # Creating a representation for the whole tweet using Glove wordvec
@@ -159,10 +159,10 @@ for i,tweet in enumerate(data):
 
     tweet = stanfordPreprocessing.tokenize(tweet).split()
     #Without TF_IDF
-    features.append(buildTwitterVector(tweet,model,size=200))
+    #features.append(buildTwitterVector(tweet,model,size=200))
 
     #With TF_IDF - do not remove punctuation since Glove was trained with it
-    #features.append(buildTwitterVectorTFIDF(tweet, model, tfidfVectorizer, tfidf.getrow(i).toarray(), size=200))
+    features.append(buildTwitterVectorTFIDF(tweet, model, tfidfVectorizer, tfidf.getrow(i).toarray(), size=200))
 
 
 result = cross_validate(LogisticRegression(penalty='l2'),X=features,y=sentiment,cv=5,scoring=['accuracy','f1'], return_train_score=False)
@@ -180,7 +180,7 @@ print("Overall F1-score: %f" % np.mean(result['test_f1']))
 result = cross_validate(svm.SVC(C=1.0,kernel='linear'),X=features,y=sentiment,cv=5,scoring=['accuracy','f1'], return_train_score=False)
 
 from prettytable import PrettyTable
-print("\n Logistic in train")
+print("\n SVM in train")
 x = PrettyTable()
 x.field_names = [" ","Fold 1", "Fold 2", "Fold 3", "Fold 4", "Fold 5"]
 x.add_row(["Accuracy: "] + [str(v) for v in result['test_accuracy']])

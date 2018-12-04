@@ -158,9 +158,9 @@ model = readWordvec("./twitter_vectors.model", kv = False)
 
 ######  TF-IDF #####
 #Using the tfidf of each word on each example to weight the sum of word vectors
-from sklearn.feature_extraction.text import TfidfVectorizer
-tfidfVectorizer = TfidfVectorizer(encoding='latin-1', vocabulary=model.wv.vocab.keys(),lowercase=True)
-tfidf = tfidfVectorizer.fit_transform(data)
+#from sklearn.feature_extraction.text import TfidfVectorizer
+#tfidfVectorizer = TfidfVectorizer(encoding='latin-1', vocabulary=model.wv.vocab.keys(),lowercase=True)
+#tfidf = tfidfVectorizer.fit_transform(data)
 #####################
 
 features = []
@@ -172,10 +172,10 @@ for i, tweet in enumerate(data):
     tweet = gensim.utils.simple_preprocess(tweet)
 
     # Without TF-IDF
-    #features.append(buildTwitterVector(tweet,model,size=200))
+    features.append(buildTwitterVector(tweet,model,size=200))
 
     #With TF-IDF
-    features.append(buildTwitterVectorTFIDF(tweet, model, tfidfVectorizer, tfidf.getrow(i).toarray(), size=200))
+    #features.append(buildTwitterVectorTFIDF(tweet, model, tfidfVectorizer, tfidf.getrow(i).toarray(), size=200))
 
 
 result = cross_validate(LogisticRegression(penalty='l2'),X=features,y=sentiment,cv=5,scoring=['accuracy','f1'], return_train_score=False)
@@ -204,96 +204,3 @@ print("Overall accuracy: %f" % np.mean(result['test_accuracy']))
 print("Overall F1-score: %f" % np.mean(result['test_f1']))
 
 
-'''
-print("\nLogistic in test - Apple-Twitter-Sentiment")
-logistic = result['estimator'][0]
-data = pd.read_csv("./specific_domain/Apple-Twitter-Sentiment-DFE.csv",delimiter=',',encoding='latin-1')
-features = []
-target = []
-for index,row in data.iterrows():
-    sentiment = row['sentiment']
-    if sentiment not in ('1','2','3','4','5'):
-        continue
-    if sentiment in ('3'):
-        continue
-    if sentiment in ('1','2'):
-        target.append(0)
-    elif sentiment in ('4','5'):
-        target.append(1)
-
-    tweet = gensim.utils.simple_preprocess(row['text'])
-    #tweet = TweetTokenizer(preserve_case=False, strip_handles=True).tokenize(row['text'])
-    features.append(buildTwitterVector(tweet,model))
-
-score = logistic.score(X=features, y=target)
-print("Accuracy: %f" % score)
-
-print("\nLogistic in test - Claritin Side Effects")
-logistic = result['estimator'][0]
-data = pd.read_csv("./specific_domain/claritin_october_twitter_side_effects.csv",delimiter=',',encoding='latin-1',dtype=str)
-features = []
-target = []
-for index,row in data.iterrows():
-    sentiment = row['sentiment']
-    if sentiment not in ('1','2','3','4','5'):
-        continue
-    if sentiment in ('3'):
-        continue
-    if sentiment in ('1','2'):
-        target.append(0)
-    elif sentiment in ('4','5'):
-        target.append(1)
-
-    tweet = gensim.utils.simple_preprocess(row['content'])
-    #tweet = TweetTokenizer(preserve_case=False, strip_handles=True).tokenize(row['content'])
-    features.append(buildTwitterVector(tweet,model))
-
-score = logistic.score(X=features, y=target)
-print("Accuracy: %f" % score)
-
-print("\nLogistic in test - Twitter Sentiment Self-drive-car")
-logistic = result['estimator'][0]
-data = pd.read_csv("./specific_domain/Twitter-sentiment-self-drive-DFE.csv",delimiter=',',encoding='latin-1',dtype=str)
-features = []
-target = []
-for index,row in data.iterrows():
-    sentiment = row['sentiment']
-    if sentiment not in ('1','2','3','4','5'):
-        continue
-    if sentiment in ('3'):
-        continue
-    if sentiment in ('1','2'):
-        target.append(0)
-    elif sentiment in ('4','5'):
-        target.append(1)
-
-    tweet = gensim.utils.simple_preprocess(row['text'])
-    #tweet = TweetTokenizer(preserve_case=False, strip_handles=True).tokenize(row['text'])
-    features.append(buildTwitterVector(tweet,model))
-
-score = logistic.score(X=features, y=target)
-print("Accuracy: %f" % score)
-
-print("\nLogistic in test - US Airlines")
-logistic = result['estimator'][0]
-data = pd.read_csv("./specific_domain/AirlineSentiment.csv",delimiter=',',encoding='latin-1',dtype=str)
-features = []
-target = []
-for index,row in data.iterrows():
-    sentiment = row['airline_sentiment']
-    if sentiment not in ('positive','negative','neutral'):
-        continue
-    if sentiment in ('neutral'):
-        continue
-    if sentiment in ('negative'):
-        target.append(0)
-    elif sentiment in ('positive'):
-        target.append(1)
-
-    tweet = gensim.utils.simple_preprocess(row['text'])
-    #tweet = TweetTokenizer(preserve_case=False, strip_handles=True).tokenize(row['text'])
-    features.append(buildTwitterVector(tweet,model))
-
-score = logistic.score(X=features, y=target)
-print("Accuracy: %f" % score)
-'''
