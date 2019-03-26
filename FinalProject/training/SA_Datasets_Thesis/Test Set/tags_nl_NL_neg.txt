@@ -1,0 +1,20 @@
+nounabbr prep nounsg verbinf verbpressg verbinf prep det__art nounsg nounsg verbpressg adv prep pronpers nounsg
+det__art nounsg verbpressg pronpers adv adj partte verbinf verbpapa verbpressg verbpressg adv adv nounsg det__poss nounsg adj adj verbpapa
+adv prep nounprop pronpers verbpressg verbinf conjsubo pronpers pronpers adv adj nounsg verbpressg
+det__art nounsg num__card nounpl adj verbinf verbpressg det__art nounsg adv adv nounsg pronpers verbpressg verbpapa adv num__card nounsg verbinf conjcoord conjsubo num__card nounpl nounsg nounsg
+adj adj nounsg det__art nounsg verbpressg verbpapa
+nounpl verbpapa prep det__art adj nounsg nounsg verbpressg adv adj
+nounprop verbprespl prep nounprop nounpl conjcoord nounprop nounpl verbpapa verbprespl pronpers verbpressg adv adv nounsg prep det__demo nounpl verbpressg nounprop
+adj nounsg det__art nounsg conjsubo num__card nounpl conjcoord num__card nounpl prep det__poss nounsg partte verbinf conjsubo adv det__art nounsg prep prondemo verbpressg adv adj nounsg adv
+pronpers verbpressg adj
+num__card nounsg prep pronrefl prep det__art nounprop verbpressg adv adv nounsg prep pronpers nounsg
+nounsg adv adv adj verbpapa
+pronpers verbpressg pronpers adv adj
+adv adv det__poss nounsg verbinf verbinf verbpressg adv adv adj
+nounprop nounsg verbpressg adv partte verbinf nounprop pronrel verbpastpl nounpl prep det__art nounsg conjcoord pronindef verbpressg adj
+adj adj nounsg verbpressg prep det__art nounsg pronindef verbinf pronpers verbpressg prep adj nounpl adj
+nounsg nounprop verbpastsg adv adj verbpressg verbinf conjsubo pronpers pronpers adv verbpressg verbinf
+adv adj conjsubo nounpl adv adv det__art adv nounsg verbprespl adv partte verbinf conjsubo det__art nounpl adv prep det__art nounsg partte verbinf verbprespl adj
+nounprop int pronrel adj nounsg verbpastsg adv adv adv verbpapa
+conjcoord prep num__ord nounsg nounsg verbpressg int adv adv adv det__art nounsg prep nounsg nounsg det__poss nounsg verbpressg adv
+det__poss nounsg verbpressg adv pronpers verbpressg pronindef prep adv adv adj

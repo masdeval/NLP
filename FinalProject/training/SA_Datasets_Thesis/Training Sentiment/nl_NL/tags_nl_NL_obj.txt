@@ -1,0 +1,2099 @@
+prep nounsg verbpressg pronpers adj
+adj nounsg adj nounsg prep nounpl prep det__art nounsg
+nounabbr verbpressg adj nounsg prep nounsg
+nounsg prep nounsg adj
+adj nounsg nounsg verbinf
+nounpl verbinf nounsg adv adv prep nounsg
+nounsg prep det__art nounsg prep nounsg
+nounsg nounprop verbpressg
+nounsg nounsg verbpressg prep nounsg
+adj nounpl verbprespl num__card prep nounsg
+adv nounpl verbprespl nounsg prep nounsg adj
+adj nounpl nounpl verbpressg nounsg nounsg prep
+num__card nounpl conjsubo det__art nounsg prep det__poss nounpl partte verbinf
+nounsg nounpl verbpressg pronpers nounsg prep nounsg nounsg
+adj nounpl verbprespl num__card prep nounsg
+adv nounabbr verbpressg adv nounpl nounsg prep nounsg
+nounsg adj nounpl verbpapa
+adj verbpressg prep nounpl nounsg
+nounsg adj verbpressg adv conjsubo det__art verbpressg
+verbpressg det__poss nounsg adv adv adj
+adv verbpressg pronpers det__art adj nounpl prep nounsg prep
+nounsg adj verbpapa verbpressg nounsg
+adj nounsg nounsg num__card prep num__card nounsg adj
+nounsg prep det__art nounsg adj nounpl prep det__art adj nounsg
+nounsg verbpressg nounsg prep adj nounsg adv
+nounpl verbprespl adv prep nounsg prep nounpl
+num__card nounpl verbprespl adj nounpl conjcoord nounpl
+nounsg verbpressg prep adj adj nounsg
+adj nounsg nounsg prep num__card num__card nounsg adj
+nounsg verbpressg prep adj adj nounsg
+nounsg prep nounpl nounpl
+nounsg verbpressg adj adj adj nounsg
+det__art num__card nounpl prep det__art adj nounsg
+nounsg verbpressg prep num__card nounsg
+nounsg nounsg nounsg prep det__art nounsg
+adv nounsg prep adj nounsg
+nounsg verbpressg nounsg conjsubo nounsg nounsg verbpressg
+nounsg nounsg verbpressg nounsg prep nounsg prep nounsg
+pronadv nounprop adj nounsg det__art adj nounsg verbpressg
+nounsg verbpressg prep adj adj nounsg
+nounsg verbpressg nounsg
+num__card prep nounsg nounpl verbpressg nounsg conjcoord nounsg prep nounsg
+num__card prep num__card nounpl verbpressg nounsg prep nounsg
+nounsg verbpressg adj verbpressg pronpers nounpl adv adj nounpl prep det__art nounpl num__card
+nounpl verbinf prep nounsg prep nounpl
+adj nounsg nounsg prep nounsg
+nounpl verbprespl nounsg prep nounsg nounpl
+det__art nounsg nounsg
+nounpl verbprespl nounpl adj
+nounsg verbpressg nounsg verbinf prep adj
+nounpl verbprespl verbinf nounsg conjcoord nounsg prep nounsg adj
+prep nounsg nounsg prep nounsg verbinf
+adj nounsg verbpressg nounsg nounsg
+nounsg verbpressg adj nounpl
+nounsg verbpressg nounsg prep nounsg verbinf
+nounpl verbprespl nounpl adj
+num__card nounpl pronrel pronpers nounpl conjsubo nounsg adv verbpapa verbprespl
+nounsg adj adj conjsubo adj nounsg
+nounpl verbprespl nounpl det__indef nounpl
+adj nounsg verbpressg adj nounsg prep
+nounpl verbprespl nounpl det__art adj adj
+nounpl verbprespl nounsg adv
+nounsg verbpressg pronrefl adv prep nounpl
+pronadv pronpers adj nounpl conjsubo nounsg prep det__art nounsg verbinf
+nounsg verbpressg pronindef prep verbprespl nounpl
+nounsg adj nounpl verbpressg adv verbinf
+nounsg verbpressg prep num__card nounsg
+adj nounpl verbprespl adv prep det__art nounsg
+pronadv verbpressg pronpers adj nounpl verbprespl
+nounpl verbinf nounsg pronpers adv
+nounsg prep det__art nounsg verbpressg det__art nounsg adj nounpl adv verbinf
+nounsg verbpressg num__card nounsg prep pronrefl
+nounsg conjcoord nounsg adj nounsg pronpers verbpressg det__indef nounsg
+adv pronrefl verbpapa adv verbpressg pronpers prep pronpers nounpl adv
+nounsg verbpressg adj nounsg prep nounsg nounsg nounprop
+nounsg prep det__art nounsg
+adv nounpl verbpressg adj nounsg
+det__indef nounsg prep adj nounsg
+adv pronrefl verbpapa adv verbpressg pronpers prep pronpers nounpl adv
+nounsg pronrel adv nounpl verbpressg pronpers adj
+num__card nounpl verbprespl nounsg prep nounsg
+nounsg verbpressg det__indef nounsg conjcoord nounsg
+nounsg num__card adj nounpl verbprespl adj
+adv nounpl verbpressg adj nounsg
+nounpl adj prep adj nounsg
+det__art num__card adj nounpl prep nounpl partte verbinf
+nounsg conjcoord nounsg prep nounsg
+nounsg adv verbinf
+nounsg nounsg nounsg conjcoord nounsg conjcoord
+nounsg nounpl prep verbpresp nounpl verbpressg verbinf
+nounsg verbpressg adj verbinf verbinf
+nounsg verbpressg adv adv adj
+nounsg verbpressg adv adj
+nounsg verbpressg adv prep adj nounpl
+nounabbr nounsg verbpressg adj nounpl
+verbprespl adv verbinf conjsubo nounsg verbinf
+nounsg verbpressg nounsg verbinf prep nounpl
+pronrel verbpressg conjsubo nounsg prep nounsg
+nounpl conjcoord verbprespl det__poss nounpl prep nounsg nounsg
+verbpressg pronpers det__art nounpl prep det__poss adj nounpl
+nounsg nounsg prep nounpl
+adj verbpapa conjcoord adv prep nounsg nounpl verbinf
+adj nounpl verbprespl adv prep nounpl
+nounsg nounpl verbpressg prep nounsg
+num__card nounpl prep adj nounpl
+prep det__art nounsg prep nounsg prep nounpl
+det__art nounsg prep det__art nounpl verbinf
+adj nounpl verbprespl adv prep nounpl
+det__art nounsg prep nounpl prep adj conjcoord adj nounpl
+pronrel verbpressg det__demo nounsg prep nounsg
+det__art nounpl prep det__art nounsg prep det__art nounsg
+nounabbr adj nounpl verbprespl adv conjsubo partte verbinf
+verbpressg nounsg prep prep nounsg
+adj nounsg verbpressg adj
+adj nounpl verbprespl verbpapa
+det__indef nounsg prep nounsg nounsg
+nounpl verbprespl adv prep adj
+adj nounsg adj adj verbpapa nounsg
+adj nounsg verbpressg adv nounpl conjcoord verbpressg adj
+num__card nounpl verbprespl adj nounpl
+nounsg nounpl prep nounsg prep det__art nounsg verbpapa
+nounsg verbpressg pronpers det__poss nounsg
+nounsg adv partte verbinf prep pronindef pronrel adv adj verbpressg verbinf
+num__ord nounsg verbpressg nounsg nounpl
+nounpl verbprespl adj prep adj nounsg
+nounsg adv det__poss nounsg conjcoord adj nounpl conjsubo det__art adj nounsg adj partte verbinf
+adj nounsg verbpressg nounpl prep nounsg
+det__art num__card adj nounpl prep nounpl prep nounsg
+nounsg verbpressg adv prep adj nounsg
+num__ord nounsg verbpressg nounsg nounpl
+adj nounsg verbpressg adj nounpl prep adj nounsg
+nounpl adv adj adj adj
+nounsg prep nounsg nounpl
+adj nounsg verbpressg adj
+pronpers verbpressg pronindef pronpers verbpressg pronpers prep
+nounsg verbpressg det__demo nounsg prep nounpl
+adj nounsg adj nounsg adj adj nounsg
+adv det__art nounsg det__art nounsg
+nounsg prep nounsg prep nounsg nounsg nounsg
+nounsg prep nounsg verbpressg nounpl adv
+nounsg adj nounsg
+num__card nounpl pronrel adv nounpl verbprespl verbinf
+adj nounsg prep nounsg nounpl
+nounsg verbpressg nounpl nounsg prep
+nounsg prep det__art nounsg
+nounsg prep nounsg verbpressg verbinf
+nounsg det__indef nounsg nounsg adv
+nounsg nounsg adv adj
+adj nounsg prep nounsg
+nounpl adj nounpl verbpapa
+adj verbprespl conjcoord adv verbprespl adv verbpapa
+adj nounsg prep nounsg
+nounsg verbpressg nounsg prep nounsg adj nounsg
+nounsg det__art nounsg verbpressg nounsg verbinf
+num__card nounpl conjsubo det__art nounsg prep nounsg partte verbinf
+nounsg adv adv adj prep nounsg
+nounpl verbinf nounsg prep
+nounabbr conjcoord adj nounpl verbinf
+nounsg verbpressg adv adv prep nounsg
+adj nounpl verbprespl prep nounsg
+nounsg prep nounsg adj nounpl adj
+nounpl verbprespl adv prep num__card nounsg verbinf
+nounsg prep nounsg verbpressg det__art nounsg verbpressg
+adj conjcoord adj nounsg adj verbpapa
+adj nounsg prep adj nounpl verbpressg
+nounpl adv verbpapa prep adj nounpl
+adj nounpl verbprespl det__art nounsg
+nounsg nounpl prep nounsg prep adj nounsg
+nounsg nounsg nounprop pronpers verbpressg det__indef int verbinf
+nounabbr nounabbr verbpressg prep nounsg
+nounsg nounsg prep det__art nounsg
+num__card nounpl adv verbpapa prep nounpl
+nounpl prep nounsg verbpressg nounsg
+nounpl verbprespl nounsg prep nounsg prep nounsg
+adj nounpl adv verbpapa prep nounpl prep nounpl
+adv nounsg prep adj nounsg
+adj adj nounpl adj verbinf
+nounabbr verbpressg nounsg prep nounsg
+nounsg num__card nounsg adj
+nounsg verbpressg prep nounsg verbpressg nounpl
+pronpers verbpastsg verbinf prep det__art adj nounsg
+nounsg verbprespl pronpers adv det__art adj nounsg
+adj nounabbr prep nounsg nounsg
+nounsg prep num__card nounsg prep nounpl
+int adj nounsg adj nounsg
+adv det__indef det__indef nounsg verbpressg prep nounpl nounsg
+num__card nounpl conjsubo det__poss nounsg adv partte nounpl
+nounsg adj nounsg prep nounsg
+nounsg det__art adj nounsg
+adj nounsg nounsg det__art adj nounsg prep nounsg conjcoord nounsg
+prep adj nounsg adv adj nounsg
+nounpl verbprespl num__card nounsg adv nounsg
+nounpl verbprespl adv nounpl verbprespl
+nounpl adv prep adv prep adj nounsg
+pronadv adj nounpl verbinf prep det__art adj nounsg
+nounsg verbpressg adj prep adj nounsg
+nounpl prep det__art nounsg verbprespl adj nounsg
+det__art nounsg prep nounsg nounsg prep nounpl prep nounsg nounsg
+nounsg num__card nounpl prep nounsg
+nounsg nounsg conjcoord adj nounsg
+num__card nounpl prep nounsg nounpl
+nounpl verbinf nounsg det__art adj prep nounsg
+adj nounsg prep det__art nounsg
+adj nounpl nounsg nounsg conjsubo nounsg
+verbpressg adj nounsg prep det__art num__ord nounsg
+nounpl adj prep nounpl
+nounsg prep nounsg nounsg
+nounsg nounsg prep nounsg nounprop
+nounsg nounprop verbpressg prep
+adj nounpl prep nounpl
+adj nounpl conjcoord adj prep nounsg verbpressg nounsg
+nounsg nounsg verbpressg adj
+det__indef nounsg prep adj nounsg
+nounabbr adj nounpl prep nounprop
+nounsg nounsg prep nounsg nounprop
+nounsg nounsg prep num__card nounpl
+adv nounpl verbprespl det__art adj det__art adj nounsg
+nounpl verbprespl prep nounsg prep num__card
+nounsg nounsg adj nounsg prep det__art nounsg verbinf
+nounsg verbpressg nounsg prep nounsg verbinf
+nounabbr nounsg nounsg
+adj nounpl verbinf adj nounpl
+adj nounsg verbpressg adv
+adj nounsg prep nounsg nounsg nounpl
+verbpressg det__poss nounsg verbpressg prep nounsg prep det__art nounpl
+nounabbr conjcoord adj verbinf nounsg verbinf
+det__indef nounsg prep adj nounsg
+adj nounpl verbprespl num__card prep nounsg
+nounsg prep nounsg verbpressg adj
+verbpressg nounpl prep nounsg
+nounpl verbinf prep nounsg
+pronpers det__poss nounsg nounsg
+nounsg verbpressg det__indef nounsg adv prep nounsg nounpl
+nounpl verbprespl nounpl verbpastpl verbinf
+adj nounsg prep nounsg
+nounsg nounsg nounsg verbpapa
+adj nounsg verbpressg adv det__art nounsg
+num__card nounpl conjsubo det__poss nounsg adv partte verbinf verbinf
+nounsg adj nounpl verbpressg adv partte verbinf
+nounsg verbpressg det__indef nounsg
+nounsg verbpressg nounsg prep adj nounsg
+nounsg conjcoord nounsg prep nounsg verbprespl det__poss nounsg verbpapa
+adj nounsg verbpressg adj nounsg
+det__art adj nounsg pronadv verbpressg pronpers pronadv prep
+nounpl verbprespl num__card prep nounsg
+num__card num__card nounpl verbprespl adv nounpl
+nounsg nounsg nounsg nounsg verbpressg
+prep adj nounsg num__card prep num__card nounpl
+adj nounsg prep nounsg
+nounpl verbprespl det__art nounsg
+nounabbr nounprop verbpressg adv prep nounsg
+nounsg adj nounsg nounsg prep nounpl
+nounsg nounsg prep nounsg prep nounsg prep prep
+prep nounsg prep adj nounsg nounsg adv adj verbprespl
+nounsg prep nounsg adj verbpapa
+nounsg prep det__art adj nounpl
+partte num__card nounpl prep adj nounsg
+adj nounpl prep nounsg num__card nounpl
+adv adv nounsg prep nounsg prep nounsg
+nounsg verbpressg adv num__card nounsg prep nounpl nounsg nounprop
+nounsg nounsg verbpressg nounsg prep nounsg
+adv adv nounpl prep det__art nounsg
+num__card prep num__card nounpl verbpressg nounsg prep
+nounsg nounsg prep nounprop adj
+nounpl verbpressg adj nounsg prep nounpl
+nounsg nounabbr nounsg
+nounsg verbpressg prep nounprop det__art adj
+nounsg nounpl verbpressg prep nounsg
+nounsg verbpressg nounsg nounsg
+adv verbpressg det__art nounsg prep det__art nounsg
+adj nounsg verbpressg adj nounsg
+nounabbr nounsg prep nounprop det__art adj verbpapa
+adj nounpl adj prep nounsg
+adv adv nounpl conjsubo nounsg prep det__art nounsg
+nounsg prep adj verbpressg det__indef nounsg prep nounsg
+nounsg verbinf prep nounsg adj
+nounpl verbprespl nounsg nounsg adj
+num__card nounpl conjsubo det__poss nounsg adv partte verbinf verbprespl prep det__poss nounsg
+nounprop adv adj prep nounsg
+det__indef nounsg prep adj nounsg
+nounsg verbpressg nounsg prep adj nounsg
+nounsg verbpressg adv prep nounsg prep nounpl
+nounsg nounsg
+nounsg num__card nounpl conjsubo det__poss nounsg partte verbinf
+nounsg verbpapa nounsg verbpressg nounpl prep pronindef partte verbinf
+nounpl nounsg nounpl conjcoord adj nounsg
+nounsg verbpressg nounsg nounsg prep
+nounsg nounsg
+nounsg verbpressg adj nounsg prep nounsg
+nounsg prep nounsg prep adj nounsg
+nounsg verbpressg prep adj nounpl
+adj verbpressg nounsg prep nounsg adv partte verbinf
+nounsg verbinf conjcoord verbpapa nounpl prep adj nounpl
+prep adj nounsg verbprespl det__indef nounsg prep nounsg
+det__art nounpl verbprespl adv det__art adj
+nounsg num__card nounpl num__ord nounsg adj nounpl adj adj nounsg nounsg
+nounsg nounpl prep nounpl
+adj verbpapa conjcoord adv prep nounsg nounsg verbinf adj
+adv nounsg adj prep nounsg nounsg
+nounsg verbpressg num__card nounpl
+partte num__card nounpl adj nounsg nounpl verbpastpl adv nounsg verbprespl verbinf prep det__art nounsg prep det__poss nounsg
+verbpressg adj nounsg prep nounprop nounprop verbpressg det__art adj nounsg prep nounprop det__art nounsg prep det__art nounsg
+adj nounsg adj nounsg nounsg verbpressg prep num__card nounprop det__art adj nounsg prep det__art adj nounsg adj
+nounsg nounsg nounsg nounsg nounsg verbpressg det__poss nounsg prep num__card prep num__card nounsg verbinf verbinf prep num__card nounsg
+adj nounsg nounsg nounpl pronrel adv prep det__art nounpl verbinf verbinf adv adj nounsg prep det__poss nounsg
+nounabbr verbpressg nounprop adv prep nounprop nounsg nounprop verbpressg nounprop adv prep nounprop conjsubo verbpapa nounsg
+adj nounsg nounsg nounsg verbpressg adv prep det__art nounsg prep det__art nounsg prep nounsg nounsg verbpressg det__art nounsg
+adj nounsg nounsg nounsg verbpressg adv prep det__art nounsg prep det__art nounsg prep nounsg nounsg verbpressg det__art nounsg
+nounsg num__card nounsg nounsg nounsg det__art adj nounsg verbpressg nounprop prep det__art nounsg prep nounprop num__card nounsg nounsg nounsg
+nounpl adv nounsg det__art adj nounsg nounprop verbpressg det__art adj nounsg pronrel prep num__card nounsg
+adj nounsg verbpressg adj nounsg prep nounprop adj nounsg verbpressg prep det__art adj nounsg prep det__art nounsg nounabbr
+nounsg prep nounsg adv verbpapa nounsg verbpressg nounsg prep nounsg adv verbpapa prep det__art nounsg prep nounsg num__ord
+nounpl verbprespl num__card nounpl det__art nounsg verbpressg prep det__art nounsg prep num__card nounpl adj num__card nounpl prep nounsg
+nounsg verbpressg adv prep nounpl nounprop det__art nounsg verbpressg nounprop verbpapa prep det__art nounpl prep nounprop
+nounpl nounprop verbpapa det__indef nounpl prep det__art num__card nounsg nounpl pronadv prep det__art adj nounpl
+nounsg nounsg adv prep nounprop adj nounsg nounsg verbpressg adv det__indef nounsg adv prep det__art nounsg
+det__art nounsg verbpressg adv adv verbprespl det__art nounsg nounsg prep nounpl prep nounprop conjcoord nounprop verbpressg num__ord
+nounsg adj nounsg nounprop nounsg conjcoord det__art adj nounsg nounsg verbinf prep nounprop
+adj nounsg verbpressg prep nounsg nounsg adj nounsg verbpressg pronadv nounprop adv prep adj det__art num__ord nounsg prep det__art nounsg
+nounsg prep num__ord adj nounpl nounpl verbprespl verbpapa nounsg adv conjsubo det__art nounsg prep det__art num__ord nounsg
+nounsg verbpressg adj nounpl nounsg verbpressg adj nounsg adj nounpl pronadv
+adj nounsg adv nounprop verbpressg prep nounsg conjcoord verbpressg num__card adj adj nounpl prep det__art nounsg
+nounsg verbpressg det__indef nounsg prep nounprop det__art nounsg prep adj nounpl verbpressg det__indef nounsg prep int
+adj nounsg adv conjsubo adj det__art verbpressg conjsubo nounsg conjsubo prep det__art nounsg det__art nounsg partte verbinf conjcoord prep det__art adj adv det__art nounsg
+nounsg prep nounprop nounpl adj prep det__art adj nounsg nounsg nounsg verbinf nounprop nounprop det__art nounsg
+nounsg verbpapa prep nounsg prep det__art nounsg prep det__art adj verbpressg det__art nounsg nounsg prep nounsg verbpapa prep det__art nounsg
+adj nounsg num__ord prep nounsg adj nounsg verbpressg num__ord verbpapa prep det__art nounsg prep det__art nounsg
+nounsg verbpressg prep nounpl det__art adj nounsg prep det__art nounsg conjcoord det__art nounsg verbpastsg prep det__art nounsg nounsg
+nounsg adj nounsg nounabbr nounprop nounprop verbpressg adj nounsg adv adv adj conjsubo nounsg prep nounsg nounprop verbpapa conjsubo nounsg
+nounsg adj nounsg nounsg adj nounsg nounsg verbpastsg prep nounsg nounsg prep det__art nounsg
+nounsg verbpressg prep nounsg num__ord nounsg nounsg nounprop nounprop verbpressg nounprop prep det__poss nounsg nounpl pronadv verbpressg pronpers
+nounpl adj prep det__art nounsg adv num__card nounsg prep det__art adj nounpl prep det__art conjcoord num__card nounsg verbpressg nounsg
+nounsg prep adj nounabbr prep num__card nounprop verbpressg pronadv prep det__art adj nounabbr det__art adj nounsg det__art nounsg
+adj nounpl verbprespl adj nounsg adv adj nounpl verbprespl adj nounsg conjsubo nounsg
+int int nounsg nounsg verbpapa int int nounsg nounsg verbpressg prep det__art nounsg verbpapa pronpers verbpressg prep det__art num__ord nounsg
+nounsg nounsg adv verbpapa prep nounsg det__art adj nounsg nounsg verbpressg nounprop verbpapa conjsubo pronpers adv verbpapa
+adj conjcoord adv nounpl pronrel det__art adj adj nounsg nounsg verbpressg det__art verbpresp nounsg verbprespl nounsg verbinf conjsubo pronpers
+nounsg nounsg verbpressg adv prep nounsg nounprop nounsg verbpressg det__poss nounsg prep nounsg nounsg num__ord
+nounsg verbpressg adv adj verbpapa adv nounsg verbpressg det__art adj nounpl verbpapa
+nounsg verbpressg nounsg nounprop det__art adj nounsg verbpressg nounsg verbpressg adv det__art nounsg prep det__art num__ord
+num__card num__card nounpl prep nounsg verbpapa nounsg nounsg verbpastsg det__art num__card nounsg num__card nounpl conjcoord det__art nounsg conjsubo num__ord
+nounsg verbpressg verbinf nounprop det__art nounsg prep adj nounpl verbpressg prep nounsg det__indef nounsg prep num__ord
+nounsg nounsg nounsg nounsg verbpressg det__art nounsg prep det__art nounsg prep det__art adj nounsg nounsg nounsg verbpressg prep
+nounsg nounprop adj nounsg nounsg verbinf conjsubo det__art nounsg prep det__art nounsg prep nounprop nounprop adj nounsg partte adj
+nounsg nounsg nounsg nounsg nounprop verbpressg nounprop adv adv adv partte verbinf prep det__art nounsg det__art adj nounsg
+nounsg verbpressg verbpressg prep nounsg nounsg nounsg verbpressg nounprop verbpapa prep det__art num__ord nounsg prep det__art nounpl
+nounpl adj nounsg verbpapa prep det__art nounsg prep det__art adj nounsg prep nounsg verbpressg adj verbpapa pronadv verbprespl det__indef nounsg
+nounpl verbpressg nounpl pronrel nounpl det__art nounpl prep det__art nounsg
+det__art nounpl prep adj nounsg prep det__art nounsg nounsg prep nounprop det__poss adj nounpl nounsg
+nounabbr conjcoord nounsg verbinf verbpressg prep nounprop adj prep det__indef nounpl det__demo nounsg prep det__art nounpl nounsg conjcoord det__art nounprop adj
+nounsg prep nounprop det__art nounsg prep nounprop verbpressg nounprop prep num__card nounpl det__art nounsg verbpapa conjsubo
+adj nounsg verbpressg num__card nounsg adj det__art adj verbpressg conjsubo verbpresp nounsg adj verbpastsg verbpastsg det__art nounsg partte verbinf num__ord
+det__art adj nounsg conjcoord det__indef nounsg nounsg verbpressg adv nounsg prep pronpers nounsg conjcoord pronindef verbinf prep det__art nounsg
+nounsg verbpressg nounsg prep nounsg nounpl prep nounsg adj adj adj nounsg nounsg nounsg
+adj nounpl verbinf verbpressg nounpl prep nounsg nounsg verbprespl num__card nounsg verbprespl verbinf
+nounpl verbpastpl prep nounsg det__art num__card nounpl prep nounsg nounsg verbprespl num__card nounsg verbprespl verbinf prep
+nounsg verbpressg pronrel prep det__art adj nounsg verbpressg prep det__art nounsg prep adj adj nounsg nounsg
+num__card nounpl prep nounsg adj nounsg verbpastpl adv num__card nounpl pronrel adv det__art nounsg prep det__poss verbpapa prep det__art nounsg
+nounsg verbpressg nounsg adv det__art adj nounsg verbpressg prep det__art nounsg prep adj adj nounsg
+nounsg nounsg verbpressg adj det__art prep det__art adj nounsg verbpapa nounsg nounsg verbpressg adv adj det__art nounsg pronrel pronpers verbpastsg pronpers
+adj adj nounsg verbpressg nounsg det__art num__card nounpl prep nounpl prep det__art nounsg verbprespl det__art nounprop prep nounprop
+adv verbpapa nounpl prep nounsg num__card nounpl prep adj verbpressg conjcoord nounsg verbprespl prep det__art nounsg prep nounprop prep nounsg
+nounsg nounsg nounsg prep nounsg adj nounsg nounsg adj nounsg verbpressg adv prep det__poss nounsg nounpl nounsg prep
+nounsg adj nounpl prep nounprop prep nounsg det__art nounsg prep adj nounpl prep nounprop prep nounprop verbpressg nounsg adv det__art nounabbr
+adj nounpl prep num__card prep nounsg det__art num__ord adj nounsg verbpressg prep num__card prep det__art nounsg adv conjsubo det__art nounsg
+adj adj nounsg verbpressg nounsg nounsg adj nounsg verbpressg adv nounsg conjcoord verbpressg adj nounsg adj nounpl pronpers adj
+adj nounpl adj prep nounsg nounpl conjcoord nounpl verbprespl prep det__art nounsg prep nounprop nounsg
+nounsg prep num__card det__art nounsg verbpressg adj adj conjcoord det__art adj adj nounsg prep verbpressg
+nounpl nounsg prep nounsg prep nounsg det__art nounpl prep adj nounpl verbpastpl prep nounsg prep det__art nounsg
+nounsg adj nounsg det__art adj nounsg verbpressg det__demo nounsg num__card nounpl prep nounsg nounsg
+nounsg prep nounsg nounsg det__art nounsg verbpapa nounsg verbpressg nounprop det__art nounsg prep nounsg adj adj nounpl
+nounsg nounsg nounsg verbpressg nounprop prep det__art nounsg prep nounprop nounprop adj adv verbinf prep nounsg
+prep det__art nounsg nounsg prep nounsg adj nounsg nounsg prep det__art nounsg verbpressg nounsg prep det__art nounsg
+nounsg num__card prep num__card nounpl verbpapa nounpl prep nounprop verbprespl nounprop det__art nounsg conjcoord det__art nounsg verbpresp prep det__art nounsg
+nounpl verbprespl num__card partte verbpressg det__art nounsg prep det__art adj verbinf prep num__card prep nounprop verbpressg adj nounsg
+verbprespl verbpapa prep nounsg prep nounprop det__poss nounpl conjcoord nounpl verbpapa prep nounsg adj prep nounsg
+nounprop nounsg adj nounprop verbpressg nounprop det__art nounsg prep nounsg nounpl prep nounprop conjsubo adj
+num__card nounpl verbpapa nounpl verbprespl prep det__art nounsg prep nounprop prep adv adv num__card nounpl verbpapa nounsg
+adj nounsg conjcoord nounsg verbprespl nounsg nounsg conjcoord adj nounsg verbinf prep det__art nounsg prep det__poss nounsg prep nounsg partte
+nounsg verbpapa nounsg nounsg det__art adj nounsg nounsg verbpressg nounprop det__art nounsg prep nounsg
+num__card adj nounpl prep nounsg nounsg verbpressg prep det__art adj nounsg prep num__card nounprop num__card nounpl nounsg
+nounsg nounprop verbpressg verbinf det__art adj nounsg nounsg verbpressg prep adj nounsg verbpapa conjsubo pronpers
+adj nounsg nounprop nounprop verbpressg adj prep det__art adj nounsg pronadv verbprespl adv num__card
+det__art adj nounsg nounsg nounsg nounprop det__art adj nounsg prep det__art nounsg verbpastpl num__card pronrefl adv verbinf verbpressg
+nounsg prep nounsg verbpapa adv verbpressg det__art nounsg prep nounsg verbpapa prep det__art nounsg nounsg prep nounsg
+nounsg verbpressg nounsg nounsg nounsg verbpressg det__poss nounsg verbpapa prep det__art num__ord
+nounsg verbpressg nounsg prep det__demo nounpl adv nounpl det__art adj nounsg prep det__art nounsg prep adj
+nounsg prep det__art adj nounsg nounprop verbpressg verbpapa prep det__art adj nounsg nounsg nounsg
+nounsg nounsg verbpressg adj det__art nounpl prep nounsg nounsg verbinf nounprop adj nounsg nounsg nounsg nounsg
+nounsg verbpressg nounsg adj prep det__art nounsg verbpressg adv prep det__art adj nounsg prep nounsg nounsg
+adj nounsg nounsg verbpressg nounsg nounsg det__art nounsg prep nounsg adj nounsg pronrel pronrefl adj verbpressg nounsg
+nounprop nounsg prep det__art nounsg nounpl verbprespl adj nounsg prep det__art adj nounsg prep nounprop det__art adj nounpl
+nounsg verbpressg prep det__art adj nounsg nounsg verbpressg verbpressg nounprop adj verbpapa conjsubo pronpers adv partte adj verbpastsg verbinf
+nounsg verbpressg adj prep det__art prep nounsg verbpressg adv verbpapa prep det__art nounsg adj nounsg verbpressg adj nounsg prep det__art nounsg
+adv adj nounpl prep adj nounsg det__art adj nounsg verbpressg nounprop adv adj prep conjsubo det__art nounsg
+nounpl adv prep adj nounpl nounpl nounsg pronpers verbpastsg det__art adj nounsg prep adj nounpl prep det__art nounsg
+nounsg nounabbr verbinf verbpressg adv prep adj adj nounsg verbpressg prep det__art nounabbr prep adj nounpl adj
+adj nounsg adv adv prep det__poss nounsg nounsg adj nounsg verbpastsg pronadv adv conjsubo nounsg num__ord
+nounsg nounpl nounsg adj adv prep nounprop det__art num__card num__card adj nounsg prep adj nounsg nounpl nounsg verbpressg prep
+nounsg adv det__indef nounsg adj nounsg adj nounsg prep nounsg verbpressg pronpers conjsubo det__art nounsg adj nounsg
+nounsg prep prep nounsg det__art adj nounsg prep det__art nounsg verbpressg adj nounsg adv adv verbprespl det__art nounsg
+adj nounsg prep nounsg adj nounsg verbpressg prep num__card det__art nounsg verbpapa prep num__card nounsg prep det__art nounsg
+pronrel verbpressg nounsg pronpers verbpressg num__card nounsg adj conjcoord verbpressg det__art adj nounsg verbpapa pronadv pronpers num__card prep nounsg num__ord
+nounsg nounsg det__art nounsg verbpressg conjsubo det__art nounsg prep det__art nounsg prep adj nounsg
+nounsg prep adj nounpl adv adv adj pronpers verbpressg prep det__art adv prep det__poss nounsg nounpl prep nounsg nounsg
+nounsg prep nounsg prep nounsg adj nounsg nounsg pronrel prep adj prep det__art adj nounsg verbpressg partte verbinf nounsg
+nounsg prep det__art nounsg adj nounsg nounsg adj nounsg verbpressg det__indef nounsg prep det__art nounsg conjcoord pronindef verbpressg det__art nounsg
+nounsg adv nounsg prep det__art nounsg verbpressg pronpers adv conjsubo nounsg conjcoord nounsg det__art nounpl prep pronquest det__art nounsg
+nounsg prep nounprop num__card nounsg prep det__art nounsg verbpressg det__art nounpl conjsubo det__art adj nounsg nounprop
+nounpl verbprespl adv verbpressg pronpers verbpressg pronadv adv prep nounsg conjsubo nounpl prep det__poss nounsg adj nounsg verbinf conjcoord nounpl
+nounsg verbpressg prep nounsg det__art nounsg verbpressg nounprop adj nounsg det__art adj nounsg
+adj nounsg nounsg prep nounsg num__card prep det__art nounsg nounsg num__card verbpressg nounprop det__art nounsg verbpapa nounsg
+nounprop verbpressg nounsg nounsg det__art nounsg prep nounsg conjcoord nounpl prep nounprop verbpressg det__art nounsg
+nounsg verbpressg nounsg adv adj nounsg verbpressg det__art nounsg verbpapa conjsubo nounsg
+nounsg conjcoord nounpl verbinf det__art nounsg nounsg nounsg conjcoord det__art nounsg adj nounpl verbinf prep num__card nounpl prep det__art nounsg num__ord
+nounsg prep nounsg nounprop nounprop verbpressg adv adv verbpapa prep det__art nounsg prep det__art nounsg prep nounprop pronrel
+nounprop adj prep nounsg nounprop nounprop verbpressg adv adv verbpapa prep det__art nounsg prep det__art nounsg nounsg
+nounsg nounprop verbpressg adj nounsg nounprop verbpressg pronrefl prep nounsg adj nounsg nounsg verbpapa conjsubo pronpers det__demo nounsg
+nounsg nounsg verbpastsg adj nounsg nounsg verbpressg verbpapa pronadv pronpers pronrefl adv verbpressg prep nounpl prep adj nounsg
+nounsg adv prep nounprop nounsg verbpressg nounsg prep adj nounsg adv det__art nounsg verbpapa prep det__art nounsg
+adj nounsg verbpressg nounsg adj nounsg verbpressg adv det__art adj nounsg verbpapa prep nounsg prep det__art nounsg
+nounsg prep adj nounsg pronpers verbpressg adj nounsg conjcoord nounsg nounsg adv adv det__art nounsg verbinf
+nounsg verbpressg nounpl nounabbr verbinf adj nounpl pronrel prep det__poss adj nounsg det__art nounsg verbinf verbinf nounpl
+nounsg prep nounpl det__art adj nounsg verbpressg nounprop num__card nounsg nounpl verbpapa prep nounsg
+verbpresp nounpl verbprespl adv prep nounsg prep nounprop verbprespl det__art nounpl verbpapa prep nounpl nounsg
+adv det__art nounsg nounsg adj verbpressg det__art adj nounpl num__card nounsg nounsg prep nounsg verbinf prep det__art nounsg
+adj nounsg prep nounprop nounprop verbpressg nounsg prep det__art adj nounsg det__art adj nounsg nounsg
+nounsg verbpapa nounsg adj nounsg verbpressg nounprop prep det__art num__ord nounsg prep det__art adj verbpapa verbpressg
+nounpl verbpressg prep adj nounsg nounpl verbpressg adv adj nounsg verbpressg prep det__art nounsg prep nounsg det__art nounsg prep nounprop
+nounprop nounpl prep nounsg nounprop nounprop nounpl verbpressg pronrefl verbpapa prep nounsg prep det__art nounsg verbpressg prep nounprop prep nounsg
+nounsg verbpressg nounsg prep nounsg nounsg prep nounsg verbpressg nounprop verbpapa prep det__art nounsg conjsubo nounsg prep nounsg
+nounsg nounpl nounsg verbpressg num__card nounsg adj det__art nounsg pronrel pronpers verbpastsg conjsubo det__art nounsg prep nounpl prondemo
+nounsg prep nounsg nounsg det__art nounpl prep nounpl prep det__art num__card nounpl verbprespl det__art nounprop adj num__ord
+nounsg det__indef adj nounsg det__art nounpl prep det__art adj nounsg nounsg num__card nounpl nounsg
+nounsg verbpressg adv prep nounsg adj adj nounsg verbpressg adj verbpapa prep nounsg prep det__art nounsg nounpl det__art nounsg
+nounpl verbpressg nounsg nounprop nounsg nounpl verbpressg det__art nounsg prep
+nounsg nounsg prep nounsg nounsg nounsg verbpressg nounprop verbprespl prep det__art nounpl verbpressg
+nounsg nounsg adj nounsg prep num__card det__art nounsg nounsg adj nounsg verbpressg det__art nounsg det__art num__ord nounsg conjsubo nounsg adj nounsg
+nounsg prep nounprop nounprop det__art adj nounsg nounsg nounpl verbpressg prep nounsg verbinf verbinf conjsubo det__art nounsg conjcoord det__art nounsg
+nounsg adj nounsg verbpressg nounsg nounsg verbpressg adj det__art num__ord nounsg verbpressg prep det__art nounsg
+adj nounsg adv prep nounprop adj nounsg verbpressg adv prep nounprop prep num__card nounpl adj nounsg partte verbinf
+nounsg verbpressg nounsg verbinf det__art num__card adj adj nounpl nounsg nounprop conjcoord nounprop adj
+adj nounsg prep adj nounpl det__art adj nounsg verbpressg det__art nounsg prep nounsg adj verbpapa
+adj nounsg prep nounprop verbpressg pronrefl det__art nounsg prep nounprop adj nounsg prep pronquest pronindef adv verbpastsg verbpapa
+adj nounsg verbpressg nounsg adv verbprespl nounsg adj nounsg verbpressg det__art nounsg prep det__poss verbpresp nounsg nounsg
+nounsg verbpapa prep det__art nounsg prep nounpl conjcoord nounpl verbpressg adj nounsg
+nounsg verbpressg num__card prep num__card nounpl adj det__art nounsg verbpressg nounprop num__card prep num__card nounpl adj verbpressg nounsg
+nounsg nounsg prep det__art nounsg prep nounprop det__art adj nounpl verbpastpl nounprop prep det__art adj nounsg prep det__art nounsg prep
+nounsg adv prep adj adj nounpl adj adj nounpl conjsubo prondemo prep nounpl conjcoord prep det__art nounsg verbinf nounsg
+nounpl nounsg adv nounsg prep num__card nounabbr det__art num__ord nounsg prep det__art nounsg prep nounpl prep det__art nounsg prep nounsg
+nounpl nounpl prep nounsg prep nounprop det__art nounpl prep adj nounpl conjsubo nounsg nounsg nounsg nounprop conjcoord nounsg
+nounpl adv prep nounpl verbpapa nounpl verbprespl adv prep nounsg prep det__indef adj nounsg
+nounpl prep nounsg verbpapa det__art nounsg verbpressg nounprop num__card nounpl conjcoord det__art nounsg prep nounsg nounsg prep
+nounsg verbinf nounsg verbpapa adj nounpl verbprespl det__art nounsg verbpapa prep det__art adj nounsg prep nounsg
+adj nounsg prep nounsg prep nounsg det__art nounsg prep det__art nounsg num__card nounsg verbpressg adv adj prep nounsg
+nounsg adj verbpressg adv prep adj nounsg nounsg adj verbpressg pronrefl adv adv adj nounsg pronrel nounsg verbpastsg
+nounsg adj verbpressg nounpl adj nounsg nounsg adj verbpressg pronrefl adv adv adj nounsg pronrel nounsg verbpastsg
+nounsg nounsg verbpressg nounsg nounsg nounsg nounsg det__art nounsg verbpastsg prep num__card nounpl prep det__art adj nounsg
+adj nounsg verbpressg nounsg det__art adj nounsg nounsg conjcoord adj adj adj nounpl verbprespl det__art nounsg
+adj nounpl nounpl nounsg det__art adj nounsg nounsg conjcoord adj adj adj nounpl verbprespl det__art nounsg
+nounsg nounsg verbpastsg verbinf nounsg conjcoord nounsg adj nounsg num__card verbpastsg prep det__art num__ord nounsg
+nounsg verbpressg nounsg adj adj nounsg verbpressg pronpers prep det__art nounsg prep nounsg prep num__card nounprop adj
+nounpl verbpapa det__art nounpl pronrel nounsg nounsg prep det__art nounsg nounsg nounsg verbprespl verbpapa det__art
+adj adj prep adj adj nounsg verbpressg adv verbpapa conjsubo det__art adj adj nounsg adv adv det__art nounsg
+adj adj prep nounsg adj adj nounsg verbpressg adv verbpapa conjsubo det__art adj adj nounsg adv conjcoord num__ord
+adj nounsg prep nounprop adj nounpl prep nounprop adj verbpastpl nounprop adv conjsubo adv prep det__art nounsg nounsg
+nounpl prep nounsg prep det__art num__ord nounsg prep det__art nounsg nounsg prep nounprop verbpressg det__art adj
+verbpressg nounpl adj nounsg nounsg nounsg verbpressg nounpl verbpressg det__art nounsg prep det__poss adj nounsg verbpapa
+adj nounpl verbinf adj nounpl prep det__art nounsg prep det__art adj nounsg prep det__art verbpapa nounpl
+verbpressg nounpl adj nounsg nounsg nounsg verbpressg nounpl verbpressg det__art nounsg prep det__poss adj nounsg verbpapa
+nounsg nounsg verbpressg det__art adj nounsg nounprop adj nounpl pronadv det__art nounabbr prondemo verbpressg verbpapa prep nounsg
+adv num__card num__card adj nounsg verbpastsg det__art nounsg prep det__art adj nounsg prep det__art nounsg verbpressg det__art adj nounsg adj
+adv adj nounpl nounprop prep nounprop det__poss nounprop prep nounpl prep det__art nounsg prep nounsg nounsg nounprop adj
+nounsg verbpressg nounsg prep nounsg nounsg nounsg prep nounsg nounsg verbpressg nounprop adv nounsg verbpapa prep det__art nounsg
+int adj nounsg nounsg verbinf nounsg nounsg verbpressg prep det__art nounsg prep det__art nounsg prep det__art adj nounsg verbpapa conjsubo pronpers
+nounsg verbpressg adv prep nounsg nounprop det__art nounsg verbpressg det__art nounsg prep nounsg verbpapa conjcoord det__art nounsg conjsubo det__art nounsg
+adv nounpl verbprespl adj verbpressg det__art adj adj nounpl adj nounsg verbpressg verbinf conjsubo nounsg
+nounsg pronpers verbpressg verbpressg det__art adv adv adj nounsg nounsg verbpressg det__art nounsg prep det__poss nounsg verbpressg prep nounsg
+nounsg adj prep nounsg prep nounsg prep nounsg prep nounsg verbpressg det__art adj prep adj nounpl conjsubo partte nounsg
+adj nounprop adj nounsg verbpastsg det__art adj nounsg prep adj nounpl adj nounsg det__art nounsg num__ord
+nounpl prep num__card nounabbr adj det__art adj nounsg verbpressg nounprop prep nounprop num__card nounsg nounpl nounsg
+adv nounpl verbprespl adj verbpressg det__art adj adj nounpl adj nounsg verbpressg verbinf conjsubo nounsg
+nounsg verbpressg adj nounsg det__art nounsg verbpastsg adv adj prep det__art adj nounpl verbprespl verbpapa prep det__art nounsg num__ord
+nounsg nounpl det__art nounpl prep nounsg nounprop nounprop conjcoord nounsg verbinf prep det__art nounsg
+nounsg verbpressg prep det__art adj nounsg verbinf verbprespl adv adv det__art adj adj nounsg verbinf nounsg nounsg verbpressg prep
+adv nounsg adj nounpl det__art nounsg nounsg verbpressg nounpl verbprespl prep det__art nounsg prep det__art nounabbr
+num__card nounpl nounsg prep nounprop det__art nounsg prep adj nounpl verbpressg adv adv pronindef verbpapa prep num__card prep nounsg
+nounsg adj prep nounsg prep prep nounsg adj nounsg verbpressg det__art nounsg verbpapa prep nounsg
+nounsg det__indef nounsg det__art nounsg prep nounpl verbpressg det__indef adj nounsg prep det__indef nounpl det__art nounsg
+nounabbr verbpressg adj prep nounprop det__art adj nounpl verbprespl det__demo nounsg adj nounsg prep det__art nounpl
+verbpapa det__poss nounsg nounpl prep pronpers nounsg prep pronindef prep det__art nounsg adv verbpastsg pronpers partte adj conjsubo det__poss nounsg partte
+nounpl nounsg verbinf prep nounpl pronrel nounsg verbprespl prep det__art adj nounsg nounsg nounsg verbprespl adv adj prep
+nounsg det__indef nounsg nounsg adj adj prep nounprop adv nounsg prep det__art nounsg verbpastsg
+adj nounsg verbpressg nounsg verbprespl nounpl conjcoord nounpl verbprespl prep nounprop num__card nounprop prep nounprop prep nounsg num__ord
+nounpl adj nounpl conjsubo nounpl pronadv verbprespl pronpers nounsg nounpl adj prep det__art adj nounsg prep
+adj nounsg verbpressg prep nounsg pronadv verbpressg det__art adj nounsg verbpressg partte verbinf prep det__art adj adj
+nounpl verbprespl nounpl adv det__art nounsg prep nounprop nounprop verbpressg adj det__indef nounpl
+adj nounprop adj nounsg nounsg nounprop nounsg verbpressg conjsubo num__card nounpl adj verbprespl det__poss nounsg
+nounsg nounpl verbpapa det__art adj nounsg nounsg nounsg verbpressg adj adv prep det__art adj nounsg
+det__art adj nounsg pronrel adv conjsubo pronpers adj nounsg verbpressg prep det__art adj conjcoord adj adj nounsg adv verbpressg conjsubo
+nounsg verbpressg prep nounsg adj nounsg det__art adj nounsg prep nounprop verbpressg nounsg nounsg
+nounsg verbpressg nounpl nounsg prep nounsg det__art nounsg prep nounsg nounsg verbpressg det__art nounsg
+nounsg verbpressg adv adj det__art nounsg prep nounprop conjcoord nounprop verbpressg nounpl nounpl adj conjsubo
+nounsg verbpressg prep det__art nounsg adj nounsg prep nounsg verbpastsg det__art nounsg nounsg prep det__art nounsg adj adj prep nounsg
+nounsg nounsg prep num__card nounsg adj adj verbpapa conjsubo det__art adj nounsg prep det__demo nounsg prep det__art nounsg verbpastsg nounsg
+adj nounsg prep nounsg adj nounsg det__art nounsg prep det__art adj adj nounsg verbpressg prondemo adj nounsg
+nounpl verbprespl adv prep nounsg adj nounsg nounsg verbpastsg det__art nounsg prep det__poss nounsg adv verbpastsg conjsubo num__card nounpl verbprespl nounsg
+nounsg prep nounpl verbpressg adj det__art nounsg verbpapa prep nounsg prep nounpl verbpressg adj nounsg nounsg
+nounsg prep nounpl adj nounpl pronrel prep det__art nounpl verbprespl verbpapa verbprespl nounsg prep nounpl
+adv nounsg prep nounsg det__art nounsg prep det__art nounsg prep det__art nounsg nounsg nounprop prep det__art num__ord
+prep adj nounsg num__card prep num__card nounpl prep nounsg nounsg verbprespl det__art adj nounpl num__card prep adj
+nounsg verbpressg nounsg partte nounsg adj nounsg verbpressg det__art adj nounsg conjsubo nounsg nounprop prep det__art adj nounsg adv
+nounpl verbpapa prep nounsg verbpressg num__card nounpl verbprespl nounprop verbpapa conjsubo pronpers verbpastpl partte verbinf conjsubo det__art nounsg prep
+nounsg nounpl nounpl nounpl prep det__art nounsg prep nounprop verbprespl nounprop det__art nounsg prep nounsg
+nounpl prep nounsg nounsg num__card det__art verbpressg pronadv conjsubo det__art nounsg num__card nounsg verbpressg prep nounpl adj nounpl nounsg
+nounprop adj nounpl verbprespl prep nounpl nounprop verbpressg verbpapa det__art num__card nounsg adj nounpl nounsg
+nounsg nounsg nounsg verbpressg adj nounsg adj nounprop adj nounsg nounsg nounsg verbpressg prep det__art nounsg verbprespl pronadv nounabbr
+nounsg verbpressg nounprop prep nounpl nounpl det__art adj nounsg verbpressg nounprop num__card nounpl pronadv nounsg
+nounpl prep nounsg prep adj nounsg prep det__art adj nounsg verbpastsg det__art adj nounsg nounprop prep det__art nounsg adv adj
+nounsg verbpressg nounsg nounsg det__art adj nounsg prep det__art nounsg det__art nounsg verbpressg nounprop det__art nounsg prep det__art nounsg nounsg
+nounsg adj nounpl verbpapa nounsg verbpressg adv adj conjsubo adj nounpl nounsg
+adj nounsg verbpressg nounsg adj nounsg verbpressg det__art adj nounsg adj det__demo nounsg
+adj adv nounsg verbpastsg prep num__card adj nounsg verbprespl prep det__poss nounsg adj adv nounsg verbpastsg conjsubo det__art nounsg adj det__art
+nounsg verbpressg adv nounpl prep nounprop det__art nounsg prep det__art nounsg pronrel adj nounpl prep det__art nounabbr
+nounprop nounsg nounprop verbpressg adj nounpl adj nounsg verbpressg nounprop prep nounsg prep nounprop det__poss nounsg
+nounpl verbprespl prep nounsg nounpl nounpl verbprespl nounprop prep nounprop verbpapa prep nounsg conjcoord nounsg
+nounsg conjcoord nounsg prep nounsg nounprop verbinf prep det__art nounsg prep nounprop det__poss nounprop verbpapa prep adj nounpl
+nounsg pronadv verbprespl prep det__demo nounpl pronrel pronpers adv det__indef nounsg verbpressg prep nounsg adv verbpressg pronpers advabbr adj nounsg prep adv num__ord
+prep adj nounpl det__indef nounsg verbprespl pronpers adv prep det__art nounsg prep det__art adj nounsg pronrel adv prep det__art nounsg
+nounsg prep nounprop verbpressg prep num__card nounpl nounsg prep num__card nounpl prep adj nounsg prep nounsg prep det__art nounsg adv
+nounsg verbpressg adv prep num__ord nounsg nounsg nounsg verbpressg adv prep det__poss adj nounpl
+verbpressg nounsg det__poss nounsg verbinf nounsg nounsg verbpressg adv det__indef nounsg det__poss nounsg nounpl pronrel prep nounprop verbpressg prep nounsg
+pronquest verbpressg pronadv adj nounsg nounsg adv verbpressg det__art nounsg prep nounpl conjcoord adv nounsg nounsg adj nounpl nounsg
+nounprop verbpressg nounsg nounprop verbpressg det__art nounsg prep det__art adj nounsg nounprop verbprespl nounsg
+nounsg verbpressg nounsg nounsg adj nounsg verbpressg det__art nounsg nounsg nounsg verbpapa prep
+nounsg verbpressg nounsg det__art nounpl prep det__art nounsg prep det__poss nounsg verbinf verbinf verbpapa prep nounsg num__ord
+nounsg adj adj prep nounabbr nounsg nounsg nounsg verbpastsg prep nounsg prep adj nounsg det__art nounsg num__card
+nounsg nounsg verbpressg adj nounsg prep det__art num__ord nounsg verbpastsg nounsg adv adv verbpapa prep nounsg
+nounabbr conjcoord nounsg verbinf adj nounsg nounsg nounprop conjcoord nounsg adj verbprespl det__art adj nounsg
+nounsg verbpressg nounsg adv adj nounsg verbpressg adv adj prep det__art nounsg prep nounsg nounsg det__art nounsg nounsg
+nounpl prep num__card nounpl det__art nounpl prep det__art adj nounsg nounsg num__card nounpl det__art prep det__art prep adj nounsg
+nounsg prep nounsg det__art adv adv adj nounsg prep det__art nounsg verbpressg prep det__art nounsg nounsg
+nounsg adj nounsg nounsg adj nounsg nounsg verbpastsg adv conjcoord adv det__poss nounsg adj prep det__art nounsg
+nounsg adj conjcoord adj nounsg verbpressg det__art adj verbpapa nounsg prep adj nounpl
+nounsg nounsg prep num__card adj adv conjsubo det__art nounsg prep det__art num__card nounsg verbpresp nounsg adj
+nounsg prep nounsg nounsg nounsg adj nounsg verbpressg adj nounsg nounsg adv verbpapa prep det__art nounsg
+adj nounsg adj nounsg det__art nounsg verbpastsg adj nounsg det__art adj nounsg verbinf verbpapa conjsubo pronpers nounsg verbpressg pronpers
+nounsg pronpers verbprespl adv verbinf adj nounsg verbpastsg pronadv adj prep nounprop verbpressg adv adv verbpressg prep nounsg
+adj nounsg nounprop verbpressg adv det__art nounpl prep det__art adj nounsg nounsg num__card verbprespl prep det__art nounsg
+prep nounsg verbpressg adv adv prep adj prep det__art verbpapa nounpl nounsg prep nounsg num__card verbpastsg prep nounsg prep
+prep nounsg pronpers adj nounsg nounsg prep nounsg verbpastsg verbpapa prep det__art nounsg prep adj nounpl prep det__art nounsg
+nounpl prep nounsg prep partte verbinf nounpl nounpl verbpastsg prep det__poss nounsg conjsubo adj nounpl det__art num__card nounsg prep nounsg
+nounsg pronpers verbpastsg prep num__ord nounsg nounsg verbpressg det__art nounsg verbpapa pronadv pronpers prep det__art num__ord nounsg prep
+nounsg pronpers verbpastpl pronadv adj nounsg verbpastsg adj prep det__art nounsg prep nounsg prep adj nounpl prep num__ord
+adj adj nounsg prep det__art num__ord nounsg prep det__poss nounsg verbprespl pronadv nounsg verbpapa prep nounsg nounsg
+adj nounsg nounsg num__card verbpapa det__art nounsg prep det__art nounsg prep nounprop verbpressg prep num__card nounpl verbpapa prep det__art
+nounsg nounpl nounsg num__card num__card det__art num__ord nounsg prep det__art nounsg prep nounpl prep det__art nounsg prep nounsg
+nounsg nounsg prep nounprop prep det__art nounprop prep det__art verbpapa nounpl verbpressg nounprop verbpapa det__art nounsg
+nounprop nounpl nounsg prep nounsg det__art adj nounsg verbpressg det__indef nounpl nounpl prep det__art adj nounsg nounsg
+nounsg prep nounsg num__card nounsg nounsg verbpressg det__art adj verbpressg verbpapa prep det__art nounpl nounsg prep nounsg
+nounpl verbpressg verbpapa prep nounsg nounpl verbpressg det__art nounsg prep det__art nounsg prep nounsg adj adj nounsg
+nounsg verbpressg prep nounsg prep nounsg conjcoord adj nounpl nounpl nounpl conjcoord nounsg
+nounsg adj nounsg adv adj nounsg det__art nounpl prep nounsg nounsg verbinf adj conjsubo det__art adj nounsg adv det__art nounsg nounsg
+nounsg nounsg prep nounpl adj nounsg nounsg det__art nounsg verbpastsg prep det__art nounsg prep det__art nounsg adv verbinf
+nounsg prep nounprop conjsubo nounsg det__art nounpl pronrel verbprespl prep det__art adj nounsg prep nounprop num__card nounprop verbprespl conjcoord
+nounprop conjsubo nounsg nounsg nounpl pronrel adj verbprespl prep det__art adj nounsg nounsg nounsg verbinf adj nounsg
+nounsg verbpressg num__card nounpl adv det__art nounsg verbpressg adv det__indef nounsg conjsubo prep det__art adj num__ord pronpers
+num__card nounsg verbpressg prep nounsg det__art adj nounsg nounsg nounsg verbpressg adj num__card nounsg adj verbpressg verbpapa pronpers
+nounsg verbpressg nounsg det__art nounsg nounsg nounsg verbpressg nounprop prep det__art nounsg prep nounsg nounsg det__art nounsg pronpers
+nounsg verbpressg nounsg nounsg det__art nounsg prep nounpl prep det__art adj adj nounsg nounsg verbinf nounprop prep num__ord
+nounsg adj verbpressg pronrefl adv adj nounsg nounsg verbpressg pronadv det__indef nounsg adj prep prondemo adv adv adv adv adj
+nounsg verbpressg adj nounsg nounsg nounsg verbpressg det__art adj nounsg prep nounsg adj nounpl prep det__poss nounsg
+adj nounsg nounsg nounsg verbpressg adj det__art nounsg prep det__art nounpl nounpl prep adj nounpl
+nounsg nounsg prep adj nounsg adv verbpressg det__art nounsg prep det__art nounsg nounsg verbpapa conjsubo nounsg
+prep nounsg verbpressg nounsg conjsubo adj nounpl num__card nounpl verbpapa prep nounsg conjcoord nounsg prep det__art nounsg nounsg
+pronquest nounsg verbpressg verbpressg adj verbprespl nounsg verbinf adj prep nounsg prep nounpl pronrel pronrefl adj prep
+nounpl prep nounprop nounsg verbprespl adj adv det__art adj nounpl verbpastpl nounprop det__art adj nounsg prep det__art
+nounpl verbprespl adv det__art nounpl pronrel det__art adj nounpl partte verbinf verbpastpl prep det__art nounsg verbpressg adj nounsg
+nounsg prep det__art adj prep det__art adj verbprespl adv adv nounpl nounsg prep nounpl det__art nounpl nounsg
+nounsg verbpressg nounsg nounsg num__card nounprop prep nounsg verbpressg det__art nounsg prep det__art nounsg num__card prep nounprop num__card nounpl adv conjsubo adj
+nounsg adj adj nounsg verbpressg adj nounpl adj verbpressg det__art adj nounsg pronrel prep det__art nounsg num__ord
+adj nounsg pronpers verbpressg conjsubo det__art nounsg verbpressg adj nounsg verbpressg pronadv det__indef nounsg adv partte verbinf conjsubo det__poss nounsg
+nounsg pronpers verbpressg conjsubo det__art nounsg verbpressg adj nounsg verbpressg pronadv det__indef nounsg adv partte verbinf conjsubo det__poss nounsg prep nounsg
+adv nounsg nounpl nounsg adv num__card nounpl prep det__art nounsg verbprespl adj nounsg adv nounsg
+adj nounsg nounprop verbpressg adj nounsg det__art adj adj nounsg det__art nounsg nounsg verbpressg det__art adj
+verbpressg det__art nounsg verbpastsg det__indef nounsg det__art nounsg prep nounprop num__card prep det__art nounsg prep det__art nounsg prep det__art nounsg det__art nounsg pronadv
+nounsg verbpressg adv adj nounsg det__art nounsg prep det__art adj nounsg verbpressg det__art nounsg prep nounsg partte verbinf
+nounsg adv num__card nounpl nounsg nounsg nounsg conjcoord verbprespl verbpapa nounsg verbpastpl nounpl verbpapa conjsubo det__art nounsg prep det__poss nounsg
+nounsg prep nounsg adv det__art adj nounsg verbpressg nounprop adj verbpapa prep num__card nounpl adj nounsg
+adj adj nounsg nounsg prep nounprop nounsg prep nounprop verbprespl adv adj prep nounsg prep adj nounsg num__ord
+adj nounsg adj prep adj adj nounsg verbpressg adj prep nounsg prep nounsg verbprespl det__art nounsg nounsg verbpastsg
+adj nounsg verbpressg nounsg nounsg nounpl verbpastsg conjsubo nounsg prep det__art nounsg prep det__art nounsg prep det__art verbpresp
+nounsg nounsg verbpressg adj nounsg verbprespl det__art nounsg prep nounpl nounsg det__art nounsg nounsg verbpressg nounsg
+nounsg verbpressg adv nounsg det__art nounsg prep det__art adj nounsg nounsg verbpastsg verbpapa nounprop det__art nounsg prep det__poss
+nounsg verbpressg adv prep nounsg det__art nounsg prep det__art adj nounsg nounsg verbpastsg verbpapa nounprop det__art nounsg prep nounsg
+nounsg verbpapa prep nounsg det__art nounsg verbpressg nounsg nounsg prep det__art nounsg prep nounprop adj
+nounsg adv verbpressg prep adj nounsg adj nounsg verbpressg adv adv adv adj conjsubo pronpers det__poss nounsg prep nounsg adj
+nounsg verbpressg nounsg nounsg adv det__art adj nounpl pronrel det__art nounsg prep nounprop nounprop verbpapa nounsg
+nounpl prep nounsg adj nounsg verbpressg nounprop prep nounpl prep det__art nounsg prep adj nounsg conjsubo nounsg
+nounsg verbpressg nounsg prep nounsg prep adj nounsg adj
+nounpl verbprespl nounsg adj nounsg adj
+nounsg nounprop verbpapa nounsg
+nounsg prep num__card num__card nounpl verbpapa nounsg
+nounsg verbpressg adj adj prep prep num__card num__card nounsg
+nounsg prep nounpl adj prep nounsg adj
+nounsg verbpastsg adj nounsg nounsg adj nounsg
+adj nounpl nounprop adj nounsg
+nounsg verbpressg prep nounsg adj
+nounprop num__card nounpl prep nounprop adj
+adj nounpl verbinf adj nounsg prep nounsg
+nounsg nounprop verbpressg prep nounsg nounprop adj
+nounsg verbpressg adv nounsg prep num__card nounsg adj
+nounabbr verbpressg adv prep adj nounsg adj
+nounpl prep nounprop prep nounsg prep det__art nounsg adj
+nounsg verbprespl nounprop verbpapa nounsg
+nounsg nounprop verbpressg nounsg prep nounsg adj
+nounsg nounsg verbpressg prep nounpl adj
+adj nounsg prep nounsg nounprop adj
+nounsg adj nounsg prep num__card nounsg nounsg adj
+nounsg verbpressg partte verbinf prep nounpl adj
+nounsg verbpressg adj nounpl prep nounsg adj
+nounsg verbpressg prep nounpl nounsg adv adj
+nounsg prep adj prep nounprop adj
+nounsg nounprop det__indef nounsg prep adv adj
+nounsg adj adv prep adj nounsg adj
+nounsg nounprop verbpressg nounpl prep nounsg nounsg adj
+nounprop verbprespl nounpl prep nounprop adj
+nounsg nounsg verbpapa prep nounsg adj
+nounpl verbpapa prep nounprop adj
+nounsg nounsg prep nounsg conjcoord nounsg adj
+nounsg num__card nounpl nounsg nounprop adj
+adj nounsg prep nounsg nounsg adj
+adv verbprespl prep nounpl adj
+num__card adj nounpl adj prep nounprop adj
+nounsg prep num__card num__card nounpl prep nounsg verbpapa nounsg
+nounsg nounsg adv prep nounsg adj
+nounsg verbpressg det__indef nounsg prep nounsg num__card nounsg
+nounpl nounsg nounprop prep nounsg adj
+nounsg nounsg prep nounsg verbpapa nounsg
+adj nounsg prep nounprop verbpressg adj adj
+nounsg nounprop verbpapa nounsg
+nounsg verbpressg verbinf prep nounsg nounprop adj
+nounsg verbpressg nounpl prep nounprop adj
+nounsg prep nounsg prep nounsg verbpapa prep nounsg adj
+adj nounsg adv adj prep nounsg adj
+det__indef nounsg prep nounprop verbprespl adj
+num__card nounpl prep nounsg adj
+num__card nounpl nounsg prep nounsg nounsg adj
+adj prep num__card nounsg nounsg verbpapa prep nounprop adj
+nounprop verbpressg adj nounpl prep nounsg
+adj nounsg conjcoord nounpl verbpapa prep adj nounsg
+adj prep num__card nounsg nounsg verbpapa prep nounprop adj
+nounsg verbpressg nounsg prep nounsg adj nounsg
+nounsg adv nounsg prep det__art nounsg adj
+nounsg prep nounsg nounsg nounprop adj
+nounpl prep nounsg adj verbpapa nounsg
+nounsg verbpressg pronrefl adv prep adj adj
+nounsg prep det__art nounsg conjcoord nounsg verbinf int conjcoord nounpl adj
+nounsg num__card num__card prep nounpl adj nounsg adj
+adj nounsg prep nounsg prep adj adj
+nounsg verbpressg prep num__card prep adj nounsg adj
+prep nounsg verbpressg det__indef nounpl adj adj
+adj nounsg conjcoord nounpl adj prep det__art nounpl adj
+nounpl nounpl num__card num__card adj
+verbpressg adj nounsg verbpapa nounsg
+nounprop verbpressg nounsg nounprop adj
+nounsg nounprop verbpressg adj nounsg adj
+nounsg adj nounsg prep nounsg adj adj
+nounsg prep nounsg verbpressg prep nounsg
+nounsg num__card nounpl prep num__card nounsg adj
+adj nounsg verbpressg nounsg adv adv verbprespl adj
+int verbpastsg det__indef adj nounsg
+nounsg verbpressg nounpl prep nounsg adj
+nounsg verbpressg prep adj nounpl adj
+nounsg nounsg verbpressg prep nounsg prep nounsg adj
+nounsg verbpressg prep nounsg adj
+adj nounsg prep nounsg verbpapa nounsg
+nounsg num__card prep adj nounsg prep adj adj
+nounsg adj nounpl adj verbpapa nounsg
+adj nounsg verbpressg adj nounsg prep adj
+nounsg verbpressg nounsg nounsg prep adj adj
+nounsg nounsg verbpressg adj nounsg prep nounsg adj
+nounsg nounprop verbpressg nounsg prep nounsg verbinf adj
+nounsg pronpers verbpressg adv conjsubo nounsg adj
+num__card adj nounpl verbpapa nounsg
+nounsg prep nounsg nounpl nounpl adj
+nounsg verbpressg prep nounsg adj
+nounsg nounprop verbpapa nounsg
+det__indef nounsg adv prep nounsg adj
+nounsg verbpressg nounsg prep adj adj
+nounsg verbpressg adv adv verbinf verbpapa nounsg
+nounpl nounsg prep nounsg conjcoord nounprop adj
+nounpl prep nounpl prep nounprop adj
+nounsg nounsg prep adj nounsg verbpapa nounsg
+verbpressg nounsg verbpressg pronrefl adj prep nounprop adj
+nounsg verbpressg prep prep prep nounprop adj
+nounpl adv adv adj nounsg
+nounsg nounprop adj nounpl prep nounsg
+nounsg verbpressg nounsg verbinf prep nounprop adj
+nounsg prep nounpl prep nounprop adj
+nounpl verbpressg adj nounpl prep nounprop adj
+num__card adj nounpl prep adj nounsg adj
+nounpl verbpressg nounpl prep adj nounsg adj
+nounsg verbpastsg nounpl prep nounpl adj
+adv adj nounsg prep nounsg adj
+nounsg prep nounsg num__card nounsg
+nounabbr conjcoord nounprop nounsg adv verbinf prep num__card nounsg
+nounsg nounpl nounprop prep nounsg adj
+nounabbr verbpressg num__card num__card nounsg nounsg adj
+nounpl nounsg verbprespl adv nounsg adj
+nounsg prep nounsg prep nounprop adj
+adv adj nounsg nounprop adj
+nounsg nounsg nounsg prep nounsg nounsg adj
+verbpapa nounprop verbpressg nounsg prep det__art nounsg adj
+nounabbr nounsg nounprop nounsg adv verbprespl adj
+nounsg verbpressg nounsg adj
+nounsg verbpressg prep adj nounsg adj
+adj adj nounpl prep nounsg adj
+det__indef nounsg nounsg nounsg prep num__card nounsg
+nounsg verbpressg nounsg prep nounsg
+nounsg verbpressg adj adj nounpl adv adj
+adj nounpl verbinf verbpapa nounsg
+nounsg nounsg verbpressg adj nounsg
+num__card nounpl prep nounsg prep nounprop adj
+nounsg nounsg num__card num__card prep nounsg nounsg adj
+nounpl verbprespl nounsg nounpl prep nounprop adj
+nounsg adj verbpressg nounsg nounsg nounsg adj
+nounsg nounsg verbinf nounprop adj
+nounpl conjcoord nounpl adv prep nounprop adj
+nounpl prep nounsg nounpl adj
+adj num__card nounpl adj nounsg adj
+nounsg prep nounsg det__art nounsg adj
+nounpl nounprop nounsg verbpressg adj nounsg
+verbpressg adj nounpl adj nounsg
+nounabbr nounsg verbpresp nounpl adj verbprespl adj
+nounsg adj nounsg adj adj
+nounsg verbpressg prep nounsg prep nounprop adj
+prep nounsg pronadv verbpressg pronpers pronpers int verbinf adj
+nounpl verbprespl nounsg nounsg nounpl adj
+nounsg adv partte adj prep adj adj
+nounsg nounsg prep nounpl nounabbr adj
+det__art verbpressg verbpastsg nounpl adv verbprespl adj
+nounsg verbpressg adj nounsg nounprop adj
+nounsg nounsg prep nounpl prep nounprop adj
+verbpapa nounsg adj nounsg nounsg verbprespl adj
+adj nounsg nounprop adv prep nounsg num__card nounsg
+adj adj nounsg adv prep nounsg adj
+nounpl prep adj nounsg nounprop verbpapa nounsg
+nounsg adv prep nounsg conjsubo nounsg verbpressg adj
+adj nounpl prep nounsg verbinf verbinf adj
+adj nounpl verbprespl nounsg nounprop adj
+nounsg nounprop verbpressg adv nounsg prep num__card nounsg
+nounsg verbpressg nounsg prep det__art nounsg prep conjsubo nounsg adj nounsg
+nounsg verbpressg nounsg conjsubo prep det__poss nounsg verbpastsg adj
+nounpl prep nounsg prep nounsg nounprop adj
+nounpl prep nounsg prep nounprop adj
+nounsg nounsg partte verbinf prep nounsg nounsg nounsg adj
+nounsg prep num__card prep nounsg adj
+det__art prep num__card nounpl nounpl adj nounsg
+nounsg det__indef nounpl prep nounsg nounsg adj
+nounsg verbpressg nounsg adj
+det__art prep num__card adj nounsg verbinf adj
+nounsg verbpressg prep nounpl nounsg adj nounsg
+nounpl verbprespl nounpl adv verbprespl adj
+nounsg prep num__card prep nounsg adj
+adj nounsg adj nounpl prep nounprop adj
+nounsg nounsg nounsg prep nounprop adj
+nounsg adj nounpl verbprespl adj nounsg
+nounsg nounpl prep adj nounsg adj
+nounsg adj nounpl prep nounsg adj
+nounpl nounprop nounsg num__card nounpl adj
+nounsg verbpressg adj nounpl nounsg adv adj
+nounsg adj adj nounsg adj
+nounsg prep nounsg nounprop adj
+nounsg nounsg prep num__card nounpl prep nounsg adj
+prep adj nounsg nounprop adj nounsg
+adj nounpl verbinf nounsg nounprop adj
+nounsg nounpl prep nounprop verbpapa nounsg
+nounsg adj nounpl verbprespl adj nounsg
+adj nounsg prep nounsg prep adj nounsg prep nounsg
+nounsg nounprop verbpressg adj nounsg prep num__card
+nounsg verbpressg adj nounpl prep nounsg adj
+nounsg prep nounsg prep adj nounsg prep adj adj
+nounsg nounsg adv adv prep nounprop adj
+nounprop nounpl num__card num__card prep nounpl nounprop adj
+nounprop verbpressg adj nounsg prep num__card nounsg
+nounsg verbpressg adj nounsg adj
+prep det__art nounsg adj prep nounsg nounpl adj
+nounpl nounprop verbinf adj nounsg prep nounsg
+nounpl nounprop verbprespl nounsg nounprop prep nounsg
+nounsg verbpressg adj nounsg nounpl adj
+nounsg verbpressg prep nounsg adj
+nounsg verbpressg adj adj adj
+nounabbr verbpressg nounsg verbinf verbinf adv partte adj nounsg adj
+adj nounsg verbpressg prep nounsg prep nounsg adj
+nounsg verbpressg adj nounpl adj
+nounsg prep adj nounsg adj
+nounsg conjcoord nounsg verbinf adj nounsg prep nounsg adj
+adj adj nounsg prep nounsg nounprop adj
+nounprop verbpressg adj nounsg prep nounpl adj
+nounsg nounprop adj nounsg verbpressg verbpapa nounsg
+nounsg adj nounsg nounsg adv adj
+verbpressg adj nounsg verbpressg nounpl prep nounprop adj
+nounsg verbpressg nounsg adv adj
+nounsg nounpl nounprop adj
+adj nounsg nounsg adj
+nounsg nounsg nounsg prep nounsg adj
+adj nounpl prep nounprop adj
+nounsg prep nounsg prep nounsg prep nounsg adj
+nounsg adj prep nounsg prep nounsg prep nounsg adj
+nounpl adj prep nounsg adj
+adj nounpl verbpressg adv prep det__poss nounsg adj
+nounpl nounsg prep nounsg adj nounsg prep nounsg adj
+nounsg verbpressg adj nounsg adv verbpapa nounsg
+adj nounsg adj nounpl nounprop adj
+num__ord nounsg prep nounsg nounsg prep nounsg adj
+nounsg nounsg num__ord prep num__card nounsg adj
+nounsg verbpressg verbpresp nounsg prep nounprop adj
+adj
+verbpapa nounsg adj nounsg verbinf prep nounsg adj
+adj nounsg verbpressg nounsg adj adj nounsg
+nounsg nounsg verbpressg adj nounpl adj
+nounsg verbpressg adj nounsg nounpl adj
+nounsg prep adj nounpl adj
+nounpl nounsg nounprop adj nounsg
+nounpl prep num__card num__card nounsg verbpapa prep nounprop adj
+nounprop verbpressg verbinf nounpl prep nounsg
+nounsg nounsg prep adj nounsg verbpapa nounsg
+nounsg verbpapa prep nounsg nounpl nounprop adj
+nounsg verbpressg prep nounsg nounpl adj
+nounsg verbpressg adj nounsg verbinf prep nounprop adj
+nounpl verbprespl nounsg adj
+adj nounsg conjcoord nounsg prep nounsg nounsg adj
+adj verbpressg nounsg adj
+nounabbr verbpressg verbinf prep nounprop adj
+verbpapa nounsg adv adj nounsg
+nounsg prep adj nounsg adv prep nounsg adj
+nounsg nounsg verbpressg nounsg det__art nounsg adj
+nounpl adj prep nounsg nounprop adj
+nounsg nounsg nounsg verbpressg verbinf nounsg nounprop adj
+num__card nounpl prep nounsg prep nounsg adj
+adv num__card adj nounpl adj nounsg
+nounsg prep nounsg verbpapa nounsg
+adj nounpl adj conjcoord nounprop adj
+nounsg nounsg verbpressg adv prep nounsg
+adv num__card nounpl verbpapa prep nounsg adj
+num__ord nounsg nounsg nounsg adj
+nounsg verbpressg adj nounpl adj
+nounpl verbprespl adj adv nounpl prep nounsg adj
+nounsg verbpresp prep nounsg nounsg adj
+nounprop conjcoord nounsg verbinf prep nounsg adj
+nounsg prep num__ord nounsg nounprop adj
+adj nounsg verbpastsg adv adv adj verbprespl adj
+adj nounsg prep num__ord nounsg adj
+nounsg prep nounsg nounprop adj
+nounsg verbpressg prep nounsg prep num__ord nounsg adj
+nounsg prep nounsg verbpapa nounsg
+nounsg prep nounprop verbprespl adj
+num__card nounpl prep nounsg prep nounsg nounsg adj
+adv nounpl prep nounprop adj
+adj nounpl verbprespl adj nounsg adj
+num__card nounpl prep nounsg nounsg nounsg adj
+adj nounpl det__art nounsg prep nounsg
+nounsg nounsg nounprop adv adj nounsg
+adj nounsg verbpressg conjsubo nounsg nounprop adj
+nounsg nounsg verbpapa prep nounprop adj
+nounsg nounprop verbpressg nounpl adj
+nounabbr nounprop verbpressg nounsg prep nounsg adj
+adv adv adj nounsg prep nounsg adj
+nounpl verbpastpl verbpapa prep nounsg adj
+adj nounsg verbpressg adj adv prep nounprop adj
+nounpl verbpapa prep nounprop partte verbinf nounsg
+nounsg nounpl nounsg verbinf num__card num__card nounsg
+nounsg prep adj nounsg verbpressg verbpressg adj
+nounsg prep num__card nounpl prep nounsg nounprop adj
+nounprop verbpressg adj nounpl prep nounsg
+nounpl verbprespl prep nounsg conjcoord nounsg prep nounprop adj
+num__card nounpl prep nounsg adj
+adj nounsg prep adj adj adj
+nounpl nounpl nounsg prep nounprop adj
+nounsg verbpapa prep nounpl adv nounsg adj
+nounsg prep adj nounsg nounprop verbpressg adv adj
+nounsg prep nounpl verbpressg adv det__art adj nounsg prep nounsg adj
+nounpl verbpressg prep nounprop adj
+nounprop verbpressg nounpl nounprop adj
+nounprop adj nounpl verbprespl prep nounpl adj
+adv det__indef nounsg prep num__card nounpl adj
+nounpl verbpapa prep nounsg nounprop adj
+verbpapa nounsg verbpastsg adv prep nounsg nounprop adj
+nounsg verbpressg prep nounsg nounprop adj
+nounpl verbprespl prep nounsg adj
+num__card nounpl prep adj nounsg adj
+nounpl prep nounsg conjcoord nounsg prep nounprop adj
+nounsg verbpressg prep nounsg nounsg adj
+nounsg verbpressg nounsg prep adj nounsg adj
+nounprop nounsg adj prep nounsg adj
+nounabbr verbpressg nounsg prep num__card nounpl adj
+adj nounsg verbpressg num__card nounpl prep nounsg
+nounsg prep num__ord nounsg nounsg adj
+nounsg verbpressg adv adj prep nounprop
+adj nounsg prep nounsg
+nounsg prep nounprop verbpressg prep num__card nounpl nounsg
+adj nounpl verbpastpl prep nounsg
+nounsg verbinf prep nounsg nounsg conjcoord adj
+nounsg verbpapa prep nounsg nounpl
+nounprop nounsg nounsg adj
+nounsg verbpastsg prep nounsg adj nounsg
+nounsg verbpressg nounsg prep nounsg prep
+nounpl nounprop verbprespl prep nounsg adj
+nounsg prep nounprop conjcoord nounprop verbpressg adj
+nounsg nounsg verbpressg adj nounpl
+nounsg verbpapa prep nounprop
+nounprop verbpressg nounpl adv prep nounsg
+adv det__indef nounsg prep nounpl
+nounprop verbpressg verbinf nounpl prep
+nounpl verbprespl nounsg nounsg nounsg
+nounpl verbprespl nounsg
+nounpl prep nounpl nounsg
+nounsg prep nounsg nounsg
+nounpl nounpl verbinf nounprop prep
+adj nounsg conjcoord nounsg prep nounsg nounsg
+nounsg pronindef verbpressg nounabbr verbinf
+num__card nounpl adv prep nounsg
+prep adj nounsg verbpressg nounsg adj nounsg adj nounsg
+adv adj nounsg prep nounsg
+nounsg nounsg verbpressg nounsg
+nounprop nounsg nounsg prep
+nounsg verbpressg adj nounpl num__card
+nounsg adj nounsg verbpressg
+adj adj adj adv
+nounsg verbpapa prep nounsg num__card nounsg
+nounsg verbpapa prep nounsg verbpastsg verbinf
+nounsg verbpressg nounsg nounsg
+nounabbr verbpressg nounsg prep nounsg
+nounprop verbpressg nounsg verbinf prep nounsg
+nounsg nounprop det__indef nounsg
+verbpapa nounsg adv adj
+nounsg verbpressg prep adj nounpl
+num__card nounsg prep nounsg nounprop verbpressg
+nounsg prep nounsg verbpapa
+nounsg nounsg nounsg verbpressg adv prep nounpl
+num__card nounpl prep nounsg prep nounsg
+adj nounsg prep nounsg
+nounsg prep nounsg nounsg
+nounsg verbpressg adv adj nounsg
+adj nounsg prep nounprop
+adj nounsg verbpressg num__card nounpl prep
+nounsg prep nounsg prep nounsg
+num__ord nounsg nounsg nounsg
+nounsg nounpl prep nounsg verbpressg
+nounsg nounprop verbpressg nounpl nounsg adv
+nounsg prep adj nounsg prep nounsg verbpressg
+nounpl verbprespl adj adv nounpl prep nounsg
+nounprop adj verbprespl verbpapa prep nounsg
+nounsg verbpressg nounpl prep nounprop conjcoord nounprop
+nounsg prep nounsg nounsg
+nounsg nounsg nounsg prep nounsg
+adv nounsg prep adj verbpastsg nounprop
+adj nounsg prep nounprop
+det__art nounsg nounsg num__card verbpressg pronadv adv
+adj adj nounsg prep adj nounsg
+nounsg verbpressg nounsg prep nounsg
+nounsg verbpapa prep nounsg
+nounpl nounsg nounsg num__card
+nounsg nounsg verbpressg adv conjsubo adj nounpl
+nounsg prep nounsg prep nounsg
+adj adj prep nounsg nounprop
+adj nounsg adv adj
+nounprop nounsg prep adj nounsg verbpapa
+nounsg verbpressg nounsg
+nounprop nounsg adj prep nounpl
+nounprop nounpl nounsg num__card nounsg
+nounsg verbpressg adj nounpl
+adv nounsg verbpressg nounsg prep nounsg
+nounsg nounsg prep nounpl verbpapa
+prep nounsg verbpapa nounsg verbpapa
+nounpl pronpers verbpressg det__indef nounpl verbpapa
+nounsg prep nounsg
+num__ord nounsg verbpressg prep nounsg nounsg
+nounsg nounsg verbpapa adj nounsg
+nounprop nounsg adj prep nounsg
+nounpl conjcoord nounsg adj adj
+nounsg prep adj nounsg verbpressg verbpressg
+nounsg adj nounsg prep nounsg
+adj nounsg adj prep adj nounsg
+nounsg nounpl verbpressg nounsg prep nounsg
+nounprop nounsg verbpressg prep nounpl
+adj nounsg verbpapa prep adj nounsg
+nounsg verbpapa prep nounprop
+nounsg verbpressg prep num__card adj nounpl
+nounsg verbpressg prep nounsg
+nounsg prep adj nounsg verbpressg verbpressg
+adj nounsg verbpressg prep num__card nounpl
+nounprop verbpressg prep num__ord adj nounsg
+nounsg verbpastsg verbpapa prep num__card
+nounsg nounprop verbpapa
+nounpl verbprespl prep nounsg
+nounpl prep nounsg adj nounsg
+nounprop nounsg nounsg verbpressg adv
+nounsg nounpl nounsg verbinf num__card num__card
+nounsg prep num__card verbpapa prep nounsg
+nounsg nounsg prep nounsg prep nounsg
+nounprop adj nounsg verbpressg adj adv prep nounprop
+adj nounpl det__art nounsg prep
+nounpl verbpapa prep nounprop partte verbinf
+nounpl prep nounsg adj nounsg
+nounabbr nounprop verbpressg nounsg prep nounsg
+nounsg prep nounprop
+nounsg adj nounsg verbpressg nounsg
+adv adv adj nounsg prep nounsg
+nounsg nounsg verbpressg nounsg prep nounpl nounprop
+adj nounsg verbpressg adv prep
+nounsg nounpl nounsg nounsg prep num__card num__card
+verbpressg adj adj nounpl verbpapa
+nounprop adj nounpl verbpapa
+nounsg adj nounsg prep nounsg
+nounprop num__card nounpl adv verbpapa
+num__card nounpl prep nounsg nounsg nounsg
+nounsg verbpapa prep nounprop
+nounabbr verbpressg pronindef prep nounsg det__art nounsg
+nounprop nounpl nounpl verbpapa prep nounsg
+nounsg nounsg adv nounsg
+nounsg verbpressg nounsg prep nounprop
+adj nounsg prep nounsg
+nounsg nounsg nounprop adv adj
+nounpl verbpressg adj nounsg
+adj nounsg adv adv prep nounsg verbinf
+nounsg prep nounsg
+adj nounpl prep nounsg nounprop
+nounpl nounsg nounsg verbinf nounsg
+nounprop nounsg verbpressg nounpl prep nounsg
+nounprop nounsg prep adj nounsg
+nounsg verbpressg prep nounsg
+adj nounpl prep nounprop
+nounprop adv verbpressg prep nounsg
+verbpressg num__card nounpl prep nounsg num__card
+nounsg nounsg verbpapa prep nounsg
+verbpressg adj nounsg nounpl adj
+nounsg verbpressg adj nounpl
+nounprop verbpressg adj nounsg
+det__art nounsg verbpressg prep nounsg
+nounsg verbpressg nounpl verbinf prep nounsg
+nounprop nounpl prep nounsg partte verbinf
+adj nounsg prep nounsg nounprop
+nounpl prep nounsg verbpressg
+nounpl verbprespl nounsg verbpresp
+nounprop nounsg verbpapa prep nounprop
+nounprop verbpressg nounpl prep nounpl
+nounsg nounsg nounsg verbpapa
+adj nounsg prep nounsg prep nounsg prep nounsg
+nounprop nounpl nounpl nounsg prep nounsg
+nounsg prep nounsg verbpressg adj nounsg nounsg prep
+nounprop verbpressg adj nounpl prep
+nounsg nounprop prep det__art nounsg
+prep nounsg prep det__art nounsg prep nounsg prep nounsg
+int prep verbpresp nounsg
+nounsg adj nounsg prep nounsg verbpapa
+adj nounsg verbpressg prep
+nounprop nounsg prep num__card nounsg nounsg
+nounprop adv conjsubo num__card nounpl
+nounprop adj nounsg nounsg
+nounpl adj adj nounsg
+nounprop nounsg num__card nounpl prep nounsg
+nounsg prep nounsg verbpressg verbinf verbinf pronrel pronpers verbpressg
+nounsg verbpressg nounsg prep nounsg
+adj nounpl prep nounprop verbpastpl
+nounpl verbpressg prep nounprop
+nounsg verbpressg adj nounsg verbpastpl
+nounpl verbprespl nounsg nounprop
+adj verbpapa prep nounsg
+nounsg prep nounpl adv adj nounsg prep nounsg
+nounprop nounsg verbpressg nounsg adv prep nounsg
+nounprop verbinf nounsg verbinf verbpressg det__art adj nounsg prep nounprop
+nounsg num__card verbpapa prep nounsg
+nounsg verbpressg adj nounsg verbinf
+nounpl verbprespl nounsg nounsg nounprop
+nounsg verbpressg nounsg prep nounsg prep nounsg
+nounsg verbpressg adj nounpl
+nounsg nounsg verbpastsg nounsg prep adj nounsg
+nounpl adj nounpl verbinf
+nounsg verbpressg nounsg nounsg
+nounsg nounpl adj nounsg
+nounprop nounpl verbprespl prep nounsg prep nounsg
+nounsg prep det__art nounsg prep nounsg
+adj nounsg prep nounsg nounsg det__indef nounsg
+adj verbpressg nounsg nounpl
+nounpl verbinf nounprop verbpresp nounsg
+nounsg verbpressg adv verbinf prep verbpresp nounpl
+adj nounsg adj nounsg nounabbr
+nounsg verbpressg nounsg prep nounsg nounsg
+nounsg nounprop verbpastsg prep nounsg nounpl
+num__card nounpl prep adj nounsg nounprop
+nounsg verbpressg nounsg prep adj nounsg
+nounprop nounsg adj prep nounsg
+nounsg nounprop prep nounsg
+nounsg prep nounsg prep nounsg det__indef nounsg
+nounsg nounsg prep nounsg adv
+nounpl prep nounsg nounsg prep nounprop
+nounsg prep nounsg conjcoord nounsg verbpressg prep
+adj nounsg adj conjsubo nounsg conjcoord nounprop nounpl
+nounsg nounsg verbpastsg num__card nounsg verbpressg prep nounsg
+nounsg verbpressg adj nounpl prep nounsg
+nounsg prep nounsg prep adj
+num__card nounpl adv adv adv prep nounprop
+nounpl prep nounsg nounprop
+verbpressg nounsg prep nounpl nounsg
+nounsg nounsg nounsg verbpressg nounsg prep nounpl
+nounsg verbpressg adv prep adj nounsg
+nounpl nounsg verbinf nounsg
+nounsg adv verbpapa prep nounsg
+nounpl verbpastpl prep nounsg
+adj nounsg verbpressg conjsubo adj nounpl
+nounsg verbpapa prep nounsg nounpl
+nounsg verbprespl nounprop verbpapa
+nounsg verbpressg prep nounsg
+adj nounsg prep nounprop
+nounsg prep adj verbinf verbpapa nounpl
+adv verbprespl prep nounpl
+adj nounsg num__card num__card nounsg
+nounsg nounsg verbpapa prep nounsg
+nounpl prep nounprop prep nounsg prep det__art nounsg
+adj nounpl prep nounsg prep nounsg nounsg
+nounsg adj nounsg verbpapa
+nounsg verbpapa nounsg prep num__card nounsg verbpapa
+nounsg nounsg num__card nounsg nounsg nounsg prep nounsg
+adj nounsg prep adj nounsg
+nounsg verbpapa adj nounsg prep nounsg
+nounsg prep nounprop nounsg verbpressg nounsg verbinf
+nounsg num__card verbpastsg verbpressg prep det__art nounsg
+verbpressg pronpers nounpl prep nounprop
+adj nounsg prep nounprop
+nounsg verbpressg adj nounsg
+nounsg nounprop verbpastsg nounsg prep nounsg
+nounpl verbprespl nounsg adj nounsg
+nounsg nounprop verbpressg det__poss nounsg
+conjsubo verbpressg num__card nounsg nounsg nounsg nounsg
+nounsg verbpressg prep nounsg
+adj nounsg verbpressg prep nounsg
+nounsg prep det__art nounsg prep nounsg num__card nounsg
+nounsg verbpapa prep nounprop conjcoord nounprop
+nounsg verbpressg verbpressg adj nounpl
+nounsg verbpressg nounpl prep nounprop
+adj nounsg verbpressg nounpl verbpastpl
+nounsg nounprop verbpapa
+nounsg verbpressg nounsg prep nounsg verbinf
+nounsg verbpressg nounsg adv adv adj
+nounsg verbpressg prep nounpl prep nounsg
+nounprop nounsg adj nounpl adv
+num__card nounpl verbpapa prep nounpl nounsg
+nounsg nounsg verbpapa
+nounprop adj nounsg verbpressg verbpapa nounpl
+nounprop prep nounpl verbpapa prep nounsg
+nounsg nounsg nounprop verbpapa
+nounsg prep nounprop
+nounsg prep nounsg prep nounsg verbpapa
+nounsg verbpressg adj nounsg nounpl
+nounsg prep nounpl verbpapa prep adj nounpl
+adj nounpl nounpl nounsg
+nounprop nounsg verbpressg prep nounpl
+nounabbr verbpressg nounsg nounabbr
+nounprop verbpressg nounpl prep prep num__card
+nounsg verbpressg nounsg
+adj adj nounsg nounprop verbpapa
+nounpl prep adj nounsg
+verbpressg conjsubo nounsg nounsg nounsg
+nounabbr verbpressg adv prep adj nounsg
+num__card nounpl prep nounsg
+num__card nounsg verbinf verbprespl nounprop
+nounsg verbpapa adj nounsg
+nounsg num__card prep num__card nounpl verbpapa
+nounsg verbpapa prep nounsg prep nounprop
+nounprop adj nounpl prep nounprop
+nounsg prep nounsg verbpressg prep nounsg nounsg
+num__card nounpl prep nounsg prep nounprop
+nounsg nounsg det__indef nounsg
+nounsg prep num__card adv verbpapa prep nounsg
+adj nounsg verbpressg adj nounpl verbprespl
+adv adj nounsg nounprop
+num__card nounpl prep nounsg adj
+nounsg prep nounsg nounsg
+det__art prep det__art num__card nounpl verbpressg prep adj nounsg
+nounprop nounsg prep nounsg adj
+verbpressg prep adj nounsg
+nounprop adj nounsg prep nounprop
+nounsg nounprop verbpressg prep nounsg
+nounabbr verbpressg nounsg adj nounsg nounsg
+adv nounsg nounsg nounsg
+nounsg prep nounsg nounsg nounsg
+adj conjcoord nounprop verbprespl adj nounsg nounsg
+nounsg verbpressg det__indef adj nounsg
+nounprop verbpressg nounpl prep nounpl nounprop
+verbpresp nounsg verbpapa
+nounsg nounsg nounsg verbpressg num__card num__card prep
+nounpl prep nounsg adj nounpl
+nounsg nounsg prep adj nounsg
+nounsg adj nounsg adv det__demo nounsg prep det__art nounsg
+nounsg adj nounpl verbprespl adj
+nounsg nounprop adj nounsg verbpressg verbpapa
+nounsg prep adj nounpl
+nounsg prep nounsg nounsg nounsg prep nounsg
+nounsg nounpl nounprop verbpressg adv
+num__card nounpl prep nounsg
+nounsg verbpressg adv prep partte verbinf
+nounsg verbpressg det__art adj
+nounsg conjcoord nounsg verbinf prep det__art nounsg
+det__art nounsg verbpressg nounsg adv conjsubo det__art num__card nounpl partte verbinf
+nounsg verbpressg prep nounsg
+nounsg prep nounpl adj nounsg
+nounsg prep nounprop
+nounsg prep adj nounsg
+adj nounsg
+nounsg verbpressg adj nounsg prep
+adj nounsg nounpl
+num__card nounpl verbpapa prep nounsg
+adj nounsg verbpressg conjcoord verbpressg nounsg
+verbpapa nounpl adv prep nounprop
+nounsg verbpressg adj nounsg
+nounsg prep nounpl verbpapa
+nounsg conjcoord nounsg prep partte verbinf
+adj nounsg verbpressg nounsg prep
+nounsg verbpressg adj prep nounprop
+nounsg prep nounprop
+nounsg adj nounsg prep nounsg
+pronpers verbpressg nounsg
+nounsg verbpastsg nounsg nounpl
+verbpressg verbinf prep det__art nounsg adj nounsg nounprop
+adj prep conjcoord nounpl adj conjcoord nounsg nounprop verbpressg
+nounsg adv prep num__card adj prep nounsg
+adj conjsubo pronpers adv adv verbprespl
+nounpl verbpapa prep nounprop
+adj conjsubo pronpers adv adv adj
+nounsg adj conjsubo pronpers adv adv adj
+adj conjsubo pronpers adv adv verbprespl
+adj nounpl verbpastpl verbpapa prep nounsg
+nounsg prep nounsg prep nounsg nounsg
+nounpl adv verbpapa prep nounsg
+nounsg nounsg verbpapa
+nounsg prep nounsg nounsg verbpressg prep nounsg
+nounsg nounsg prep nounprop num__card nounprop
+adj nounpl verbpapa prep nounsg nounprop
+verbpapa nounpl verbpapa prep nounprop
+nounsg verbpapa prep nounprop
+prep num__card prep det__art nounsg nounprop
+nounsg verbpressg prep nounprop nounsg verbpressg
+nounsg verbpapa prep nounsg nounsg
+nounsg num__ord nounpl adj nounabbr
+num__card nounpl adj nounpl nounsg
+verbpapa nounpl prep nounprop
+nounpl adv verbpapa prep nounsg nounprop
+nounpl prep nounsg prep nounprop
+nounsg adv adv prep adj nounsg
+nounsg adv adv prep adj nounsg
+nounsg adj conjcoord verbpapa
+nounsg nounsg
+nounsg nounsg
+adj nounsg nounsg nounprop verbpressg nounsg
+nounpl prep nounsg
+adj nounsg prep nounsg nounsg
+adj nounsg prep nounsg
+adj nounsg prep nounsg nounsg
+adj nounsg adj nounsg nounsg nounprop
+nounsg verbpressg nounsg prep det__art nounsg
+nounsg nounsg prep num__card adj nounsg
+num__card nounpl verbpapa prep nounprop
+nounsg verbpressg verbinf prep adj nounsg
+nounsg verbpapa prep nounsg conjcoord nounsg
+num__card nounpl verbprespl adj nounsg
+nounsg verbinf adj nounpl
+nounsg prep nounprop
+num__card nounpl verbpapa prep nounprop
+nounsg num__card
+num__card nounpl verbprespl adv prep nounprop
+nounsg nounsg prep nounsg
+verbpapa nounsg verbpressg adv prep nounsg
+nounsg verbpressg nounsg prep nounsg
+nounsg verbpressg adj nounsg prep
+nounpl verbinf nounsg prep nounsg nounsg nounprop
+nounpl prep nounsg nounsg prep nounsg nounprop
+adj nounsg
+nounsg prep nounprop
+adj nounsg nounsg nounprop prep nounsg prep nounsg
+nounsg nounsg nounsg prep nounsg nounprop
+nounsg prep nounpl prep nounsg
+num__card nounpl nounsg adv adj
+nounsg conjcoord adj verbinf prep nounsg prep det__art adj nounsg
+nounsg nounsg prep num__card nounsg
+nounsg verbpressg pronpers nounpl prep det__art adj nounsg prep nounprop
+nounsg verbpressg nounsg nounprop
+adj nounsg nounsg
+nounsg verbpressg verbinf
+nounpl adj prep nounsg
+nounsg prep nounpl
+nounsg prep nounsg adv
+nounsg prep nounsg
+det__art adj adj nounsg prep nounprop det__art nounsg
+nounprop verbpressg adv prep nounprop
+nounpl adj prep nounsg prep num__card nounpl adj nounsg prep nounsg nounprop prep nounsg det__art nounsg
+nounsg verbpressg
+nounsg prep nounpl
+verbpapa nounpl adv prep nounprop
+nounpl prep nounsg nounsg
+verbpapa nounpl verbprespl adj prep nounprop
+nounpl adv adv prep nounsg
+num__card nounpl prep nounsg prep nounsg
+det__art nounsg verbpressg det__art nounsg
+nounsg prep nounprop
+nounpl prep nounsg nounsg nounpl
+adj nounsg prep det__art nounsg
+adj nounsg nounpl num__card nounpl prep nounsg
+num__card nounsg nounpl
+adv verbprespl prep nounpl
+nounsg verbpressg nounsg nounsg
+nounsg prep nounsg
+num__card nounsg prep nounpl nounabbr
+nounsg prep nounsg verbpapa nounpl
+adj det__art nounsg
+nounsg nounpl adj conjcoord nounpl
+nounsg verbpressg prep nounsg prep nounsg
+nounsg verbpressg adv prep adj nounsg
+nounsg verbpressg adj nounsg prep adj nounsg nounpl
+nounsg verbpressg prep nounsg prep adj nounsg
+verbpapa nounpl nounsg verbinf prep nounprop nounsg
+nounsg prep nounsg
+nounsg verbpressg nounpl nounsg nounsg adj nounsg
+adj nounsg nounpl nounpl prep nounprop
+nounsg verbpressg adv det__indef nounsg verbinf prep nounpl num__card prep nounsg
+nounsg adv adv prep adj nounsg
+adv nounpl prep nounsg adj nounpl
+nounpl adj conjcoord nounpl verbprespl prep nounsg
+nounsg adj prep nounsg
+nounsg verbpressg nounsg
+nounsg verbpressg nounsg adj prep nounsg
+nounsg verbpressg nounsg prep nounprop prep adj nounsg conjcoord
+nounsg verbpressg prep nounprop
+num__card nounpl prep nounsg prep nounsg nounsg nounsg
+nounsg nounsg verbpressg det__art nounsg prep nounsg prep nounsg adv
+num__card nounpl prep nounprop verbprespl prep nounsg prep nounprop
+nounsg prep nounsg prep nounsg
+nounsg prep nounprop
+adj nounsg prep nounprop
+adj nounsg verbpapa
+nounpl nounpl
+nounsg nounsg nounsg prep nounsg nounprop
+nounsg nounsg nounsg nounsg prep nounsg
+adj adj nounsg nounpl conjcoord nounsg prep nounsg
+num__card nounpl prep nounsg prep nounsg nounsg nounsg
+nounsg prep nounprop
+adj nounsg verbpressg nounsg
+adj nounsg verbpressg nounsg nounprop
+nounpl verbpressg adv prep num__ord nounsg
+nounsg adv nounsg pronrel adj nounpl nounsg
+adj adj nounsg nounpl conjcoord nounsg prep nounsg
+nounpl nounpl
+nounpl verbprespl prep nounpl
+nounsg prep det__art nounsg verbpapa
+nounsg prep nounsg nounsg
+nounsg conjcoord nounsg adj prep nounpl
+nounsg verbpressg nounsg nounsg nounpl verbprespl
+nounsg nounprop verbpressg adj prep nounpl nounpl
+nounsg verbpressg det__art nounsg prep nounsg verbpressg nounsg conjcoord nounsg
+nounsg prep nounsg nounprop
+nounpl nounsg partte adj
+nounsg prep nounpl
+nounsg nounsg
+adj nounsg nounsg nounsg prep adj verbpapa
+nounpl adj nounsg adj
+num__card nounpl adj
+nounsg verbpressg nounsg verbpressg
+nounsg prep nounsg
+nounsg prep nounsg nounprop
+adj nounpl prep nounprop
+nounsg adj prep nounsg nounprop
+nounsg nounsg prep nounsg
+nounsg nounpl
+adj nounpl verbpressg prep nounsg nounsg
+nounpl nounsg nounsg prep
+nounpl nounsg det__art nounsg prep
+nounsg verbprespl num__card nounsg
+nounsg prep adj adj nounpl
+adv adj nounpl prep nounpl prep nounsg
+nounsg prep nounprop prep nounsg verbpapa
+nounsg verbpressg prep adj nounsg adv nounpl verbpapa
+nounsg verbpressg prep adj nounsg prep nounsg adv adj
+adj nounsg verbinf prep adj nounsg
+nounsg verbpapa prep adj nounsg verbpapa
+nounsg verbpressg prep nounsg nounsg
+nounsg num__card nounsg adj prep nounsg
+nounsg num__card nounsg adj nounsg nounsg
+nounsg conjcoord nounsg verbinf nounsg
+nounpl verbprespl prep prep nounpl
+num__card nounpl verbprespl nounsg prep nounsg
+adj nounsg prep nounsg prep nounsg nounsg
+nounpl nounpl adv adv
+adv nounpl prep nounprop
+adj nounsg nounsg nounsg
+num__card nounpl nounprop verbpapa
+nounpl nounpl verbpapa
+nounsg verbpressg nounsg nounsg verbinf
+nounsg nounprop verbpressg nounpl prep nounsg
+nounsg verbpressg num__card nounsg prep conjsubo nounsg nounsg
+nounsg verbpressg adj
+nounsg verbpressg num__card nounpl prep num__card nounsg nounprop nounsg
+nounsg verbpressg nounpl prep det__art nounsg
+nounsg conjcoord nounsg prep nounsg
+nounsg prep nounsg verbpressg nounsg
+adj nounpl prep adj adj nounsg
+nounsg nounsg nounsg verbpressg
+nounpl verbpressg verbpresp det__indef nounsg verbprespl prep nounsg
+nounsg adv prep nounsg
+nounsg verbpastsg prep num__card nounpl prep nounsg nounpl
+nounsg prep nounprop
+num__ord nounsg nounsg nounsg
+nounpl verbpressg nounsg nounsg
+nounsg num__card nounsg verbpresp adj conjcoord adj
+det__indef num__card adj nounsg verbpastsg adj
+nounsg prep nounsg prep nounpl pronindef
+nounsg verbpressg prep nounsg
+adj nounsg prep nounpl
+nounsg nounpl verbpressg adj
+nounpl verbprespl prondemo nounsg verbinf
+nounpl verbprespl nounsg prep
+partte adj verbpapa prep adj nounsg verbpressg
+nounsg verbpressg nounsg nounsg
+adv prep det__art nounsg int nounsg
+nounsg verbpapa
+pronpers verbpressg prep nounsg nounsg prep adj nounsg
+adj nounsg verbpressg nounsg prep adj nounsg det__art nounsg
+nounsg nounsg nounprop nounsg verbpressg num__card
+nounsg prep det__art nounsg prep nounsg prep det__art nounsg
+nounsg verbpressg adv adj
+nounsg verbpressg adv adj adj nounpl
+adv nounsg nounsg nounprop
+nounsg verbpressg nounsg nounprop verbinf
+nounpl verbprespl det__art nounsg prep nounprop
+nounsg verbpressg prep nounsg adv prep num__card
+nounsg prep det__art nounsg
+nounsg verbpressg nounsg num__card
+nounsg prep nounsg conjcoord nounsg
+adj nounpl adv det__art nounsg prep prep nounsg num__ord
+nounsg adj nounsg prep nounsg prep det__art nounsg
+nounsg verbpressg prep nounsg adv prep num__card
+nounsg prep det__art nounsg prep nounsg prep det__art nounsg
+nounsg prep det__art nounsg
+nounsg prep nounsg nounsg
+nounsg nounsg verbpressg adj
+nounsg verbpressg prep nounprop
+adj nounsg prep nounprop
+nounsg nounprop verbpressg prep nounsg
+nounsg prep nounsg prep nounsg
+nounsg nounprop verbpressg prep nounsg nounprop
+nounsg prep det__art nounsg prep nounsg nounprop nounpl adj
+nounsg prep nounsg prep nounprop
+adv nounpl prep det__art nounsg
+nounsg nounsg verbpapa
+nounsg prep adj nounsg nounsg verbpressg adj verbprespl det__art nounsg
+nounsg verbpapa prep nounprop
+nounsg nounsg prep nounpl adj nounpl prep nounsg
+nounsg adj nounpl
+nounsg verbpapa
+adv prep verbpresp nounpl
+nounsg prep det__art nounsg verbpapa
+nounsg nounprop prep num__card verbpapa
+nounpl prep nounsg nounsg
+nounsg prep nounsg verbpressg
+nounsg verbpapa prep nounsg
+nounsg nounpl prep nounsg
+det__indef nounsg adv prep nounsg
+verbprespl nounpl prep det__art nounsg
+verbpressg prep adj nounpl
+nounsg prep nounsg prep nounsg partte verbinf
+nounsg prep nounprop
+nounsg prep nounprop
+adj nounsg adj nounsg num__card verbpapa
+nounsg adj nounsg adj prep adj nounsg
+nounsg prep nounsg verbinf
+adj nounsg verbpressg num__card nounsg partte num__card
+adj nounsg nounprop verbpressg adj nounsg
+nounsg nounsg verbpressg nounsg
+nounsg verbpressg nounsg prep num__card
+nounpl nounsg nounprop prep nounsg
+nounprop verbpressg nounsg
+verbprespl nounpl prep nounsg
+nounpl nounpl prep det__art nounsg
+nounpl nounsg nounsg prep nounsg
+nounsg prep nounsg
+int prep det__art nounsg conjcoord verbpressg det__art nounsg num__card
+nounsg adj adj nounsg nounsg
+nounsg nounsg prep nounprop
+nounsg nounsg verbpressg adj
+num__card nounsg prep nounsg adj nounsg
+nounsg partte adj conjsubo det__art nounsg partte verbinf
+adj adj prep nounsg nounsg
+num__card nounpl prep nounsg nounsg verbpressg
+nounsg prep nounprop
+nounsg adj adj nounsg nounsg
+int prep det__art nounsg conjcoord verbpressg det__art nounsg num__card
+nounsg prep nounprop conjcoord nounsg
+nounsg nounsg verbpressg prep det__art adv
+num__card nounpl verbprespl nounpl conjcoord adv
+nounpl nounsg verbinf nounprop
+conjsubo pronpers verbprespl nounpl adv verbinf
+adj nounsg prep nounsg
+num__card nounpl adv adv verbpapa
+nounsg nounsg nounprop verbpressg adv
+num__card nounpl prep adj nounsg
+nounsg verbpressg prep nounsg
+nounprop nounsg prep nounsg nounsg
+nounpl nounprop verbprespl nounsg prep nounpl
+nounsg nounprop verbpapa
+adj nounsg prep adj verbpressg adv
+verbpressg prep adj nounsg nounsg
+nounsg verbpressg nounsg prep nounsg
+adv verbpressg prep nounsg nounsg
+adj nounsg verbpressg nounsg nounsg
+det__indef nounpl verbprespl nounprop prep
+nounsg prep nounsg prep nounsg nounsg
+adj nounpl nounsg prep nounprop
+nounsg prep nounsg prep nounprop
+nounsg verbpapa prep nounprop
+nounpl nounsg verbinf nounsg prep nounpl
+det__indef nounsg prep nounsg nounsg
+nounpl prep nounsg nounsg nounsg
+adj nounsg verbpressg nounsg nounprop
+nounsg nounsg nounprop prep nounprop
+nounsg verbpapa prep nounsg prep nounprop
+nounsg verbpressg nounsg nounpl nounprop
+verbpapa nounpl adv adv prep nounprop
+adj nounsg adv adv prep nounsg verbinf
+nounpl verbpapa prep nounsg
+nounprop verbpressg prep adj nounsg
+det__indef nounsg adv prep nounprop nounsg
+nounsg conjcoord adj verbpastsg prep nounsg nounprop
+nounsg prep num__card nounpl prep nounprop
+nounprop verbpressg adj nounsg
+nounsg verbpressg nounprop num__card
+adj nounsg verbpressg nounsg prep nounprop
+nounsg nounprop verbpressg verbinf
+adj nounsg nounprop verbpressg
+nounpl prep nounsg verbpressg
+nounsg verbpressg prep nounprop conjcoord nounprop
+adj nounsg verbpapa nounsg
+nounprop verbpressg prep nounprop
+prep nounsg verbpressg nounsg prep nounsg
+adv adj nounsg prep nounsg nounprop
+verbpressg nounsg prep nounsg prep nounprop
+num__card nounpl prep det__art nounsg prep num__card
+nounsg nounprop prep nounpl prep nounsg
+nounpl verbprespl adj nounsg adv
+nounsg nounprop verbpressg nounsg prep
+nounsg verbpressg prep nounsg prep nounpl
+nounsg nounsg verbpressg nounpl prep nounsg
+nounsg verbpapa nounsg det__indef nounsg nounprop
+nounprop verbpressg prep nounsg nounprop verbpressg verbpapa nounsg prep adj prep nounsg pronpers verbprespl pronpers prep det__art nounsg
+nounprop verbpapa prep nounsg
+nounpl verbinf nounprop verbpresp nounsg
+adj nounsg adj nounpl verbinf
+nounsg verbpressg nounsg prep nounsg nounsg
+nounsg prep nounsg prep nounsg
+adj conjsubo nounsg partte verbinf prep det__art nounpl prep det__art nounsg prep nounprop verbpressg nounsg
+nounpl prep nounsg verbinf nounsg
+num__card nounpl prep nounsg
+nounpl verbinf nounprop verbpresp nounsg
+nounsg nounprop prep nounsg
+nounsg verbpressg nounsg verbprespl adv partte verbinf
+pronadv verbprespl adv adv nounpl prep prep det__art nounsg conjcoord det__art nounsg prep nounprop
+nounprop verbprespl pronrefl adj nounpl prep nounsg nounprop
+det__art nounsg prep nounprop verbpressg prep adv verbprespl pronadv num__card nounpl verbpapa adj nounpl
+nounsg nounsg nounabbr adj prep adj nounsg
+adv adv nounsg prep nounprop conjcoord nounsg
+nounsg verbpressg adj nounpl prep nounsg
+pronindef prep det__art nounsg prep nounprop conjcoord det__art nounsg prep det__art adj nounsg adj nounpl
+adj nounsg verbpressg nounsg prep
+det__indef nounsg conjcoord nounsg prep nounprop prep nounpl
+nounpl prep nounprop nounsg verbinf nounsg
+nounprop verbpressg verbpapa prep det__art nounsg prep num__card prep det__art nounsg prep nounprop pronpers verbprespl det__art nounsg prep det__art nounsg
+adj nounsg prep nounprop
+nounsg verbpressg prep nounsg prep nounsg
+nounsg verbpressg nounsg adj nounsg
+nounsg verbpastsg num__card nounsg verbpressg prep nounsg
+verbpapa nounpl prep nounsg prep nounprop
+nounpl verbpapa prep nounprop
+nounsg verbpressg prep verbpresp nounsg
+nounpl verbinf nounsg nounsg prep det__art nounsg
+nounpl nounprop verbinf nounsg
+adv verbprespl prep nounpl
+nounsg prep num__card num__card verbpapa
+adj nounsg verbpressg adj prep nounsg nounprop
+nounsg prep nounsg nounsg
+nounpl verbpastpl adj nounsg verbinf
+nounprop verbpressg nounpl nounsg prep nounsg verbinf
+nounsg verbpressg nounpl nounprop verbprespl
+nounsg nounsg verbpapa prep nounsg
+nounsg verbprespl adj nounsg adv
+adj nounpl nounprop verbprespl adv
+adj nounpl nounprop verbprespl adv
+nounsg verbpressg nounpl verbpapa prep nounprop
+nounpl verbinf pronrefl adv adv adj nounsg
+adj nounsg verbpastsg nounpl
+nounsg adv nounsg prep det__art nounsg
+nounsg adj adj prep nounsg
+nounprop verbpressg nounsg prep nounsg
+verbpressg prep nounprop nounsg nounprop
+adj nounsg prep nounsg nounsg
+nounpl prep nounprop nounsg
+nounprop verbpressg nounprop adj nounpl prep
+nounsg adj nounpl prep nounprop prep
+adj nounsg verbpastsg prep nounsg prep nounpl
+nounprop verbpressg prep nounsg
+nounpl prep nounsg conjcoord adj nounsg verbinf adv
+nounsg adj nounsg prep nounsg
+nounprop verbpressg nounsg nounprop
+nounsg nounpl verbpressg prep nounsg
+conjsubo verbpressg num__card nounsg nounsg prep nounsg nounsg
+nounsg verbpressg nounsg
+nounsg verbpressg nounsg prep nounsg nounsg
+nounsg verbpressg nounsg
+nounsg nounprop adj adj nounsg prep
+nounsg prep adj nounsg verbpapa
+nounpl adj prep adj nounpl
+verbinf nounsg nounprop prep nounsg
+nounsg prep nounpl prep nounprop
+nounsg prep nounprop nounsg nounprop
+nounsg nounsg verbpressg conjsubo adj nounsg
+adj nounsg prep nounprop
+nounsg verbpressg conjsubo adj pronindef adj verbpastsg
+nounsg prep num__card nounpl verbpressg
+nounabbr verbpressg nounsg prep nounsg prep adj nounpl
+nounsg verbpressg prep prep prep nounprop
+adv num__card nounpl verbprespl adv prep nounprop
+partte num__card verbpapa prep adj nounpl
+nounpl prep nounsg prep nounsg prep nounpl
+nounsg nounsg prep adj nounsg verbpapa
+nounsg nounsg nounsg prep nounsg nounsg
+nounsg verbpressg nounsg prep det__art nounsg
+nounpl nounsg verbinf prep
+nounsg nounsg verbpapa prep nounsg
+adj nounsg verbpastsg nounsg
+nounsg verbpressg prep nounprop prep nounsg nounsg
+verbpresp nounsg prep nounsg prep nounprop
+nounsg num__card nounpl prep nounprop
+nounsg verbpastsg nounsg adv prep det__poss nounsg
+adv nounpl prep nounsg adj nounsg
+nounsg prep nounsg
+det__indef adj nounsg prep nounsg
+nounsg verbpressg prondemo adv verbpressg
+nounsg verbpressg prep nounsg
+nounabbr verbpressg nounsg prep nounsg prep nounsg
+nounsg adj adv prep nounprop
+adj nounsg prep nounsg prep nounprop
+adv nounsg prep adj nounsg nounsg
+nounabbr verbpressg prep nounsg nounprop prep nounsg
+nounprop verbpressg nounsg prep verbpressg adj
+nounsg verbpressg prep nounsg prep nounprop
+nounpl verbpastpl prep nounpl
+adj nounsg prep nounsg
+nounsg adv verbinf prep num__card
+nounsg verbpressg adv prep adj nounpl nounabbr
+nounsg nounpl nounprop prep nounsg
+nounabbr verbpressg nounsg
+nounsg prep nounsg prep nounprop
+adj nounsg verbpressg nounprop
+nounpl prep nounsg nounsg prep nounprop
+nounpl prep nounsg nounsg prep nounprop
+nounsg nounsg adj adj nounsg adv
+nounsg nounsg det__art nounsg prep nounsg
+verbpresp nounsg verbinf verbinf nounsg
+nounprop verbpressg adj nounsg adv prep nounpl
+num__card nounpl prep adj nounsg
+nounsg verbpressg conjsubo nounsg prep det__art nounsg
+nounpl prep nounprop nounprop
+nounabbr verbpressg nounsg nounsg verbinf
+nounpl prep nounprop adj verbpapa
+nounsg adj prep adj adj nounsg
+det__indef nounsg prep adj nounpl
+nounsg verbpressg pronindef prep verbprespl nounpl
+adj nounpl prep nounprop
+adj nounsg verbpressg adv prep nounpl prep nounsg
+adv conjsubo num__card nounpl verbprespl nounprop verbpressg
+pronindef nounsg prep nounsg nounsg nounsg
+nounsg verbpressg nounsg num__card nounsg conjsubo adv partte verbinf
+adj nounsg verbpressg nounprop nounsg
+nounsg verbpressg prep verbpressg adj nounsg
+nounsg verbpapa prep nounprop
+nounsg verbpressg nounsg prep nounsg nounpl
+nounsg adv prep nounsg prep nounpl
+nounsg verbpressg det__indef nounsg adv prep adj nounsg prep nounsg
+adj nounpl nounpl verbpapa
+nounpl verbinf nounsg adj nounsg prep
+verbpapa nounsg adj verbpapa
+prep nounprop adj nounsg nounsg
+adj nounsg verbpastsg nounsg prep nounsg
+nounsg verbpressg adj nounsg
+nounsg verbpressg prep nounprop prep nounpl
+nounsg verbpastsg nounsg adv adv prep nounpl
+nounsg prep nounsg prep det__art nounsg verbpressg prep nounsg
+nounsg nounsg nounsg prep nounprop
+nounsg nounprop verbpressg nounsg prep nounsg
+nounabbr nounprop verbpressg nounsg prep det__art nounpl
+nounsg verbpressg nounsg prep nounsg
+nounsg adj adj nounsg
+nounpl verbinf pronrefl adv prep nounsg
+nounsg adj nounpl nounsg verbinf
+det__indef adj nounsg prep nounsg verbinf
+nounsg verbpressg prep nounsg
+adv nounsg prep nounpl prep nounsg
+det__demo nounsg nounsg nounsg nounprop
+nounabbr verbpressg adv adv adj nounpl nounprop
+nounsg prep adj nounpl
+nounsg prep verbpresp nounsg
+num__ord nounsg verbpapa prep nounsg
+num__card nounpl verbpapa prep nounsg
+nounsg prep nounsg prep adj nounsg
+nounsg nounsg verbpapa
+nounpl conjcoord nounsg verbinf prep adj nounprop
+nounsg prep det__art nounsg verbpastsg nounsg nounsg
+nounsg prep nounsg prep nounsg nounpl
+nounsg prep adj nounpl verbpapa
+nounpl num__card nounsg num__card nounpl prep nounsg
+adj nounsg verbpressg nounsg nounprop
+nounpl verbpressg nounsg prep nounprop
+nounsg verbpressg nounsg prep nounsg nounsg
+adv num__card nounpl verbprespl adv prep nounprop
+nounsg nounsg adv verbpapa prep nounsg
+nounsg nounsg verbpressg prep prep nounpl
+adj nounsg prep nounprop
+nounsg nounprop verbpressg nounsg prep nounsg
+nounsg nounsg nounsg verbpapa
+nounsg verbpressg adj nounprop nounsg prep nounprop
+det__indef nounpl adv nounsg prep nounsg
+nounsg verbpressg adv prep nounsg partte verbinf
+nounsg nounprop adj nounsg adv
+nounpl verbprespl adv verbpapa nounpl prep nounsg
+nounprop verbpressg det__indef nounpl prep prep num__card
+nounabbr verbpressg prep nounsg verbinf
+pronpers verbpressg verbinf prep det__poss adj nounpl
+prep num__card verbpapa nounsg nounabbr
+adj adj nounsg verbpapa
+nounsg nounsg prep adj nounsg
+nounpl nounsg verbinf nounsg adv
+adv nounpl prep adj nounpl nounsg
+adj nounsg nounprop
+nounsg verbpressg prep nounsg
+nounsg verbpressg partte num__card nounsg prep nounsg
+nounsg nounsg num__card verbpressg verbpapa nounsg verbpressg
+nounsg verbpressg nounsg prep nounsg verbinf
+adj nounsg prep nounprop
+nounabbr verbpressg nounsg adj nounsg nounsg prep det__art nounsg
+adj nounsg verbpressg nounsg prep nounsg
+nounsg nounsg verbpressg verbpapa
+nounsg verbpressg nounsg nounsg nounprop
+nounprop adj prep nounsg nounprop
+adv nounsg prep nounprop
+nounsg verbpressg det__indef adj nounsg
+nounpl nounsg verbpastpl adv num__card num__card prep
+nounpl adv prep nounpl
+nounsg adv adv adj
+nounprop verbpressg nounsg verbinf nounsg
+adj adj nounpl verbprespl adj
+nounsg prep nounsg verbpressg prep nounprop
+adj nounsg verbpressg prep nounsg
+nounsg nounsg prep nounprop adj
+nounprop verbpressg prep nounprop
+nounsg verbpressg nounsg adv adv verbpapa
+adj nounsg prep conjcoord adv prep nounsg nounprop
+adv det__indef nounsg prep nounpl
+nounpl conjsubo num__card nounpl prep nounprop
+nounsg verbpressg nounsg nounpl
+nounsg nounprop verbpressg nounsg verbinf
+nounsg verbprespl nounprop nounprop
+adj nounpl verbprespl nounprop partte nounsg
+adj nounsg prep nounsg
+adj nounpl nounpl verbpapa
+nounsg adj nounpl verbinf verbinf
+adv adj nounsg prep nounsg
+nounabbr verbpressg nounsg prep nounsg nounsg prep nounsg
+nounprop adj nounpl verbprespl prep nounpl
+adj nounsg adj prep nounsg adj
+nounsg nounprop prep det__art nounsg prep nounpl
+nounprop verbpressg adj nounsg
+det__indef nounpl verbprespl nounabbr verbinf
+adv adv verbpapa nounpl
+adj verbprespl verbpapa prep nounsg nounprop
+nounsg verbpressg adv adj nounsg
+nounsg prep adj nounsg
+adj nounsg prep nounprop
+nounsg prep nounsg nounsg
+nounsg nounsg nounprop adj
+nounsg nounsg verbpressg nounsg nounsg prep
+nounsg verbpressg nounsg prep nounpl
+nounsg verbpapa prep adj nounsg
+nounsg verbpapa prep nounsg
+nounsg nounsg verbpressg adv conjsubo adj nounpl
+adj nounsg prep nounprop prep nounsg
+nounsg prep nounsg nounprop
+nounsg adj nounsg num__card verbpapa
+nounprop verbpressg nounpl prep nounsg
+nounsg prep nounsg verbpressg verbinf
+nounsg prep nounsg prep nounprop
+nounpl verbpressg adv det__art nounsg adj prep nounsg
+nounsg verbpressg adj nounsg det__art nounsg verbpressg prep nounsg
+nounsg verbpressg adv prep nounpl pronrel adj nounsg verbinf
+adv adv nounpl prep nounsg nounsg nounsg
+nounsg adj verbpapa prep nounprop
+nounprop verbpressg nounsg prep nounsg nounsg prep nounprop
+det__art nounsg verbpapa nounsg det__art nounsg prep adj nounsg
+nounsg verbpressg adv adv num__ord nounsg nounsg num__card nounsg
+nounsg verbpapa adj nounsg verbpressg nounsg adv prep nounprop
+nounpl verbpressg prep num__ord num__card nounsg prep nounsg
+nounsg verbpressg nounpl adv partte verbinf prep nounprop
+nounpl adj prep adj nounsg prep nounpl
+nounsg verbpressg num__ord num__card nounsg nounpl verbpapa num__ord
+adj adj nounsg verbpapa prep adj nounpl
+nounpl nounsg nounsg partte adj conjcoord nounsg partte adj
+nounsg nounprop verbpapa adv adj nounsg prep nounpl
+nounpl prep nounsg nounsg nounprop nounsg verbpapa nounsg
+nounsg nounsg adj nounsg nounsg
+prep nounsg num__card verbpressg adv prep nounsg num__card prep nounsg nounsg det__art nounsg nounprop verbpressg adv prep nounsg adj prep num__card
+nounprop verbpressg prep adv conjsubo num__card nounpl adv adj nounsg
+nounsg verbpressg prep nounprop nounprop nounpl verbpressg nounsg
+nounsg verbpressg adv prep det__art nounsg prep num__card verbpapa prep nounprop nounprop nounsg adv prep nounsg
+det__art nounsg prep det__art adj nounsg prep adj nounsg prep det__art nounsg prep nounprop verbpressg adj adv prep det__poss nounsg
+nounsg nounsg verbpapa prep nounprop
+nounsg verbpressg adj nounsg prep nounsg num__card
+pronpers verbprespl pronpers adv prep nounpl prep det__art nounsg
+nounsg verbpressg adv prep det__art nounsg prep num__card prep nounsg verbpapa nounpl adv prep nounsg
+adj adj nounsg adj
+adj nounsg verbpressg adv prep nounprop
+adv adv adj nounsg prep nounsg
+verbpressg pronpers nounsg verbinf prep det__art adj nounsg prep
+adj nounsg nounprop verbpressg nounsg nounsg prep prep nounprop
+adj nounsg num__ord nounsg prep nounsg nounpl
+nounprop verbpressg nounsg prep nounsg nounsg prep nounsg prep adj nounsg
+nounsg nounsg verbpressg prep det__art nounsg nounpl prep nounsg det__art num__card nounsg verbpapa nounpl adv prep nounsg
+det__art adj nounpl verbprespl adv adj adv partte verbinf prep nounprop verbpressg adv prep det__poss nounsg prep nounsg
+nounsg verbpastsg prep nounsg num__card nounsg verbpressg prep nounsg
+pronadv verbpressg pronadv adv adv det__indef nounsg prep nounprop
+adj nounpl verbpapa prep nounsg nounprop
+adj nounpl prep nounprop num__card nounpl
+det__art nounsg verbpressg num__card nounsg conjcoord nounsg num__ord nounsg
+det__art adj nounpl prep nounprop verbprespl verbpapa prep det__art nounsg prep nounprop num__card nounsg prep nounsg
+nounsg det__art nounsg verbpressg prep det__art nounsg nounpl prep nounsg det__art num__card nounsg verbpapa nounpl adv prep nounsg
+adj nounsg verbpressg det__indef nounsg prep nounsg
+nounsg verbpressg adj nounsg adj nounsg verbpressg prep adj nounsg
+nounsg verbpressg adj nounsg prep nounsg verbinf
+nounsg verbpastsg nounsg prep det__art num__card nounsg conjcoord nounpl adv adj
+int verbpapa
+adj nounpl nounpl num__card prep nounprop
+nounsg verbpressg nounsg adj nounpl nounprop verbprespl
+adj nounpl verbinf prep nounsg adv adv adj nounsg verbpressg adj
+prep nounsg nounpl prep nounsg pronadv adv nounsg verbpastsg prep nounsg prep nounsg
+nounpl adj prep adj nounpl
+nounpl nounpl verbpressg det__art adj nounsg
+nounprop adj nounsg prep nounsg adv conjsubo num__card nounpl prep nounsg
+nounpl verbpressg conjsubo pronadv det__art nounsg partte verbinf verbpastsg prep det__art nounsg prep nounsg
+num__card nounpl prep adj nounsg nounprop verbpressg
+adj nounsg nounpl prep adj adj nounpl
+nounsg nounprop nounsg verbpressg conjsubo det__poss nounsg adv verbpressg prep det__indef nounpl prep det__art nounsg prep nounsg nounsg
+verbpressg adj nounsg nounpl adj
+nounsg verbpressg nounsg nounpl nounprop
+nounsg prep nounsg prep nounsg
+nounsg verbpapa prep nounpl nounprop
+nounsg nounprop verbpressg prep num__card prep nounsg nounprop
+nounpl prep nounsg prep nounsg prep nounsg
+nounprop verbpressg adj nounpl prep nounprop
+nounsg prep nounsg
+nounsg pronpers verbpressg nounsg verbpapa
+adj nounpl prep nounprop
+nounsg prep det__art nounsg
+prep nounsg verbpressg nounsg verbinf prep nounsg prep det__art nounsg
+nounsg verbpressg verbpapa nounsg adj nounsg
+verbpresp nounpl adv adv prep nounprop
+nounsg adv verbpapa prep nounsg nounsg adv partte verbinf
+nounsg prep nounsg det__art nounsg prep det__art num__card nounsg
+nounsg prep adj nounsg conjcoord adj nounpl
+nounsg pronpers verbpastpl nounsg prep adj nounsg verbprespl verbinf
+nounpl verbprespl conjcoord num__card nounpl prep nounprop adj nounpl adj
+num__card nounpl verbpapa prep nounsg nounprop
+nounsg prep nounsg prep adj adj nounpl
+nounprop adj nounsg prep nounsg conjcoord det__poss nounsg prep nounsg verbinf
+nounsg prep det__art nounsg verbpressg nounsg prep verbpapa nounsg
+adj nounsg verbpressg num__card nounsg nounsg nounpl
+nounsg verbpapa nounsg nounsg verbpressg adv partte verbinf
+nounsg nounsg verbpressg prep nounsg det__indef nounsg verbpressg adv det__art nounsg
+nounsg conjcoord nounsg verbinf nounsg conjcoord nounsg prep num__card nounsg nounsg nounpl
+nounprop nounpl prep nounsg nounpl prep nounsg
+adj adj adj nounsg nounsg nounpl verbinf nounsg nounpl
+verbpressg adj nounpl prep det__art nounsg prep nounsg nounpl prep nounprop conjcoord adj nounpl prep nounsg
+prep nounsg verbpressg nounsg nounsg verbpressg prep det__demo nounsg det__art nounsg prep det__art nounpl prep nounsg adj prep nounsg
+adj nounsg verbpastsg det__poss nounsg verbinf prep adj nounpl
+det__indef nounsg verbpressg det__art adj nounsg pronadv det__art nounpl prep nounprop nounpl verbprespl prep nounsg
+nounsg nounprop verbpapa prep num__card num__card nounpl prep adj nounsg
+adj nounsg nounprop conjcoord nounpl verbprespl nounsg prep nounprop verbinf
+nounpl verbpapa nounpl verbprespl nounpl adj verbpressg
+prep nounprop verbpressg adv det__demo nounsg prep det__demo num__card adj nounsg
+nounpl det__indef nounpl prep nounprop verbpapa
+verbpressg det__art nounsg prep nounsg nounpl prep det__art nounsg
+verbprespl pronpers nounpl nounsg
+det__art nounsg verbinf verbpressg prep det__art adj nounsg verbpapa prep num__card verbpressg det__art nounpl prep det__poss nounsg
+nounsg verbpastsg adv prep num__card nounsg adv adv
+nounsg prep nounsg conjcoord nounsg prep adv nounsg nounsg verbinf
+adv adj nounsg prep num__card prep nounsg prep nounsg
+nounsg verbpressg conjsubo pronadv det__art nounsg prep det__art nounsg prep nounprop prep nounsg nounsg prep det__art nounsg verbpressg det__art adj nounsg nounsg
+nounsg verbpressg prep nounsg prep adj nounsg
+adj nounpl prep det__art nounpl prep det__art nounsg prep
+prep adj adj nounsg prep nounprop verbpressg det__art nounsg verbprespl adv verbpapa prep num__card verbpressg det__art
+adv adv verbinf prep nounprop prep nounsg num__card nounpl verbprespl conjsubo det__art nounsg verbpapa prep det__art nounsg prep nounpl verbpressg nounsg nounsg
+nounsg prep adj nounsg adv adv verbpapa nounsg verbpressg verbinf
+det__art nounsg prep nounprop det__poss nounsg adv nounsg adv
+adj nounsg nounprop nounsg prep nounsg
+nounsg verbpressg prep nounsg
+adj nounpl adj
+num__card nounpl conjcoord nounpl prep det__art nounsg prep nounsg nounsg nounsg
+nounpl verbprespl adj prep nounsg
+adj nounsg nounsg prep nounprop adj nounsg nounprop verbpressg
+nounsg nounprop verbpastsg adv prep num__card prep nounsg nounsg nounsg adv prep nounsg
+nounsg verbpressg adv prep det__art num__ord nounpl prep det__art nounprop nounsg prep num__card verbpapa prep nounsg nounprop nounsg adv prep nounsg
+nounsg verbpressg adj nounpl verbprespl
+num__card nounpl adv adj nounpl prep nounprop verbprespl adv adv prep nounprop
+adj nounsg prep nounsg verbpressg conjsubo adj adj nounsg prep nounprop verbpapa verbpressg conjsubo adj nounpl adv partte verbinf
+adj nounpl prep nounprop nounpl verbpressg prep nounprop
+det__art adj nounsg verbpressg prep nounsg conjsubo det__art num__card adj nounpl prep nounprop verbpressg prep nounprop verbpapa verbprespl verbinf verbpressg adv
+adj nounsg nounsg conjcoord nounsg nounpl prep nounprop adj
+nounsg prep nounsg nounsg verbpressg det__indef nounpl prep nounsg
+nounsg verbpapa prep nounsg adj nounsg
+nounsg nounsg verbpressg prep nounpl prep nounsg nounsg
+nounsg nounprop verbpressg prep adj nounsg
+nounsg nounsg adj nounpl verbprespl adv adv adj
+det__art nounsg prep nounsg verbpressg prep nounpl pronrel nounprop det__art num__card adj nounpl adv verbpressg verbinf nounsg adv prep nounsg
+nounsg nounsg verbpapa prep nounsg
+adj nounsg verbpressg num__card nounsg prep nounsg nounpl
+adj nounsg verbpressg det__art num__card nounsg prep det__art nounpl prep det__art nounsg nounpl prep nounsg nounsg adv prep nounsg
+nounsg verbpressg nounprop conjcoord nounprop prep adj nounsg
+adj nounpl prep nounprop prep det__art nounsg partte verbinf verbpapa
+verbpressg prep nounsg
+nounprop verbpressg pronrefl adj conjcoord verbpressg nounsg nounsg
+nounsg verbpressg num__card nounsg prep nounsg nounpl
+nounsg verbpressg conjsubo adj nounpl prep nounprop prep det__art nounsg verbprespl partte verbinf verbpapa
+adj nounsg verbpressg prep det__art nounsg nounpl det__art num__card nounsg verbpapa nounpl adv prep nounsg
+verbpressg adj nounsg adv conjsubo adj nounsg
+nounsg adj nounsg nounsg verbpressg nounpl
+nounsg verbpressg det__art adj adj nounsg nounsg pronpers verbpressg prep det__poss nounsg verbinf
+det__art nounpl nounabbr conjcoord nounpl verbprespl adv nounsg prep prep det__art adj nounsg det__poss nounsg verbpressg pronpers adv prep det__art nounsg
+prep nounsg adv nounpl adj verbpapa prep adj nounsg verbprespl nounsg verbpastsg prep verbpresp nounsg verbpapa
+nounpl adj verbpapa prep adj nounsg
+nounsg nounprop verbpressg prep adj nounpl
+nounsg adv adv verbpressg prep nounpl prep nounpl nounsg
+nounabbr verbpressg prep nounsg nounsg nounsg nounsg nounsg
+nounprop adj nounsg verbpressg adj nounpl nounsg
+adj nounpl verbpressg nounsg prep nounpl adj prep
+pronadv det__art nounsg det__indef nounpl prep det__poss nounsg verbpressg
+nounprop adj prep nounpl verbprespl nounpl verbpressg conjsubo nounsg adj nounsg prep det__art nounsg nounpl nounsg
+nounsg verbpressg det__art adj adj nounsg prep nounpl
+adj nounsg verbpastsg prep nounsg prep nounpl
+adj adv nounsg conjsubo nounsg verbpressg verbinf
+adj nounprop verbpressg nounsg nounprop
+nounsg nounsg adv prep nounsg
+nounsg nounprop adj verbpapa
+nounsg adj nounsg adv prep nounsg
+nounpl prep nounsg nounprop nounpl adj nounpl
+nounsg nounsg verbpressg adv prep nounsg prep det__art nounsg adv det__art nounsg prep adj nounpl prep
+nounsg prep nounprop verbpressg adj num__card nounpl num__card nounpl
+nounsg verbpressg prep det__art num__card nounsg
+nounsg nounprop verbpressg nounsg adj nounsg
+nounpl verbpapa prep nounprop
+nounsg prep adj nounsg
+nounsg nounsg nounsg nounprop
+nounsg nounsg nounsg verbpressg
+nounsg verbpressg adv prep adj nounsg
+nounsg nounsg verbpressg adv conjsubo adj nounsg nounpl
+nounsg verbpressg adj nounsg
+nounsg prep prep nounpl nounpl adj
+nounsg nounprop adj adj nounpl prep
+nounsg nounsg nounsg adv
+verbpressg verbinf prep num__card nounsg
+verbpressg verbpapa verbpressg prep det__art nounpl prep det__art nounsg
+nounsg nounsg nounsg adv prep adj nounsg
+nounsg verbpressg nounsg prep verbpresp nounpl
+nounsg verbpressg num__ord nounsg prep adj nounsg
+nounprop verbpressg nounsg verbinf prep det__art nounsg prep nounsg nounsg num__card pronadv det__art nounsg verbpressg verbpressg pronpers nounsg
+det__art adj nounsg verbpressg det__art nounsg prep det__poss nounsg
+nounsg prep nounsg verbpastpl adv num__card num__card
+nounpl nounpl verbpressg adv conjsubo det__poss nounsg det__art nounsg verbpressg
+nounsg adj nounsg verbpressg nounsg prep nounsg
+nounsg verbpressg adj nounsg prep det__art nounsg prep det__art nounpl prep det__art nounsg nounsg nounsg verbpressg prep nounsg
+nounabbr verbpapa nounsg nounpl prep nounsg
+adj nounpl verbprespl nounsg nounsg verbpressg nounsg prep nounsg nounsg verbprespl nounpl
+adv verbinf prep nounsg verbinf prep nounprop
+nounabbr verbpressg nounabbr num__card prep nounprop verbprespl
+nounsg verbpressg nounpl adv adj nounsg
+nounsg nounsg verbpapa prep nounpl nounprop
+nounsg prep nounsg nounsg nounpl adj verbpapa
+adj nounsg prep nounsg nounsg prep nounpl nounsg
+nounabbr verbpressg nounpl prep adj nounsg
+nounprop adj prep adj nounpl verbprespl nounsg prep nounpl nounsg verbpressg adv verbpapa
+nounsg nounsg nounpl verbprespl adv adv nounpl verbinf
+nounsg verbpressg prep nounprop prep adj adj nounsg
+conjsubo nounsg nounsg verbpressg prep nounsg prep det__art nounsg verbpressg pronpers nounsg nounsg
+num__card nounpl prep nounsg adv verbpastpl prep nounprop
+num__card adj nounpl verbpapa prep adj nounsg
+nounsg prep num__card nounsg prep num__card num__card nounsg
+adj nounsg verbpressg verbpapa
+adj nounpl nounsg verbinf nounsg nounsg
+adv adv verbinf prep nounsg nounprop
+nounsg verbpressg prep nounprop prep nounsg nounpl
+nounsg nounsg prep nounprop nounsg
+nounabbr verbpressg nounsg prep num__card num__card nounsg
+nounpl adv verbpapa prep nounpl
+nounsg verbpressg nounsg num__card
+nounsg nounprop verbpressg nounsg prep nounpl
+det__demo nounpl conjcoord nounpl verbprespl prep nounsg adv adj
+int verbpressg pronindef pronpers prep det__demo nounsg prep nounsg
+nounpl nounsg verbprespl num__card nounpl prep nounprop
+nounpl verbprespl conjcoord verbinf prep nounsg
+nounsg nounsg nounprop verbpressg nounsg
+pronrel adj nounsg adv pronpers nounsg conjcoord adv verbprespl pronpers pronadv pronrel pronpers verbpapa verbpressg
+adj nounsg prep nounsg num__card nounsg verbpressg
+adj nounpl prep nounprop verbprespl det__art nounsg
+adj nounpl verbinf prep nounsg verbinf verbinf
+nounsg verbpressg nounsg nounsg adv prep
+nounprop verbpressg prep adj
+adj nounsg verbpressg partte verbinf prep nounsg
+adj nounsg adj prep nounsg prep nounsg
+pronadv verbpressg pronpers pronadv prep det__art nounsg nounsg nounsg
+nounsg nounpl verbpressg prep nounsg prep nounsg nounsg
+nounsg nounpl prep nounsg nounsg nounsg
+adj nounsg prep nounprop
+pronpers verbprespl adv adj prep det__art adj nounsg prep nounprop prep det__art nounsg
+verbpressg det__art nounpl prep nounprop prep det__poss nounsg
+num__card prep adj nounsg adv prep nounsg prep nounsg
+adv adj nounsg prep nounsg prondemo adj nounsg nounsg
+nounsg verbpressg adj nounsg num__card
+nounprop verbpressg nounsg prep
+num__card nounpl verbprespl prep nounsg
+nounsg nounprop verbpapa prep nounsg nounpl prep det__art nounsg
+det__art nounsg prep nounsg verbpressg det__art nounpl prep nounprop prep nounsg verbinf prep det__art nounsg verbinf verbpapa
+nounpl nounsg verbprespl adj nounsg prep nounprop
+nounprop nounprop verbpressg adj num__card nounpl
+nounsg verbpressg det__indef nounsg prep nounsg nounprop
+det__art nounsg prep nounsg num__card verbpressg adv prep nounsg verbprespl det__art nounsg pronadv adv verbpapa verbpressg det__art nounsg prep
+adv adj verbpapa prep nounsg adj nounsg
+nounsg nounsg adj adj nounsg
+verbpapa nounsg prep nounsg num__card verbpressg
+adj nounsg verbpressg adv prep nounsg verbpressg det__art nounsg
+nounprop adj nounpl prep nounprop
+nounsg nounprop verbpressg adj nounsg partte verbinf
+adj adv nounsg prep nounsg
+nounabbr verbpressg adv prep nounsg prep nounsg
+nounpl prep num__card adv verbpapa prep nounsg
+adj nounsg det__indef nounpl prep nounsg
+adj nounsg verbpressg nounsg prep det__art nounsg
+adj nounsg prep nounsg num__card adj nounsg nounsg verbpapa
+adj nounsg prep nounsg nounsg adj nounsg
+nounsg prep nounprop adj verbpapa
+nounsg verbpapa verbpressg adv adj adj
+adj nounsg verbpressg adj nounsg adv conjsubo verbpapa nounpl partte verbinf
+nounsg nounsg num__card nounsg verbpressg prep nounsg adv adj
+adv det__art nounsg nounsg prep nounprop verbpressg det__art nounabbr det__art adj nounsg
+adj nounpl verbprespl nounsg prep nounpl
+nounpl nounsg verbinf prep
+nounprop nounsg adv adv prep nounsg nounprop
+nounprop nounsg nounsg verbpressg det__art nounsg verbpapa prep det__indef nounpl prep nounpl prep num__card
+nounpl adj nounpl verbprespl adj
+pronpers verbprespl pronpers prep num__ord nounsg prep prep det__poss nounsg num__card
+nounsg prep nounsg adj prep nounsg nounsg
+nounpl conjcoord nounpl prep nounprop
+adv det__indef nounsg prep nounpl
+prep nounsg verbpressg pronadv det__indef nounsg verbpapa prep nounsg num__card prep nounsg verbpressg nounpl
+nounsg verbpressg prep num__card nounsg verbpressg
+det__poss nounsg verbpressg pronadv pronindef adv conjsubo det__art nounsg adv adj partte verbinf verbinf
+nounabbr nounsg prep nounsg prep nounpl conjcoord nounpl
+nounprop prep nounpl prep nounprop
+nounsg nounpl nounpl conjcoord nounpl prep adj nounsg nounprop
+nounsg verbpressg adj nounsg verbprespl adj
+num__card nounpl prep det__art verbpresp nounpl
+pronrel verbpressg pronpers prep adv prep det__poss nounsg prep nounprop pronrel verbpressg pronadv adv adj verbpressg prep adj nounsg
+adj num__card nounpl adj
+nounpl nounprop verbinf nounsg prep nounpl
+nounsg prep nounsg num__card prep nounsg nounsg adj conjsubo num__card adj nounsg verbpapa verbpressg nounpl
+nounsg prep nounsg prep nounprop verbpressg adv
+adj nounpl nounsg prep nounsg
+adv conjsubo num__card nounpl prep nounsg prep nounsg
+adj nounsg nounsg num__card verbpressg verbinf verbpapa prep adj nounsg
+adv adv nounsg prep nounsg nounpl
+adj nounpl verbprespl adj nounsg verbinf prep adj nounsg
+nounsg verbpressg nounpl adv prep nounsg prep det__art verbpresp nounsg prep det__art nounsg
+nounsg prep det__art nounsg nounsg conjsubo nounsg adv conjcoord verbpapa nounsg prep det__art nounprop
+adj nounpl verbprespl nounsg prep nounsg
+nounprop verbprespl pronrefl adj nounpl prep nounpl nounprop
+nounsg conjcoord nounsg prep nounsg nounprop adj
+adj nounsg prep nounsg adj nounsg
+nounsg verbpressg adv
+verbpressg prep nounsg nounsg verbpressg
+num__card nounpl prep nounsg verbpressg verbpapa nounpl prep nounsg
+adj nounsg prep nounsg num__card
+nounsg adv adj prep nounsg nounprop
+verbpressg nounpl verbpressg nounsg prep nounpl
+nounsg nounsg verbpressg nounsg prep nounpl nounsg
+nounpl nounsg verbinf prep nounsg
+nounprop verbpressg nounsg prep nounprop prep nounsg

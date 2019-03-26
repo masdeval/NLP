@@ -1,0 +1,144 @@
+This file describes the survey data described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+The sample 1 and sample 2 folders contain the sample 1 and sample 2
+samples described in the thesis. These samples are labeled open field
+responses taken from the survey data.
+
+The actual survey data is in the responses.csv file. The first row
+contains headers. Each other row is a single response of a single
+respondent. A respondent can rate each entity on scale from
+1 (very good) to 5 (very bad) or indicate not having any opinion
+on the entity, which is denoted by a value of 6. For each respondent
+we additionally have the gender ('Geslacht' - 1 being male, 2 being
+female) and the age ('Leeftijd') at the time of filling out the
+survey.
+
+The following description is taken from the thesis.
+
+3.2.1 Survey Data & Crawled Data
+Goal 4 already mentions mapping to a traditional survey. This inherently requires us to create such a survey.
+This is the survey data shown in Figure 6. We cannot align such a traditional survey against any randomly
+chosen data, the alignment needs to be as unbiased as possible. We therefore require a dataset on the same
+domain the traditional survey is, collected in the same timespan. This dataset is the crawled data shown in
+Figure 6. The models of our sentiment analysis are trained as per Table 4.
+
+The survey data is obtained by surveying a representative sample of Dutch society, as defined by the CBS8.
+The survey { created by Multiscope for this study { that was lled in by respondents is presented in Appendix
+D. Respondents are asked to rate sixteen dierent entities which are grouped together in four dierent
+domains as per Table 7. The rating of such an entity is on a scale from 1 (very good) to 5 (very bad). Additionally,
+the respondent can mark having no opinion on the entity in which case we leave this respondent's
+entry out for that particular entity. Before any entities are marked, the respondent is asked what social media
+(any of Hyves, Twitter, Facebook) he or she uses, allowing us to create a mapping per social medium. The
+survey data results directly from the respondents' answers to these questions. We additionally know each
+respondent's age, allowing for a segment-based alignment.
+
+If we want to align the results of the survey with those of our sentiment analysis, we need to be sure that the
+results are based on similar data. To this end, we crawl all social media specifically for the entities presented
+in Table 7 by querying the social media for all messages containing one of our entities. It may occur that a
+message is about one of our entities but because of for example a misspelling we cannot nd it by querying
+the social media for it. To still obtain these messages, we additionally collect all messages that is publicly
+available on all social media. As the survey was set out for a period of three days and since the crawling took
+place in parallel, crawling also stopped after three days. A part of this data is used to create the validation
+set described in Section 3.2.4 as shown in Figure 6. The remainder of the crawled data is completely classified
+by our four-step process and is used to create a mapping onto the survey's data, resulting in the crawled
+data shown in Figure 6.
+
+Since the survey is only answered by Dutch citizens, we disregard all messages not written in Dutch as
+classiffied by our language identification algorithm. Note that in addition to just collecting messages, we also
+collect age information in case of the Hyves social network. Using the age feature, we can thus perform a
+more ne-grained analysis.
+
+We will use the open eld data of the traditional survey as a ground truth. In order to use these open
+fields as a ground truth, we need to manually inspect the data and determine for each open eld answer
+whether it contains an opinion and if so, whether it is positive or negative. The survey contains responses
+of a representative sample of Dutch citizens of 1429 respondents. Out of these 1429 responses, exactly 919
+filled in at least one of the open elds on at least one of the sixteen entities presented in Table 7.
+
+Manually inspecting all of the open eld responses is not possible within a reasonable timespan. We therefore
+only select a sample of those 919 respondents. Since the complete survey has been lled in by a representative
+sample however, we will use its distribution in age to create our sample out of the 919 respondents that we
+will manually inspect and assign either one of objective, positive, negative to each open eld response. As
+not all of the 919 respondents who gave their opinion in at least one open eld lled in all of the open
+fields, we will construct a representative sample for each entity separately to make sure that our sample is
+representative per entity. Note that this means we do not have a representative sample with respect to the
+number of opinions given but as this is not what we want to investigate, this is not a problem. We create
+two datasets from the open eld responses.
+
+The complete distribution of the number of respondents that filled in an open field belonging to an entity is
+shown in Table 5. For each entity we select exactly 60 open field answers given by respondents sampled to be
+representative for Dutch society, following the distribution shown in Figure 16(a). We use only 60 open eld
+responses per entity { resulting in a total of 960 responses as we have 16 dierent entities { as we need to
+manually label each response which is a tedious task. This results in using the number of responses per age
+group as shown in Table 6 for each entity. To obtain the amount of responses shown in Table 6, we uniformly
+sample from each age group per entity, taking our legitimacy constraint into account. This gives us a sample
+dataset that is still representative for Dutch society.
+
+We have already pointed out that on Hyves, only the [18, 29] age group is properly represented. To this
+end, it makes sense to perform a segment-based analysis mainly focusing on this age group. The number of
+open eld responses per entity for this age group are much too low in our representative sample though. We
+thus create an additional ground truth sample using the same methodology consisting of only 50 open eld
+responses per entity in the [18, 29] age group and no open eld responses for the other age groups. We use
+the number 50 since there is one entity (Uri Rosenthal) that has only 57 responses which we round down to
+the multiples of ten. We thus have the following two ground truth samples.
+
+Sample 1. Representative sample containing for each age group the number of open eld responses shown
+	in Table 6 to be representative for Dutch society.
+Sample 2. Low-age group sample containing exactly 50 open eld responses per entity only for the [18, 29]
+	age group, and nothing else.
+
+The labeling of each of the open eld responses is done in a stand-alone manner. This means that whenever
+an entity is rated positively or negatively but its corresponding open eld response is neutral when not looking
+at the rating, we label the message as being neutral. We do this since it can only be determined positive or
+negative if we use rating information which we want to avoid as we then again not only use natural language.
+We moreover only use an open eld answer if it contains legitimate text that stands on its own (i.e. an open
+field answer such as { or idem is not used).
+
+Once we have our labeled open eld data, we know for each natural language response whether it is positive,
+negative or objective. As this labeling was performed manually combined with the fact that the samples are
+representative for Dutch society, we regard it as a ground truth labeling upon which we can evaluate our
+sentiment analysis process. Since we now have the same labels for our traditional survey as we have for our
+sentiment analysis, the mapping problems identified in Section 3.4.1 are no longer present.
+
+Table 5 - The number of open eld responses per entity if the entity was actually rated.
+-------------------------------------------------------------------------
+Entity			Responses		Entity		Responses
+-------------------------------------------------------------------------
+Manchester United	376			Playstation 3	223
+FC Barcelona		392			Wii		381
+AC Milan		365			Xbox		209
+Sloggi			504			Wilders		622
+Bjorn Borg		433			Rosenthal	449
+Nike			486			Cohen		570
+Mexx			416			Rutte		574
+Esprit			454			Sap		509
+-------------------------------------------------------------------------
+
+Table 6 - The number responses per age group.
+-------------------------
+Age Group	Responses
+-------------------------
+[18; 29]	12
+[30; 39]	10
+[40; 49]	11
+[50; 59]	13
+[60; 84]	15
+-------------------------
+
+Table 7 - The entities a respondent is asked to give an opinion on in the survey.
+--------------------------------------------------------
+Domain			Entity
+--------------------------------------------------------
+Soccer			Manchester United, Fc Barcelona
+			AC Milan
+Game consoles		Nintendo Wii, Sony Playstation 3
+			Microsoft Xbox 360
+(Clothing) Brands	Nike, Mexx
+			Sloggi, Bjorn Borg
+			Esprit
+(Dutch) Politicians	Geert Wilders, Mark Rutte
+			Job Cohen, Uri Rosenthal
+			Jolande Sap
+--------------------------------------------------------

@@ -1,0 +1,22 @@
+This file describes the word lists used for AdaBoost
+in the subjectivity detection approach described in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+This folder contains positive, negative and negation
+words for both English and Dutch. The positive word
+lists contain words that have a positive prior
+polarity. The negative word lists contain words
+having a negative prior polarity. The negation word
+lists contain words that flip polarity through
+negating prior polarity words.
+
+The following description is taken from the thesis.
+
+Supported by the results of Section 3.3.1, we use 50 weak learners and POS-tags combined with a prior
+polarity lexicon for features. The prior polarity lexicons contain positive, negative and negation words. In
+addition to the presence of POS-tags we have one additional feature indicating the presence of exactly one
+positive word (weak positiveness) and one feature indicating the presence of multiple positive words (strong
+positiveness). We also have two identical features for the negative case. Whenever a positive or negative
+word is directly preceded by a word from the negation list, its polarity is flipped.

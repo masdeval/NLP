@@ -1,0 +1,38 @@
+This file describes the datasets described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+This folder contains 7 subfolders. Each of these
+subfolders contains its own readme with more
+information on the specific dataset. We next
+described each folder briefly.
+
+Ground Truth - This folder contains social media
+messages manually labeled. In the thesis this
+dataset is called the Ground Truth Set and it
+is used to align with the traditional survey data.
+
+LI - Contains all data used for the language
+identification experiments. This includes both
+training and validation data.
+
+Survey - Contains all survey responses and the
+manually labeled samples 'Sample 1' and 'Sample 2'
+as described in the thesis.
+
+Test Set - Contains the test set which is manually
+labeled and contains 120 messages in total.
+
+Training Sentiment - Contains the trianing data
+used for the subjectivity and polarity detection
+algorithms. For language identification, the data
+in the LI folder is used to train upon instead.
+
+Validation Set - Contains the validation set which
+extracted from the crawled data and then manually
+labeled for each social medium separately.
+
+Wordlists - Contains the word lists used in the
+AdaBoost algorithm for subjectivity detection as
+additional features.

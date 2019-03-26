@@ -1,0 +1,71 @@
+This file describes the validation set described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+The folder contains numerous files named according to
+a regular scheme. There are three files for both
+English and Dutch, containing either positive,
+negative or objective messages. For each message there
+is both a tag file as well as a token file. The
+tokens on a line of one file correspond to the
+tags on the same line number of the corresponding
+tag file.
+
+The naming scheme is as follows
+{tokens,tags}_{en_UK,nl_NL}_{hyves,twitter,facebook}_{pos,neg,obj}.txt
+Here tokens or tags either indicate whether the
+the file contains tokens or tags. The second set
+is the language code, being either en_UK for English
+or nl_NL for Dutch. The third set indicates the
+social medium the messages originate from. The
+fourth set is the label of the file, being
+either positive, negative or objective.
+
+The following description is taken from the thesis.
+
+3.2.4 Validation Set
+Goal 1 requires us to compare dierent approaches to the same problem with each other. Since little data
+often implies weak conclusions, we require a large yet accurate dataset to evaluate upon. To this end we use
+the validation set shown in Figure 6.
+
+To create this validation set, we use a part of the data described in Section 3.2.1 to achieve Goal 4. We
+do this by selecting exactly 500 messages per social medium labeled Dutch by our language identification
+algorithm. We do the same for English. We manually inspect this label and if it indeed is Dutch or English,
+we manually determine whether it is a positive, negative, bipolar or objective message. If we are unsure
+about the true sentiment, the message is left out. As part of speech tags are merely used as features and
+we do not experiment with the POS-tagger, we do not manually construct these. We rather let our part of
+speech tagging algorithm determine the tag. This is not a problem as we do not evaluate POS-tagging.
+
+The resulting size of the validation set as used to achieve Goal 1 is shown in Table 9. Note that the varying
+sizes of the validation set with respect to social medium and language is due to our certainty of messages
+actually being what we label them. Facebook for example contains a lot of lengthy messages with a lot of
+slang in them. This prevents a human being from accurately determining the sentiment of the message.
+
+From our labeling, it turned out that Facebook contained very little Dutch messages. Likewise, Hyves hardly
+contained any English messages, the English messages that were present were most often cited from Twitter.
+Due to these observations, we decided not to include Dutch Facebook messages nor English Hyves messages
+into our validation set.
+
+Note that we have bipolar messages our validation set. Since we do not have a proper way to obtain such
+messages in an automated way, this type of messages is not present in our training set and hence our models
+cannot take this into account. Even though for our problem formulation, we do not care about the bipolar
+class, we will propose some heuristics to deal with this whenever possible to demonstrate possible ways to
+incorporate this class.
+
+Table 9 - The sizes of the training and validation set. As we cannot determine whether a message is bipolar or not, the bipolar
+class is missing in the training set. The dierent sizes for each language and social medium of the validation set is because we
+only include messages of which we are sure the label is correct.
+-----------------------------------------------------------------------------------------------------
+		Training set			Validation set
+-----------------------------------------------------------------------------------------------------
+		English		Dutch		English				Dutch
+						Twitter		Facebook	Twitter		Hyves
+-----------------------------------------------------------------------------------------------------
+Positive	3614		1202		94		42		75		71
+Negative	3458		1504		77		34		99		82
+Bipolar		NA		NA		22		4		15		17
+Objective	4706		2099		180		47		111		104
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Total		11778		4805		373		127		300		274
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+nounabbr nounsg prep nounprop adv verbpapa prep nounsg nounprop prep det__art nounprop
+adj verbinf conjsubo pronpers prep det__art nounprop prep nounprop verbpressg
+conjcoord adv verbpressg pronpers adv det__art adj nounsg num__ord
+nounprop verbpressg num__card nounsg conjcoord nounsg num__card nounsg pronpers verbprespl det__indef nounsg prep nounprop conjcoord nounprop
+nounprop nounsg nounprop verbpressg prep verbpressg prep nounprop prep det__art nounsg adj nounsg conjcoord num__card nounsg prep nounprop nounprop
+nounprop verbpressg nounprop nounsg prep nounsg adj
+nounprop nounsg prep nounprop prep nounprop det__art num__ord nounprop nounsg verbpressg prep num__card nounprop verbpressg prep nounprop
+nounsg adv pronpers verbpressg nounsg verbinf prep nounprop nounprop nounprop
+verbpressg pronindef adv det__art adj nounsg prep nounsg
+nounprop verbpressg nounprop nounprop nounprop prep nounsg verbpapa prep det__art verbpresp nounpl prep det__art nounprop nounprop
+nounprop adj nounsg nounabbr adv prep nounsg nounprop det__art nounabbr verbpressg adv verbpapa prep
+nounsg nounprop verbpressg nounprop prep det__indef adj nounpl nounprop nounprop nounsg adj nounsg nounsg
+adj nounsg prep nounprop nounprop prep nounsg prep nounprop
+pronquest verbpressg nounprop prep pronpers conjsubo nounsg
+pronquest verbpastsg nounabbr conjsubo nounsg prep det__art prep nounprop verbpastpl nounprop nounprop prep num__card
+num__card nounpl prep det__art nounsg prep nounprop pronadv num__card prep det__art nounabbr num__card prep det__art nounabbr nounsg nounsg nounsg nounsg prep nounsg nounsg
+nounsg verbinf prep det__art nounprop nounprop nounsg nounsg nounsg nounsg verbpressg nounprop nounsg conjcoord adj det__demo nounsg nounsg adj prep num__card nounprop num__card
+nounprop nounabbr nounprop nounprop verbpressg prep num__card nounsg nounsg nounsg nounprop prep nounprop verbpressg nounsg prep nounprop det__art
+nounprop nounprop nounprop prep nounprop num__card prep nounprop
+verbpapa nounpl nounabbr nounabbr pronadv det__art adj nounsg prep nounsg nounsg nounsg verbpressg nounsg nounsg nounsg

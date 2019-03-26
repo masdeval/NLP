@@ -1,0 +1,36 @@
+This file describes the ground truth set described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+This folder contains social media messages on either of eight
+entities. The entity the messages are on is given in the
+name of the file. The files themselves are comma separated
+value files where the first entry is the message and the
+second entry is the class it belongs to.
+
+To denote the class, the following scheme was used.
++	Positive
+-	Negative
+=	Objective
+
+The following description is taken from the thesis.
+
+3.2.2 Ground Truth Set
+The open eld data set described in Section 3.2.1, resulting from the traditional survey's data, is to be aligned
+against similar data from resulting from social media to achieve Goal 4. This similar data is our ground
+truth set. Our ground truth set is taken from our crawled data. As our survey asks for opinions on dierent
+entities, we specifically only include social media messages on those entities in our ground truth set to make
+a fair alignment.
+
+We use sixteen entities in total in our traditional survey. Our crawled data contains tens of thousands of
+messages on these entities. As we need to manually label all messages to indeed obtain a ground truth,
+labeling all messages is too tedious. We therefore use exactly 44 messages for eight entities; FC Barcelona,
+Manchester United, Playstation 3, Wii, Esprit, Nike, Job Cohen, Geert Wilders. We thus use two entities
+per domain. The choice for the specific entities and the choice of using exactly 44 messages have no rationale.
+
+As our survey was held among Dutch citizens, each of the messages present in our ground truth set is also
+in Dutch. We label each of these messages to be either positive, negative or objective. Note that the only
+information we have for each of these messages is the message itself as the message may originate from any
+of the social media we crawl. We can thus not segment on for example age as for Twitter and Facebook we
+do not have age information.

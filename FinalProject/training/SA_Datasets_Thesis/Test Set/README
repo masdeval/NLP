@@ -1,0 +1,61 @@
+This file describes the test set described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+The folder contains numerous files named according to
+a regular scheme. There are three files for both
+English and Dutch, containing either positive,
+negative or objective messages. For each message there
+is both a tag file as well as a token file. The
+tokens on a line of one file correspond to the
+tags on the same line number of the corresponding
+tag file.
+
+The naming scheme is as follows
+{tokens,tags}_{en_UK,nl_NL}_{pos,neg,obj}.txt
+Here tokens or tags either indicate whether the
+the file contains tokens or tags. The second set
+represents is the language code, being either
+en_UK for English or nl_NL for Dutch. The third
+set is the label of the file, being either
+positive, negative or objective.
+
+The following description is taken from the thesis.
+
+3.2.5 Test Set
+Achieving both goals 2 as well as 3 requires us to compare one situation with another. More specifically, for
+Goal 2 we need to compare our complete process against a more generic process where one step is left out.
+For Goal 3 we need to compare a setting where we use our presented solutions for each step against other
+solutions. As the only thing we want to compare in both situations are exactly these dierences, we cannot
+aord to have incorrect data in our evaluation as this may yield other dierences. Consider for example
+having a message in our dataset wrongfully labeled regarding its language. If we then assume this to be
+correct and evaluate the outcome of our process on this message, we cannot tell anything about the actual
+accuracy of the process as we do not even know the real label ourselves. Moreover, introducing an error in the
+language label may then even correct our dataset rather than introduce errors. To make fair comparisons we
+thus need a dataset that is completely correctly labeled. To this end, we use the test set shown in Figure 6.
+
+While our validation set may contain some vague cases and possibly incorrect POS-tags, for our test set this
+is not allowed. To create the test set, we scrape all public Twitter messages in a time period that does not
+overlap with the period in which the training set's data was collected. Note that as we scrape all public
+data, the collection of our test set is on a much broader source than our training data is as for our training
+data we target all publicly available data with smilies in them along with news accounts. We go through
+these messages to nd those written in English or Dutch, aided by our language identification algorithm.
+We determine whether a message is positive, negative or objective and only include those messages of which
+we are highly certain belong to a given class. We perform this process until we have exactly 20 positive
+messages, 20 negative messages and 20 objective messages for both English and Dutch. The resulting test
+set thus contains 120 messages in total.
+
+The resulting test set is duplicated. In this duplicate version we correct all grammatical and spelling errors
+without altering the number of words and their order. Hence not all grammatical errors can be corrected as
+some errors require us to split words, which is not allowed. An example is idontknow, which should be correctly
+phrased I don't know. On this corrected duplicate corpus we run the POS-tagger used in our sentiment analysis
+process. The resulting tags are more accurate as the algorithm is not troubled by grammatical errors. We
+manually go through all POS-tags and correct any wrongfully assigned tags. The resulting POS-tags are
+then assigned to our original, grammatically uncorrected dataset. This way we maintain our original data
+but do obtain POS-tags more accurately.
+
+We note that the relatively small size of the test set may jeopardize our results and their validity but this is a
+resource constraint as labeling is a very labor-intensive process. The same holds for the contents of the test
+set. As we need it to be as accurate as possible, any (extremely) vague cases which are close to the decision
+boundary are not included due to uncertainty.

@@ -1,0 +1,99 @@
+This file describes the training set for subjectivity
+and polarity detection described and used in:
+
+Multilingual Sentiment Analysis on Social Media
+E. Tromp
+
+The folder contains two subfolders, en_UK for English
+and nl_NL for Dutch. Each folder contains tokens and
+corresponding tags for one of the three classes. All
+messages contained in these files are scraped from
+Twitter.
+
+The following description is taken from the thesis.
+
+3.2.3 Training Sets
+As all algorithms used in our sentiment analysis are supervised, we rst need to train a model on labeled
+training data. As shown in Figure 6, we have two training sets. The models for the subjectivity detection
+and polarity detection steps are trained one of these training sets. The other training set's is for language
+identification. The construction of this dataset and experiment setup for the language identification step is
+described separately in Section 3.3.1 as we use completely dierent data and experiments for this step. We
+do not mention any training set for POS-tagging as the models for POS-tagging are those presented on the
+website of the Stuttgart TreeTagger and are trained on various corpora. The training set next described is
+hence only applicable to subjectivity detection and polarity detection.
+
+Our training set needs to adhere to some constraints to suit our needs. We need messages in multiple
+languages, multiple sentiments and multiple domains. The messages should also stem from social media.
+Our sources are Twitter, Facebook and Hyves. The methodology we use to collect data covering dierent
+sentiments is adopted from [Go et al., 2009] and [Read, 2005], who mention using smilies as noisy labels for
+sentiment and using new messages as noisy indicators of objective messages. For positive messages we query
+Twitter for exactly 30 minutes with happy smilies such as :), :-), :D etc.. For negative messages we query
+Twitter for exactly 30 minutes with sad smilies such as :(, :-(, :'( etc.. For objective messages, we extract all
+messages produced by news instances such as the BBC, CNN (English) or EenVandaag (Dutch). We do this
+again for 30 minutes. Words indicating the nature of the objective message (such as news in English, nieuws
+in Dutch) are stripped from the messages. Twitter-specific entities such as usernames, channel names and
+links are also stripped as this data is also to be applied on dierent social media. As collecting this training
+data is a fully automated process, we can very quickly construct a large training set without much eort,
+something typically useful for a training set. The easy collection of our training data comes at a cost though.
+As mentioned, the smilies are noisy labels of subjective text. The news instances are also noisy labels of
+objectiveness. Smilies are also often used to express irony or sarcasm, thus actually yielding a sentiment
+opposite of the message's sentiment. News instances are expected to present the news in an objective but
+often use subjective stances in their articles and even headlines, which are typically what is being said on
+social media.
+
+Facebook and Hyves both do allow us to query for smilies. Tracking news instances however is much harder
+for two reasons. The rst is the lack of clarity on which instances are news instances. The second is the lack
+of news instances at all. Due to these limitations, we only use Twitter to extract our training set from. Note
+that as Twitter messages are typically contain less characters than Hyves and Facebook messages, sentiment
+expressed in Twitter messages is often more concise than sentiment expressed in Hyves or Facebook messages.
+We assume that this implies that the typical way sentiment is expressed on Hyves and Facebook subsumes
+the typical way sentiment is expressed on Twitter. Hence, we assume that if we train on Twitter sentiment,
+we can generally capture the core of sentiment expressed on Hyves and Facebook.
+
+For both subjectivity as well as polarity detection we train language specific models. Moreover, the models
+use part of speech tags as features known beforehand. To this end we use our language identification step
+to lter out those messages that are neither in Dutch nor in English when querying Twitter with smilies.
+Note that our language identifier is trained on dierent data described in Section 3.3.1. This is because we
+can train our language identifier on more extensive data incorporating more languages since constructing
+training data for language identification is much easier than it is for subjectivity and polarity detection. All
+the resulting messages { both subjective and objective { are processed by the POS-tagger to obtain the parts
+of speech. The size of the resulting training set is shown in Table 9.
+
+As our polarity detection step uses the RBEM algorithm, all patterns for our RBEM models need to be
+manually labeled from the training data. This process is not trivial and labor-intensive. To this end we do
+not fully utilize the training set for polarity detection but only use a small fraction thereof. The numbers
+of patterns present in our RBEM model used for all experiments are shown in Table 8. The amount of
+patterns shown in Table 8 would be insufficient in a practical setting. For our experiments however, we
+merely demonstrate the application and strength of the RBEM algorithm by using such little patterns.
+
+Table 8 - The number of patterns present in the English and Dutch models of the RBEM algorithm.
+-----------------------------------------------------
+English				Dutch
+Type		Count		Type		Count
+-----------------------------------------------------
+Amplifiers	67		Amplifiers	29
+Attenuators	12		Attenuators	3
+Rightflips	38		Rightflips	7
+Continuators	10		Continuators	4
+Leftflips	5		Leftflips	2
+Negatives	532		Negatives	310
+Positives	302		Positives	141
+Stops		0		Stops		2
+-----------------------------------------------------
+
+Table 9 - The sizes of the training and validation set. As we cannot determine whether a message is bipolar or not, the bipolar
+class is missing in the training set. The dierent sizes for each language and social medium of the validation set is because we
+only include messages of which we are sure the label is correct.
+-----------------------------------------------------------------------------------------------------
+		Training set			Validation set
+-----------------------------------------------------------------------------------------------------
+		English		Dutch		English				Dutch
+						Twitter		Facebook	Twitter		Hyves
+-----------------------------------------------------------------------------------------------------
+Positive	3458		1202		94		42		75		71
+Negative	3614		1504		77		34		99		82
+Bipolar		NA		NA		22		4		15		17
+Objective	4706		2099		180		47		111		104
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Total		11778		4805		373		127		300		274
+-----------------------------------------------------------------------------------------------------
