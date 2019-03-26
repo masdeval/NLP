@@ -48,11 +48,11 @@ def transitionProbability(q_from,q_to,A):
 
 def emissionProbability(o, q, B, vocabulary):
     if(B[q][o] != 0):
-        return math.log(B[q][o]+1/(sum(B[q].values())+len(vocabulary))) #AddOne Smoothing
-        #return math.log(B[q][o]/sum(B[q].values()))
+        #return math.log(B[q][o]+1/(sum(B[q].values())+len(vocabulary))) #AddOne Smoothing
+        return math.log(B[q][o]/sum(B[q].values()))
     elif (vocabulary.__contains__(o)):
-        return math.log(1/(sum(B[q].values())+len(vocabulary)))  #AddOne Smoothing
-        #return -numpy.inf # The word is in the vocabulary and will be selected in some other tag. -inf because using log and summing
+        #return math.log(1/(sum(B[q].values())+len(vocabulary)))  #AddOne Smoothing
+        return -numpy.inf # The word is in the vocabulary and will be selected in some other tag. -inf because using log and summing
     else:
         return math.log(1/len(vocabulary)) # the word is not in the vocabulary and we can't leave it with zero probability
 
@@ -135,4 +135,4 @@ for sentence in (test):
 
 end = time.perf_counter()
 print("The accuaracy is :" + str(match / numberOfWords))
-print("\n Time elapsed: " + str(end - begin))
+print("\nTime elapsed: " + str((end - begin)/60) + " min")
