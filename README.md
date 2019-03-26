@@ -10,5 +10,5 @@
   * b) - Majority class enhanced with some transformation rules
   * c) - Hidden Markov Model (Viterbi Algorithm): supervised training using an annotated corpus and the Viterbi HMM to encoding. 
   * d) - Viterbi with Beam Search
-* Final Project - A complete Python project to predict bunary sentiment of Twitter corpus using word embeddings as features. 
+* Final Project - A complete Python project to predict binary sentiment of Twitter corpus using word embeddings as features. 
 
