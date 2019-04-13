@@ -1,4 +1,4 @@
-[Sentiment Analysis of Twitter using Word Embeddings in Python ](https://github.com/masdeval/NLP/blob/master/FinalProject/SentimentAnalysisWord2Vec.pdf)
+[Sentiment Analysis of Twitter using Word Embeddings in Python ](https://github.com/masdeval/NLP/blob/master/FinalProject/SentimentAnalysisWord2Vec.pdf)<p>
 Today’s Internet content is largely made from unstructured data, mostly
 images and text. Part of the text content is in form of comments made by
 users giving their impressions about virtually everything. Processing natural
